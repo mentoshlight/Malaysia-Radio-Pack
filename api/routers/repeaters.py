@@ -30,7 +30,7 @@ def _haversine_km(lat1: float, lon1: float, lat2: float, lon2: float) -> float:
 
 # ── list ────────────────────────────────────────────────────────────────────
 
-@router.get("/", response_model=PageResponse[RepeaterRead], summary="List repeaters")
+@router.get("", response_model=PageResponse[RepeaterRead], summary="List repeaters")
 async def list_repeaters(
     page: int = Query(1, ge=1),
     size: int = Query(50, ge=1, le=500),
@@ -93,7 +93,7 @@ async def get_repeater(repeater_id: uuid.UUID, db: AsyncSession = Depends(get_db
 
 # ── create ──────────────────────────────────────────────────────────────────
 
-@router.post("/", response_model=RepeaterRead, status_code=201, summary="Create repeater")
+@router.post("", response_model=RepeaterRead, status_code=201, summary="Create repeater")
 async def create_repeater(data: RepeaterCreate, db: AsyncSession = Depends(get_db)):
     r = Repeater(**data.model_dump())
     db.add(r)

@@ -3,6 +3,7 @@
  */
 
 const API_BASE = '/api/v1';
+const REF_BASE = '/api/v1/reference';
 
 // ---- State ----
 let map, markerClusterGroup, coverageLayerGroup;
@@ -159,7 +160,7 @@ async function loadRepeaters() {
 
 async function loadStats() {
   try {
-    const resp = await fetch(`${API_BASE}/stats`);
+    const resp = await fetch(`${REF_BASE}/stats/`);
     if (!resp.ok) throw new Error(`HTTP ${resp.status}`);
     const stats = await resp.json();
 
@@ -392,7 +393,7 @@ function searchRepeaters() {
 async function populateFilters() {
   try {
     // Populate states
-    const stateResp = await fetch(`${API_BASE}/states`);
+    const stateResp = await fetch(`${REF_BASE}/states/`);
     if (stateResp.ok) {
       const stateData = await stateResp.json();
       const states = stateData.states || stateData.data || stateData || [];
@@ -418,7 +419,7 @@ async function populateFilters() {
   }
 
   try {
-    const catResp = await fetch(`${API_BASE}/categories`);
+    const catResp = await fetch(`${REF_BASE}/categories/`);
     if (catResp.ok) {
       const catData = await catResp.json();
       const cats = catData.categories || catData.data || catData || [];
