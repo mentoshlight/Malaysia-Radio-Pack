@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Malaysia Radio Pack v2.0 — Repeater Dashboard</title>
+  <meta name="description" content="MRP v2.0 — Comprehensive Malaysian amateur radio repeater database, map, and export tool.">
+  <meta property="og:title" content="Malaysia Radio Pack v2.0">
+  <meta property="og:description" content="Interactive dashboard for Malaysian amateur radio repeaters. Map, search, export.">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="/static/img/og-image.png">
+  <meta name="theme-color" content="#0a0a0f">
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>📡</text></svg>">
+
+  <!-- Tailwind CSS -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            surface: { DEFAULT: '#0a0a0f', card: '#12121a', elevated: '#1a1a2e', border: '#2a2a3e' },
+            accent: { blue: '#3b82f6', green: '#10b981', red: '#ef4444', amber: '#f59e0b', purple: '#8b5cf6', cyan: '#06b6d4' },
+          },
+          fontFamily: { sans: ['Inter', 'system-ui', 'sans-serif'] },
+        }
+      }
+    }
+  </script>
+
+  <!-- Google Fonts: Inter -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+
+  <!-- Leaflet CSS -->
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+  <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.5.3/dist/MarkerCluster.css" />
+  <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.5.3/dist/MarkerCluster.Default.css" />
+
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="/static/css/style.css">
+</head>
+<body class="bg-surface text-gray-200 font-sans antialiased min-h-screen">
+
+  <!-- ===================== HEADER ===================== -->
+  <header id="topNav" class="fixed top-0 left-0 right-0 z-50 bg-surface/80 backdrop-blur-xl border-b border-surface-border">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="flex items-center justify-between h-16">
+        <!-- Logo -->
+        <div class="flex items-center gap-3">
+          <div class="w-9 h-9 rounded-lg bg-gradient-to-br from-accent-blue to-accent-cyan flex items-center justify-center text-white font-bold text-sm shadow-lg shadow-accent-blue/20">MRP</div>
+          <div>
+            <span class="text-white font-bold text-lg tracking-tight">MRP</span>
+            <span class="text-gray-500 text-xs ml-1 font-mono">v2.0</span>
+          </div>
+        </div>
+
+        <!-- Desktop Nav -->
+        <nav class="hidden md:flex items-center gap-1">
+          <a href="#dashboard" class="nav-link active" data-section="dashboard">Dashboard</a>
+          <a href="#map" class="nav-link" data-section="map">Map</a>
+          <a href="#search" class="nav-link" data-section="search">Search</a>
+          <a href="#export" class="nav-link" data-section="export">Export</a>
+          <a href="/docs" class="nav-link" target="_blank">API Docs</a>
+        </nav>
+
+        <!-- Mobile hamburger -->
+        <button id="menuToggle" class="md:hidden p-2 rounded-lg hover:bg-surface-elevated transition-colors" aria-label="Toggle menu">
+          <svg class="w-6 h-6 text-gray-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path id="menuIcon" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"/>
+          </svg>
+        </button>
+      </div>
+    </div>
+
+    <!-- Mobile drawer -->
+    <div id="mobileDrawer" class="mobile-drawer hidden md:hidden">
+      <nav class="flex flex-col p-4 gap-1">
+        <a href="#dashboard" class="mobile-nav-link active" data-section="dashboard">
+          <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2H6a2 2 0 01-2-2V6zm10 0a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2h-2a2 2 0 01-2-2V6zM4 16a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2H6a2 2 0 01-2-2v-2zm10 0a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2h-2a2 2 0 01-2-2v-2z"/></svg>
+          Dashboard
+        </a>
+        <a href="#map" class="mobile-nav-link" data-section="map">
+          <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 20l-5.447-2.724A1 1 0 013 16.382V5.618a1 1 0 011.447-.894L9 7m0 13l6-3m-6 3V7m6 10l4.553 2.276A1 1 0 0021 18.382V7.618a1 1 0 00-.553-.894L15 4m0 13V4m0 0L9 7"/></svg>
+          Map
+        </a>
+        <a href="#search" class="mobile-nav-link" data-section="search">
+          <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"/></svg>
+          Search
+        </a>
+        <a href="#export" class="mobile-nav-link" data-section="export">
+          <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 10v6m0 0l-3-3m3 3l3-3m2 8H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"/></svg>
+          Export
+        </a>
+        <a href="/docs" class="mobile-nav-link" target="_blank">
+          <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4"/></svg>
+          API Docs
+        </a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- ===================== MAIN ===================== -->
+  <main class="pt-16">
+
+    <!-- ====== HERO STATS ====== -->
+    <section id="dashboard" class="px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto py-8">
+      <div class="mb-8">
+        <h1 class="text-3xl sm:text-4xl font-extrabold text-white tracking-tight">Repeater Dashboard</h1>
+        <p class="text-gray-400 mt-2 text-sm sm:text-base">Live overview of the Malaysian amateur radio repeater network</p>
+      </div>
+
+      <div class="grid grid-cols-2 lg:grid-cols-4 gap-4 mb-8">
+        <!-- Stat: Total Repeaters -->
+        <div class="stat-card group" data-animate="fade-up">
+          <div class="flex items-center justify-between mb-3">
+            <div class="w-10 h-10 rounded-xl bg-accent-blue/10 flex items-center justify-center group-hover:bg-accent-blue/20 transition-colors">
+              <svg class="w-5 h-5 text-accent-blue" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8.111 16.404a5.5 5.5 0 017.778 0M12 20h.01m-7.08-7.071c3.904-3.905 10.236-3.905 14.141 0M1.394 9.393c5.857-5.858 15.355-5.858 21.213 0"/></svg>
+            </div>
+            <span class="stat-badge badge-green" id="statActiveCount">—</span>
+          </div>
+          <p class="text-2xl sm:text-3xl font-bold text-white font-mono" id="statTotal">—</p>
+          <p class="text-xs text-gray-500 mt-1 uppercase tracking-wider font-medium">Total Repeaters</p>
+        </div>
+
+        <!-- Stat: States Covered -->
+        <div class="stat-card group" data-animate="fade-up" data-animate-delay="100">
+          <div class="flex items-center justify-between mb-3">
+            <div class="w-10 h-10 rounded-xl bg-accent-green/10 flex items-center justify-center group-hover:bg-accent-green/20 transition-colors">
+              <svg class="w-5 h-5 text-accent-green" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"/><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"/></svg>
+            </div>
+          </div>
+          <p class="text-2xl sm:text-3xl font-bold text-white font-mono" id="statStates">—</p>
+          <p class="text-xs text-gray-500 mt-1 uppercase tracking-wider font-medium">States Covered</p>
+        </div>
+
+        <!-- Stat: Modes -->
+        <div class="stat-card group" data-animate="fade-up" data-animate-delay="200">
+          <div class="flex items-center justify-between mb-3">
+            <div class="w-10 h-10 rounded-xl bg-accent-purple/10 flex items-center justify-center group-hover:bg-accent-purple/20 transition-colors">
+              <svg class="w-5 h-5 text-accent-purple" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19.428 15.428a2 2 0 00-1.022-.547l-2.387-.477a6 6 0 00-3.86.517l-.318.158a6 6 0 01-3.86.517L6.05 15.21a2 2 0 00-1.806.547M8 4h8l-1 1v5.172a2 2 0 00.586 1.414l5 5c1.26 1.26.367 3.414-1.415 3.414H4.828c-1.782 0-2.674-2.154-1.414-3.414l5-5A2 2 0 009 10.172V5L8 4z"/></svg>
+            </div>
+          </div>
+          <p class="text-2xl sm:text-3xl font-bold text-white font-mono" id="statModes">—</p>
+          <p class="text-xs text-gray-500 mt-1 uppercase tracking-wider font-medium">Modes</p>
+        </div>
+
+        <!-- Stat: Categories -->
+        <div class="stat-card group" data-animate="fade-up" data-animate-delay="300">
+          <div class="flex items-center justify-between mb-3">
+            <div class="w-10 h-10 rounded-xl bg-accent-amber/10 flex items-center justify-center group-hover:bg-accent-amber/20 transition-colors">
+              <svg class="w-5 h-5 text-accent-amber" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 7h.01M7 3h5c.512 0 1.024.195 1.414.586l7 7a2 2 0 010 2.828l-7 7a2 2 0 01-2.828 0l-7-7A1.994 1.994 0 013 12V7a4 4 0 014-4z"/></svg>
+            </div>
+          </div>
+          <p class="text-2xl sm:text-3xl font-bold text-white font-mono" id="statCategories">—</p>
+          <p class="text-xs text-gray-500 mt-1 uppercase tracking-wider font-medium">Categories</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ====== MAP SECTION ====== -->
+    <section id="map" class="px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto py-8">
+      <div class="flex items-center justify-between mb-4">
+        <div>
+          <h2 class="text-2xl font-bold text-white">Repeater Map</h2>
+          <p class="text-gray-500 text-sm">Click markers for details. Use controls to toggle layers.</p>
+        </div>
+        <div class="flex items-center gap-2">
+          <span class="inline-flex items-center gap-1.5 text-xs font-medium text-gray-400">
+            <span class="w-2 h-2 rounded-full bg-accent-green animate-pulse"></span>
+            <span id="mapMarkerCount">0</span> loaded
+          </span>
+        </div>
+      </div>
+      <div id="mapContainer" class="map-container rounded-2xl overflow-hidden border border-surface-border shadow-2xl shadow-black/30" data-animate="fade-up">
+        <div id="leafletMap" class="w-full h-[60vh] sm:h-[70vh]"></div>
+      </div>
+    </section>
+
+    <!-- ====== SEARCH SECTION ====== -->
+    <section id="search" class="px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto py-8">
+      <h2 class="text-2xl font-bold text-white mb-2">Search Repeaters</h2>
+      <p class="text-gray-500 text-sm mb-6">Filter and search across the entire repeater database</p>
+
+      <!-- Search bar -->
+      <div class="flex flex-col sm:flex-row gap-3 mb-4">
+        <div class="relative flex-1">
+          <svg class="absolute left-3.5 top-1/2 -translate-y-1/2 w-5 h-5 text-gray-500" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"/></svg>
+          <input id="searchInput" type="text" placeholder="Search by name, callsign, frequency..." class="search-input pl-11 w-full">
+        </div>
+        <button id="searchBtn" class="px-6 py-3 bg-accent-blue hover:bg-blue-600 text-white font-semibold rounded-xl transition-all hover:shadow-lg hover:shadow-accent-blue/20 active:scale-[0.98]">
+          Search
+        </button>
+      </div>
+
+      <!-- Filters -->
+      <div class="grid grid-cols-2 sm:grid-cols-4 gap-3 mb-6">
+        <select id="filterState" class="filter-select">
+          <option value="">All States</option>
+        </select>
+        <select id="filterBand" class="filter-select">
+          <option value="">All Bands</option>
+          <option value="VHF">VHF</option>
+          <option value="UHF">UHF</option>
+        </select>
+        <select id="filterMode" class="filter-select">
+          <option value="">All Modes</option>
+          <option value="FM">FM</option>
+          <option value="DMR">DMR</option>
+          <option value="C4FM">C4FM</option>
+          <option value="D-Star">D-Star</option>
+        </select>
+        <select id="filterCategory" class="filter-select">
+          <option value="">All Categories</option>
+        </select>
+      </div>
+
+      <!-- Results table -->
+      <div class="table-container rounded-2xl border border-surface-border overflow-hidden" data-animate="fade-up">
+        <div class="overflow-x-auto">
+          <table class="w-full text-sm" id="resultsTable">
+            <thead>
+              <tr class="table-header">
+                <th class="th-cell cursor-pointer" data-sort="name">Name <span class="sort-icon">↕</span></th>
+                <th class="th-cell cursor-pointer" data-sort="callsign">Callsign <span class="sort-icon">↕</span></th>
+                <th class="th-cell cursor-pointer" data-sort="rx_freq">RX <span class="sort-icon">↕</span></th>
+                <th class="th-cell cursor-pointer" data-sort="tx_freq">TX <span class="sort-icon">↕</span></th>
+                <th class="th-cell cursor-pointer" data-sort="mode">Mode <span class="sort-icon">↕</span></th>
+                <th class="th-cell cursor-pointer" data-sort="state">State <span class="sort-icon">↕</span></th>
+                <th class="th-cell cursor-pointer" data-sort="status">Status <span class="sort-icon">↕</span></th>
+              </tr>
+            </thead>
+            <tbody id="resultsBody" class="divide-y divide-surface-border">
+              <tr><td colspan="7" class="text-center py-12 text-gray-500">Loading repeaters...</td></tr>
+            </tbody>
+          </table>
+        </div>
+        <!-- Pagination -->
+        <div class="flex items-center justify-between px-4 py-3 border-t border-surface-border bg-surface-card/50">
+          <p class="text-xs text-gray-500" id="paginationInfo">Showing 0 of 0</p>
+          <div class="flex gap-1" id="paginationControls"></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ====== CHARTS SECTION ====== -->
+    <section id="charts" class="px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto py-8">
+      <h2 class="text-2xl font-bold text-white mb-2">Analytics</h2>
+      <p class="text-gray-500 text-sm mb-6">Visual breakdown of the repeater network</p>
+
+      <div class="grid grid-cols-1 lg:grid-cols-3 gap-6">
+        <div class="chart-card" data-animate="fade-up">
+          <h3 class="text-sm font-semibold text-gray-300 mb-4">Repeaters by State</h3>
+          <div class="relative h-64 sm:h-80"><canvas id="chartStates"></canvas></div>
+        </div>
+        <div class="chart-card" data-animate="fade-up" data-animate-delay="100">
+          <h3 class="text-sm font-semibold text-gray-300 mb-4">By Mode</h3>
+          <div class="relative h-64 sm:h-80"><canvas id="chartModes"></canvas></div>
+        </div>
+        <div class="chart-card" data-animate="fade-up" data-animate-delay="200">
+          <h3 class="text-sm font-semibold text-gray-300 mb-4">By Band</h3>
+          <div class="relative h-64 sm:h-80"><canvas id="chartBands"></canvas></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ====== EXPORT SECTION ====== -->
+    <section id="export" class="px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto py-8">
+      <h2 class="text-2xl font-bold text-white mb-2">Export Data</h2>
+      <p class="text-gray-500 text-sm mb-6">Download repeater data in your preferred format</p>
+
+      <div class="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-4">
+        <button class="export-btn" data-format="chirp" onclick="exportData('chirp')">
+          <div class="export-icon bg-accent-blue/10 text-accent-blue">
+            <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 19V6l12-3v13M9 19c0 1.105-1.343 2-3 2s-3-.895-3-2 1.343-2 3-2 3 .895 3 2zm12-3c0 1.105-1.343 2-3 2s-3-.895-3-2 1.343-2 3-2 3 .895 3 2zM9 10l12-3"/></svg>
+          </div>
+          <span class="text-sm font-medium text-gray-300">CHIRP</span>
+          <span class="text-xs text-gray-500">.csv</span>
+        </button>
+        <button class="export-btn" data-format="baofeng" onclick="exportData('baofeng')">
+          <div class="export-icon bg-accent-green/10 text-accent-green">
+            <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 18h.01M8 21h8a2 2 0 002-2V5a2 2 0 00-2-2H8a2 2 0 00-2 2v14a2 2 0 002 2z"/></svg>
+          </div>
+          <span class="text-sm font-medium text-gray-300">Baofeng</span>
+          <span class="text-xs text-gray-500">.csv</span>
+        </button>
+        <button class="export-btn" data-format="quansheng" onclick="exportData('quansheng')">
+          <div class="export-icon bg-accent-amber/10 text-accent-amber">
+            <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8.111 16.404a5.5 5.5 0 017.778 0M12 20h.01m-7.08-7.071c3.904-3.905 10.236-3.905 14.141 0M1.394 9.393c5.857-5.858 15.355-5.858 21.213 0"/></svg>
+          </div>
+          <span class="text-sm font-medium text-gray-300">Quansheng</span>
+          <span class="text-xs text-gray-500">.csv</span>
+        </button>
+        <button class="export-btn" data-format="anytone" onclick="exportData('anytone')">
+          <div class="export-icon bg-accent-red/10 text-accent-red">
+            <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 3v2m6-2v2M9 19v2m6-2v2M5 9H3m2 6H3m18-6h-2m2 6h-2M7 19h10a2 2 0 002-2V7a2 2 0 00-2-2H7a2 2 0 00-2 2v10a2 2 0 002 2z"/></svg>
+          </div>
+          <span class="text-sm font-medium text-gray-300">AnyTone</span>
+          <span class="text-xs text-gray-500">.csv</span>
+        </button>
+        <button class="export-btn" data-format="json" onclick="exportData('json')">
+          <div class="export-icon bg-accent-purple/10 text-accent-purple">
+            <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4"/></svg>
+          </div>
+          <span class="text-sm font-medium text-gray-300">JSON</span>
+          <span class="text-xs text-gray-500">.json</span>
+        </button>
+        <button class="export-btn" data-format="csv" onclick="exportData('csv')">
+          <div class="export-icon bg-accent-cyan/10 text-accent-cyan">
+            <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 17v-2m3 2v-4m3 4v-6m2 10H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"/></svg>
+          </div>
+          <span class="text-sm font-medium text-gray-300">CSV</span>
+          <span class="text-xs text-gray-500">.csv</span>
+        </button>
+        <button class="export-btn" data-format="yaml" onclick="exportData('yaml')">
+          <div class="export-icon bg-pink-500/10 text-pink-400">
+            <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 10h16M4 14h16M4 18h16"/></svg>
+          </div>
+          <span class="text-sm font-medium text-gray-300">YAML</span>
+          <span class="text-xs text-gray-500">.yaml</span>
+        </button>
+      </div>
+    </section>
+  </main>
+
+  <!-- ===================== FOOTER ===================== -->
+  <footer class="border-t border-surface-border mt-12">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
+      <div class="flex flex-col sm:flex-row items-center justify-between gap-4">
+        <div class="flex items-center gap-3">
+          <div class="w-7 h-7 rounded-md bg-gradient-to-br from-accent-blue to-accent-cyan flex items-center justify-center text-white font-bold text-xs">MRP</div>
+          <span class="text-gray-500 text-sm">Malaysia Radio Pack v2.0</span>
+        </div>
+        <div class="flex items-center gap-6">
+          <a href="https://github.com/nousresearch/malaysia-radio-pack" target="_blank" class="text-gray-500 hover:text-white transition-colors text-sm">GitHub</a>
+          <span class="text-gray-600">|</span>
+          <span class="text-gray-600 text-xs">MIT License</span>
+          <span class="text-gray-600">|</span>
+          <span class="text-gray-600 text-xs">Data © MURS / MARTS</span>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Toast container -->
+  <div id="toastContainer" class="fixed bottom-4 right-4 z-[9999] flex flex-col gap-2"></div>
+
+  <!-- Loading overlay -->
+  <div id="loadingOverlay" class="loading-overlay hidden">
+    <div class="spinner"></div>
+  </div>
+
+  <!-- Chart.js -->
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
+
+  <!-- Leaflet JS -->
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+  <script src="https://unpkg.com/leaflet.markercluster@1.5.3/dist/leaflet.markercluster.js"></script>
+
+  <!-- App JS -->
+  <script src="/static/js/map-layers.js"></script>
+  <script src="/static/js/app.js"></script>
+</body>
+</html>
