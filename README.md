@@ -4,7 +4,7 @@ A comprehensive amateur radio repeater and frequency database for Malaysia.
 
 ## Features
 
-- **53+ Malaysian repeaters** with real coordinates, callsigns, and coverage data
+- **302+ channel records** — repeaters, simplex, marine, aviation, APRS, satellites, calling, emergency
 - **Interactive map** with Leaflet + OpenStreetMap (coverage radius visualization)
 - **Multi-format export** — CHIRP, Baofeng UV-5RM, Quansheng UV-K5, AnyTone CPS, JSON, CSV, YAML
 - **REST API** with full CRUD, spatial queries (nearby repeater search), and filtering
@@ -14,7 +14,7 @@ A comprehensive amateur radio repeater and frequency database for Malaysia.
 ## Quick Start (Docker)
 
 ```bash
-git clone https://github.com/yourusername/Malaysia-Radio-Pack.git
+git clone https://github.com/mentoshlight/Malaysia-Radio-Pack.git
 cd Malaysia-Radio-Pack
 cp .env.example .env
 docker compose up -d
