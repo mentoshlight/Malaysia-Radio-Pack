@@ -1,0 +1,12 @@
+uuid,channel_no,category,subcategory,callsign,rx_freq_mhz,tx_freq_mhz,offset_mhz,offset_dir,tone_hz,tone_type,dcs_code,bandwidth,mode,country,state,latitude,longitude,altitude_m,power_watts,coverage_radius_km,status,source,last_verified,notes
+ba03f469-5d37-4d61-aff4-94ed9a2f75bc,VSX-0062,Simplex,VHF Simplex,,145.0,145.0,0.0,none,,none,,wide,fm,MYS,ALL,,,,,,active,S05/S01,2026-07-01,Primary calling freq for 2m FM in Malaysia
+187c47ce-262e-47ba-a71a-c426e2bd8e78,VSX-0063,Simplex,VHF Simplex,,145.35,145.35,0.0,none,,none,,wide,fm,MYS,ALL,,,,,,active,S05,2026-07-01,Common FM simplex channel
+9dc2cb31-88c6-4f70-87dc-26f8487765bd,VSX-0064,Simplex,VHF Simplex,,145.4,145.4,0.0,none,,none,,wide,fm,MYS,ALL,,,,,,active,S05,2026-07-01,FM simplex activity
+0d2a565e-001b-4643-9af4-d8cd806d3289,VSX-0065,Simplex,VHF Simplex,,145.45,145.45,0.0,none,,none,,wide,fm,MYS,ALL,,,,,,active,S05,2026-07-01,FM simplex activity
+41d1a254-48ff-45d9-bb2f-41b44057d7e8,VSX-0066,Simplex,VHF Simplex,,145.5,145.5,0.0,none,,none,,wide,fm,MYS,ALL,,,,,,active,S05,2026-07-01,Common local QSO frequency
+86db6f35-433d-437b-8d96-07fc7c9201e7,VSX-0067,Simplex,VHF Simplex,,145.525,145.525,0.0,none,,none,,wide,fm,MYS,ALL,,,,,,active,S05,2026-07-01,FM simplex
+616e77d3-4e69-4b6c-a828-fe347be32092,VSX-0068,Simplex,VHF Simplex,,145.55,145.55,0.0,none,,none,,wide,fm,MYS,ALL,,,,,,active,S05/S01,2026-07-01,Designated emergency simplex frequency for Malaysia
+7ccb6fbd-5fb0-4f39-a19b-4297987a60f0,VSX-0069,Simplex,VHF Simplex,,145.575,145.575,0.0,none,,none,,wide,fm,MYS,ALL,,,,,,active,S05,2026-07-01,FM simplex
+2d99e0df-0986-4929-abbe-5e82e2aa4c64,VSX-0070,Simplex,VHF Simplex,,144.5,144.5,0.0,none,,none,,wide,ssb,MYS,ALL,,,,,,active,S05,2026-07-01,"2m SSB calling, used for weak-signal work"
+0b108c04-54c8-487d-abad-9a0c60533729,VSX-0071,Simplex,VHF Simplex,,144.2,144.2,0.0,none,,none,,wide,ssb,MYS,ALL,,,,,,active,S05,2026-07-01,SSB activity segment centre
+a18a05c6-4007-4213-a167-139227c08c7b,VSX-0072,Simplex,VHF Simplex,,144.1,144.1,0.0,none,,none,,wide,cw,MYS,ALL,,,,,,active,S05,2026-07-01,CW calling segment

@@ -20,7 +20,7 @@ from ..models import (
     SimplexChannel,
     State,
 )
-from ..schemas import CategoryRead, ModeCount, StateCount, StateRead, StatsResponse, TableCount
+from ..schemas import BandCount, CategoryRead, ModeCount, StateCount, StateRead, StatsResponse, TableCount
 
 router = APIRouter(prefix="/reference", tags=["Reference"])
 
@@ -91,6 +91,19 @@ async def stats(db: AsyncSession = Depends(get_db)):
     ).all()
     by_mode = [ModeCount(mode=m, count=cnt) for m, cnt in mode_rows]
 
-    result = StatsResponse(tables=tables, by_state=by_state, by_mode=by_mode).model_dump()
+    # per-band counts (repeaters only — classify by rx_freq)
+    band_rows = (
+        await db.execute(
+            select(
+                text("CASE WHEN repeaters.rx_freq < 300 THEN 'VHF' ELSE 'UHF' END AS band"),
+                func.count(Repeater.id),
+            )
+            .group_by(text("band"))
+            .order_by(text("band"))
+        )
+    ).all()
+    by_band = [BandCount(band=b, count=cnt) for b, cnt in band_rows]
+
+    result = StatsResponse(tables=tables, by_state=by_state, by_mode=by_mode, by_band=by_band).model_dump()
     await cache_set("mrp:stats:all", result, ttl=120)
     return result

@@ -1,0 +1,31 @@
+uuid,channel_no,category,subcategory,callsign,rx_freq_mhz,tx_freq_mhz,offset_mhz,offset_dir,tone_hz,tone_type,dcs_code,bandwidth,mode,country,state,latitude,longitude,altitude_m,power_watts,coverage_radius_km,status,source,last_verified,notes
+8ef66ff6-3a67-48de-bfeb-6638c785a829,AVN-0138,Aviation,Emergency,,121.5,121.5,0.0,none,,none,,narrow,am,MYS,,,,,,,active,S08/S03,2026-07-01,RX ONLY — International aeronautical emergency frequency. RX ONLY.
+f63525ab-3794-4c4a-834a-ad4f8f7f0b27,AVN-0139,Aviation,Emergency,,243.0,243.0,0.0,none,,none,,narrow,am,MYS,,,,,,,active,S08,2026-07-01,RX ONLY — Military emergency UHF. RX ONLY.
+ca90705c-34de-4fe1-b3a4-ec664618f10b,AVN-0140,Aviation,Emergency,,123.1,123.1,0.0,none,,none,,narrow,am,MYS,,,,,,,active,S08,2026-07-01,RX ONLY — SAR operations. RX ONLY.
+0f940dde-3d7a-4e88-8102-01b3397e078b,AVN-0141,Aviation,Air-to-Air,,123.45,123.45,0.0,none,,none,,narrow,am,MYS,,,,,,,active,S08,2026-07-01,RX ONLY — Air-to-air and flight test. RX ONLY.
+33768a01-259a-43ef-b033-3124f18c9d64,AVN-0142,Aviation,Tower,,118.1,118.1,0.0,none,,none,,narrow,am,MYS,,2.7456,101.7099,,,,active,S03,2026-07-01,RX ONLY — Kuala Lumpur International Airport Tower. RX ONLY.
+57860e86-b3b9-4738-9d2c-ad410e64388e,AVN-0143,Aviation,Ground,,121.725,121.725,0.0,none,,none,,narrow,am,MYS,,2.7456,101.7099,,,,active,S03,2026-07-01,RX ONLY — KLIA Ground control. RX ONLY.
+08888800-ffcf-4303-8542-0469f36e6901,AVN-0144,Aviation,ATIS,,126.0,126.0,0.0,none,,none,,narrow,am,MYS,,2.7456,101.7099,,,,active,S03,2026-07-01,RX ONLY — KLIA Automatic Terminal Information Service. RX ONLY.
+272e3c41-a106-422f-b4bc-ed27f34c38ad,AVN-0145,Aviation,Approach,,119.4,119.4,0.0,none,,none,,narrow,am,MYS,,2.7456,101.7099,,,,active,S03,2026-07-01,RX ONLY — KL Approach control. RX ONLY.
+34c3a932-6e90-4a25-a589-3ed392e55aeb,AVN-0146,Aviation,Departure,,124.2,124.2,0.0,none,,none,,narrow,am,MYS,,2.7456,101.7099,,,,active,S03,2026-07-01,RX ONLY — KL Departure control. RX ONLY.
+802cd356-96c7-421b-b360-7b36151a3a0c,AVN-0147,Aviation,ACC,,125.1,125.1,0.0,none,,none,,narrow,am,MYS,,,,,,,active,S03,2026-07-01,"RX ONLY — KL Area Control Centre, en-route primary. RX ONLY."
+38da61bd-a363-4cf0-8ac6-6a5788024808,AVN-0148,Aviation,ACC,,123.8,123.8,0.0,none,,none,,narrow,am,MYS,,,,,,,active,S03,2026-07-01,"RX ONLY — KL Area Control Centre, en-route secondary. RX ONLY."
+29c95afa-0baa-4388-a0ce-bafac5e23edf,AVN-0149,Aviation,Tower,,118.4,118.4,0.0,none,,none,,narrow,am,MYS,,3.1306,101.5493,,,,active,S03,2026-07-01,RX ONLY — Subang airport tower. RX ONLY.
+b491207b-3010-4a0c-ba5b-556a06ec015d,AVN-0150,Aviation,Approach,,125.2,125.2,0.0,none,,none,,narrow,am,MYS,,3.1306,101.5493,,,,active,S03,2026-07-01,RX ONLY — Subang approach. RX ONLY.
+348cdfbf-ad1b-4d47-9c77-bb9c65cb3632,AVN-0151,Aviation,Ground,,121.625,121.625,0.0,none,,none,,narrow,am,MYS,,3.1306,101.5493,,,,active,S03,2026-07-01,RX ONLY — Subang ground. RX ONLY.
+dfa39553-3d12-48bc-8b74-1375adf73655,AVN-0152,Aviation,Tower,,118.1,118.1,0.0,none,,none,,narrow,am,MYS,,5.2972,100.2767,,,,active,S03,2026-07-01,RX ONLY — Penang airport tower. RX ONLY.
+7d6c8d30-1068-4650-abcc-180ab8936ce1,AVN-0153,Aviation,Ground,,121.7,121.7,0.0,none,,none,,narrow,am,MYS,,5.2972,100.2767,,,,active,S03,2026-07-01,RX ONLY — Penang ground. RX ONLY.
+ea1c02ac-25fd-4bed-bd3a-315330e94151,AVN-0154,Aviation,Tower,,118.1,118.1,0.0,none,,none,,narrow,am,MYS,,5.9372,116.0512,,,,active,S03,2026-07-01,RX ONLY — KK airport tower. RX ONLY.
+e6088e22-6da9-4a84-b051-d3c63c7196a8,AVN-0155,Aviation,Ground,,121.7,121.7,0.0,none,,none,,narrow,am,MYS,,5.9372,116.0512,,,,active,S03,2026-07-01,RX ONLY — KK ground. RX ONLY.
+5fee44f0-cd83-469a-b651-da0e2a51e3b3,AVN-0156,Aviation,ATIS,,126.5,126.5,0.0,none,,none,,narrow,am,MYS,,5.9372,116.0512,,,,active,S03,2026-07-01,RX ONLY — KK ATIS. RX ONLY.
+56597442-c709-41e7-82c9-36e33bd4858a,AVN-0157,Aviation,Tower,,118.3,118.3,0.0,none,,none,,narrow,am,MYS,,1.4847,110.3469,,,,active,S03,2026-07-01,RX ONLY — Kuching airport tower. RX ONLY.
+6e5fdd73-046a-4b2a-a7d5-2d1cc708f4c6,AVN-0158,Aviation,Ground,,121.7,121.7,0.0,none,,none,,narrow,am,MYS,,1.4847,110.3469,,,,active,S03,2026-07-01,RX ONLY — Kuching ground. RX ONLY.
+2ff4b381-31e5-4749-81f9-522dcecb03f4,AVN-0159,Aviation,Tower,,118.05,118.05,0.0,none,,none,,narrow,am,MYS,,6.3297,99.7287,,,,active,S03,2026-07-01,RX ONLY — Langkawi airport tower. RX ONLY.
+44f34e56-b1ab-4909-8aad-e6511a51c916,AVN-0160,Aviation,Tower,,118.2,118.2,0.0,none,,none,,narrow,am,MYS,,1.6413,103.6696,,,,active,S03,2026-07-01,"RX ONLY — Senai airport tower, Johor Bahru. RX ONLY."
+230e56b1-cdf9-42a0-a54f-a62a4c16a049,AVN-0161,Aviation,Ground,,121.7,121.7,0.0,none,,none,,narrow,am,MYS,,1.6413,103.6696,,,,active,S03,2026-07-01,RX ONLY — Senai ground. RX ONLY.
+7397df4f-2e7f-44c0-be97-4a9e7d39d670,AVN-0162,Aviation,Tower,,118.3,118.3,0.0,none,,none,,narrow,am,MYS,,3.7753,103.2091,,,,active,S03,2026-07-01,RX ONLY — Kuantan airport tower. RX ONLY.
+c91faee1-bde1-47b8-8f3e-2de28c98a2f9,AVN-0163,Aviation,Tower,,118.1,118.1,0.0,none,,none,,narrow,am,MYS,,6.1668,102.293,,,,active,S03,2026-07-01,RX ONLY — KB airport tower. RX ONLY.
+a125cd42-8980-4c5c-96cc-54abe893003c,AVN-0164,Aviation,Tower,,118.1,118.1,0.0,none,,none,,narrow,am,MYS,,5.3827,103.1032,,,,active,S03,2026-07-01,RX ONLY — Terengganu airport tower. RX ONLY.
+2fafe7f8-51da-432e-bad7-6b370e9d1434,AVN-0165,Aviation,Tower,,118.1,118.1,0.0,none,,none,,narrow,am,MYS,,6.1897,100.398,,,,active,S03,2026-07-01,RX ONLY — Alor Setar airport tower. RX ONLY.
+eabdb1d5-eba5-410c-a1f5-981c40c02d57,AVN-0166,Aviation,Tower,,118.1,118.1,0.0,none,,none,,narrow,am,MYS,,4.5679,101.0921,,,,active,S03,2026-07-01,RX ONLY — Ipoh airport tower. RX ONLY.
+40d6a41d-d95f-44f6-a5ed-1ba99cceba15,AVN-0167,Aviation,Navigation,,114.1,114.1,0.0,none,,none,,narrow,am,MYS,,3.0,101.7,,,,active,S03,2026-07-01,RX ONLY — KL VOR/DME navigation aid. RX ONLY.

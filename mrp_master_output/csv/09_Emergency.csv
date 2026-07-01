@@ -1,0 +1,11 @@
+uuid,channel_no,category,subcategory,callsign,rx_freq_mhz,tx_freq_mhz,offset_mhz,offset_dir,tone_hz,tone_type,dcs_code,bandwidth,mode,country,state,latitude,longitude,altitude_m,power_watts,coverage_radius_km,status,source,last_verified,notes
+85c8405b-61a7-4a10-92be-4c27d5ab61c6,EMG-0212,Emergency,Amateur Emergency,,145.55,145.55,0.0,none,,none,,wide,fm,MYS,ALL,,,,,,active,S05/S01,2026-07-01,Primary emergency/disaster frequency for Malaysian amateurs.
+f851f2e0-6fa8-42aa-9ba9-aac9f176b130,EMG-0213,Emergency,Amateur Emergency,,145.0,145.0,0.0,none,,none,,wide,fm,MYS,ALL,,,,,,active,S05/S01,2026-07-01,Emergency fallback / calling frequency.
+786cf6ad-b76f-4401-8cb8-ab6904ae13b7,EMG-0214,Emergency,Amateur Emergency,,144.39,144.39,0.0,none,,none,,wide,aprs,MYS,ALL,,,,,,active,S07/S11,2026-07-01,APRS for emergency position tracking and disaster comms.
+f50f1702-f686-4ab7-869c-4111916362bb,EMG-0215,Emergency,HF Emergency,,7.11,7.11,0.0,none,,none,,wide,ssb,MYS,ALL,,,,,,active,S05/S01,2026-07-01,HF emergency net (40m). Malaysian amateur emergency comms.
+d1cf1e03-1563-4618-95e5-fc99cc80c896,EMG-0216,Emergency,HF Emergency,,3.6,3.6,0.0,none,,none,,wide,ssb,MYS,ALL,,,,,,active,S05/S01,2026-07-01,HF emergency net (80m). Malaysian amateur emergency comms.
+5a978289-69ba-4e31-9d02-b059749e5b2b,EMG-0217,Emergency,Aviation Emergency,,121.5,121.5,0.0,none,,none,,wide,am,INT,ALL,,,,,,active,S08,2026-07-01,International aeronautical emergency. RX ONLY for amateurs.
+fd071879-f6de-4105-8610-99a1bb118758,EMG-0218,Emergency,Aviation Emergency,,243.0,243.0,0.0,none,,none,,wide,am,INT,ALL,,,,,,active,S08,2026-07-01,Military aviation emergency. RX ONLY.
+82dd74f3-6faf-4ef6-b1e1-974bf45fe46e,EMG-0219,Emergency,SAR,,123.1,123.1,0.0,none,,none,,wide,am,INT,ALL,,,,,,active,S08,2026-07-01,SAR operations frequency. RX ONLY for amateurs.
+216b2c91-3858-442b-8dad-a376b090ee73,EMG-0220,Emergency,Marine Emergency,,156.8,156.8,0.0,none,,none,,wide,fm,INT,ALL,,,,,,active,S04,2026-07-01,"International marine distress, safety, calling. RX ONLY for amateurs."
+746c1649-6c6a-4ac9-93fc-80d6b814a62f,EMG-0221,Emergency,Marine Emergency,,156.525,156.525,0.0,none,,none,,wide,fm,INT,ALL,,,,,,active,S04,2026-07-01,Digital Selective Calling distress alerting. RX ONLY.

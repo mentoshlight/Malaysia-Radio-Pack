@@ -1,0 +1,22 @@
+uuid,band,start_mhz,end_mhz,mode,usage,notes,source
+8b396da8-46ff-4edb-b983-a4739273b8fc,2m (VHF),144.0,144.025,CW,CW calling / weak signal,CW segment for weak-signal work,S05/S09
+e3b32627-8882-4094-86ba-943537a4dca1,2m (VHF),144.025,144.1,CW/SSB,CW/SSB weak signal,Weak signal segment,S05/S09
+e73791d0-218f-41f0-8a89-6dee01a8772b,2m (VHF),144.1,144.5,SSB,SSB activity,SSB activity segment,S05/S09
+3c657324-550c-4be6-a462-cbb10704ed8a,2m (VHF),144.5,144.5,SSB,SSB Calling,National SSB calling frequency,S05/S09
+056ee066-19a6-48ea-9d29-ea15668a4464,2m (VHF),144.5,145.0,SSB/misc,SSB / image / misc,Misc modes,S05/S09
+cf263d87-00ae-4aad-9d02-d912ddaf0cab,2m (VHF),145.0,145.0,FM,FM Calling,National FM calling frequency,S05/S09
+694a6a01-a2da-4671-8b12-b854d50c00a5,2m (VHF),145.0,145.5,FM,FM Simplex,FM simplex channels,S05/S09
+21033622-7972-440e-a571-5610b85a645d,2m (VHF),145.5,145.55,FM,Emergency / Simplex,Emergency and local simplex,S05/S09
+47cf684a-7beb-46ee-9b10-2b3979b2bcec,2m (VHF),145.55,145.55,FM,Emergency,Designated emergency frequency,S05/S09
+1cdc567b-f546-4eff-9daa-51a4f56dc27b,2m (VHF),145.6,145.8,FM,Repeater Outputs,FM repeater output segment,S05/S09
+7a0f123b-e180-4b3e-b04c-f3a5ba1ba4f4,2m (VHF),145.8,146.0,FM/SSB,Satellite / APRS,Satellite downlinks and APRS,S05/S09
+f96eee8e-b6af-4063-af71-d4d35d29cdb1,2m (VHF),144.39,144.39,APRS,APRS,APRS frequency (Asia-Pacific),S05/S09
+b4ab63ea-b4ae-434e-ad2f-29dd6938f693,70cm (UHF),430.0,433.0,FM,Repeater Inputs,Repeater input segment,S05/S09
+a7e3ac22-4857-458e-8d43-41b6219ef9f8,70cm (UHF),433.0,433.0,FM,FM Calling,UHF FM calling frequency,S05/S09
+7b68e7a1-1720-450e-b3ec-cf9690e0f49b,70cm (UHF),433.0,434.0,FM,FM Simplex,Simplex activity,S05/S09
+2f7b8bcf-6385-432f-91be-13aabda05532,70cm (UHF),434.0,438.0,FM/DMR/C4FM,Repeater Outputs,Repeater outputs + digital modes,S05/S09
+b0d302fa-9556-44d6-932c-b79d874474e1,70cm (UHF),438.0,440.0,Various,Digital / Links,"Digital modes, links, misc",S05/S09
+fade7214-c415-45b3-9949-40d2d782566a,70cm (UHF),433.8,433.8,APRS,APRS (UHF),APRS on UHF (secondary),S05/S09
+b25ed7e3-fb44-4809-a7a8-886cce0b4712,70cm (UHF),438.8,438.8,DMR,DMR,DMR repeater common frequency,S05/S09
+f8b1e539-be1e-463a-8eb0-d2907139fd92,70cm (UHF),439.55,439.55,D-Star,D-Star,D-Star repeater common frequency,S05/S09
+999f7f9b-c209-4478-8163-b0abef221971,70cm (UHF),434.75,434.75,C4FM,C4FM / Fusion,Yaesu System Fusion common frequency,S05/S09

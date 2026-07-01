@@ -1,4 +1,4 @@
-"""Pydantic v2 schemas for all MRP models."""
+"""Pydantic v2 schemas — attribute names match ORM models (= actual DB columns)."""
 
 from __future__ import annotations
 
@@ -11,11 +11,9 @@ from pydantic import BaseModel, ConfigDict, Field
 T = TypeVar("T")
 
 
-# ── Pagination ──────────────────────────────────────────────────────────────
-
 class PageParams(BaseModel):
-    page: int = Field(1, ge=1, description="Page number (1-indexed)")
-    size: int = Field(50, ge=1, le=500, description="Items per page")
+    page: int = Field(1, ge=1)
+    size: int = Field(50, ge=1, le=500)
 
 
 class PageResponse(BaseModel, Generic[T]):
@@ -24,8 +22,6 @@ class PageResponse(BaseModel, Generic[T]):
     page: int
     pages: int
 
-
-# ── State ───────────────────────────────────────────────────────────────────
 
 class StateRead(BaseModel):
     model_config = ConfigDict(from_attributes=True)
@@ -36,16 +32,12 @@ class StateRead(BaseModel):
     capital: Optional[str] = None
 
 
-# ── Category ────────────────────────────────────────────────────────────────
-
 class CategoryRead(BaseModel):
     model_config = ConfigDict(from_attributes=True)
     id: int
     name: str
     description: Optional[str] = None
 
-
-# ── Repeater ────────────────────────────────────────────────────────────────
 
 class RepeaterBase(BaseModel):
     name: str
@@ -55,20 +47,20 @@ class RepeaterBase(BaseModel):
     offset: Optional[float] = None
     offset_dir: Optional[str] = None
     tone: Optional[float] = None
-    tone_type: str = "none"
-    dcs_code: Optional[str] = None
-    bandwidth: str = "narrow"
-    mode: str = "fm"
-    duplex: str = "simplex"
+    tone_type: Optional[str] = None
+    dcs_code: Optional[int] = None
+    bandwidth: Optional[str] = None
+    mode: Optional[str] = None
+    duplex: Optional[str] = None
     power: Optional[float] = None
     latitude: Optional[float] = None
     longitude: Optional[float] = None
-    altitude: Optional[float] = None
-    coverage_radius: Optional[float] = None
+    altitude: Optional[int] = None
+    coverage_radius: Optional[int] = None
     state_id: Optional[int] = None
-    country: str = "Malaysia"
+    country: Optional[str] = None
     category: Optional[str] = None
-    status: str = "active"
+    status: Optional[str] = None
     last_verified: Optional[datetime] = None
     source: Optional[str] = None
     notes: Optional[str] = None
@@ -87,15 +79,15 @@ class RepeaterUpdate(BaseModel):
     offset_dir: Optional[str] = None
     tone: Optional[float] = None
     tone_type: Optional[str] = None
-    dcs_code: Optional[str] = None
+    dcs_code: Optional[int] = None
     bandwidth: Optional[str] = None
     mode: Optional[str] = None
     duplex: Optional[str] = None
     power: Optional[float] = None
     latitude: Optional[float] = None
     longitude: Optional[float] = None
-    altitude: Optional[float] = None
-    coverage_radius: Optional[float] = None
+    altitude: Optional[int] = None
+    coverage_radius: Optional[int] = None
     state_id: Optional[int] = None
     country: Optional[str] = None
     category: Optional[str] = None
@@ -108,69 +100,65 @@ class RepeaterUpdate(BaseModel):
 class RepeaterRead(RepeaterBase):
     model_config = ConfigDict(from_attributes=True)
     id: uuid.UUID
+    state: Optional[str] = None  # populated via join with states table
     created_at: Optional[datetime] = None
     updated_at: Optional[datetime] = None
 
-
-# ── SimplexChannel ──────────────────────────────────────────────────────────
 
 class SimplexChannelRead(BaseModel):
     model_config = ConfigDict(from_attributes=True)
     id: int
     name: str
-    rx_freq: float
-    tx_freq: float
+    frequency: float
+    band: Optional[str] = None
+    mode: Optional[str] = None
     tone: Optional[float] = None
-    tone_type: str = "none"
-    bandwidth: str = "narrow"
-    mode: str = "fm"
+    tone_type: Optional[str] = None
     power: Optional[float] = None
     category: Optional[str] = None
     notes: Optional[str] = None
 
 
-# ── MarineChannel ───────────────────────────────────────────────────────────
-
 class MarineChannelRead(BaseModel):
     model_config = ConfigDict(from_attributes=True)
     id: int
-    channel_num: Optional[str] = None
-    name: str
-    rx_freq: float
+    channel_number: Optional[str] = None
+    name: Optional[str] = None
     tx_freq: float
-    mode: str = "fm"
-    power: Optional[float] = None
-    notes: Optional[str] = None
+    rx_freq: Optional[float] = None
+    mode: Optional[str] = None
+    category: Optional[str] = None
+    description: Optional[str] = None
 
-
-# ── AviationFreq ────────────────────────────────────────────────────────────
 
 class AviationFreqRead(BaseModel):
     model_config = ConfigDict(from_attributes=True)
     id: int
     name: str
-    freq: float
-    type: str
+    frequency: float
     airport: Optional[str] = None
+    service_type: Optional[str] = None
+    latitude: Optional[float] = None
+    longitude: Optional[float] = None
+    category: Optional[str] = None
     notes: Optional[str] = None
 
-
-# ── AprsObject ──────────────────────────────────────────────────────────────
 
 class AprsObjectRead(BaseModel):
     model_config = ConfigDict(from_attributes=True)
     id: int
     callsign: str
+    name: Optional[str] = None
     frequency: Optional[float] = None
+    type: Optional[str] = None
     symbol: Optional[str] = None
     latitude: Optional[float] = None
     longitude: Optional[float] = None
-    altitude: Optional[float] = None
-    type: str
+    altitude: Optional[int] = None
+    status: Optional[str] = None
+    category: Optional[str] = None
     notes: Optional[str] = None
 
-
-# ── Satellite ───────────────────────────────────────────────────────────────
 
 class SatelliteRead(BaseModel):
     model_config = ConfigDict(from_attributes=True)
@@ -182,22 +170,20 @@ class SatelliteRead(BaseModel):
     beacon: Optional[float] = None
     mode: Optional[str] = None
     status: Optional[str] = None
+    category: Optional[str] = None
     notes: Optional[str] = None
 
-
-# ── EmergencyFreq ───────────────────────────────────────────────────────────
 
 class EmergencyFreqRead(BaseModel):
     model_config = ConfigDict(from_attributes=True)
     id: int
     name: str
     frequency: float
-    agency: Optional[str] = None
-    type: Optional[str] = None
+    service: Optional[str] = None
+    mode: Optional[str] = None
+    category: Optional[str] = None
     notes: Optional[str] = None
 
-
-# ── CallingFreq ─────────────────────────────────────────────────────────────
 
 class CallingFreqRead(BaseModel):
     model_config = ConfigDict(from_attributes=True)
@@ -206,10 +192,9 @@ class CallingFreqRead(BaseModel):
     frequency: float
     band: Optional[str] = None
     mode: Optional[str] = None
-    notes: Optional[str] = None
+    category: Optional[str] = None
+    description: Optional[str] = None
 
-
-# ── Stats ───────────────────────────────────────────────────────────────────
 
 class TableCount(BaseModel):
     table: str
@@ -226,7 +211,13 @@ class ModeCount(BaseModel):
     count: int
 
 
+class BandCount(BaseModel):
+    band: str
+    count: int
+
+
 class StatsResponse(BaseModel):
     tables: List[TableCount]
     by_state: List[StateCount]
     by_mode: List[ModeCount]
+    by_band: List[BandCount] = []

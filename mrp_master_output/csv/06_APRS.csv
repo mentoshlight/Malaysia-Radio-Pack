@@ -1,0 +1,20 @@
+uuid,channel_no,category,subcategory,callsign,rx_freq_mhz,tx_freq_mhz,offset_mhz,offset_dir,tone_hz,tone_type,dcs_code,bandwidth,mode,country,state,latitude,longitude,altitude_m,power_watts,coverage_radius_km,status,source,last_verified,notes
+a02a9762-fc63-4879-a840-e342e1ef08f7,APR-0168,APRS,Frequency,,144.39,144.39,0.0,none,,none,,narrow,aprs,MYS,ALL,,,,,,active,S07/S11,2026-07-01,Standard APRS frequency for ITU Region 3. 1200 baud AFSK (Bell 202).
+a30234f1-2948-44bf-8ae7-8149c36f4798,APR-0169,APRS,Frequency,,144.8,144.8,0.0,none,,none,,narrow,aprs,MYS,ALL,,,,,,active,S07/S11,2026-07-01,Alternate APRS frequency sometimes used in Asia.
+29c33330-d020-4869-bc57-1b9a17db06b3,APR-0170,APRS,Frequency,,145.825,145.825,0.0,none,,none,,narrow,aprs,MYS,ALL,,,,,,active,S12/S07,2026-07-01,ISS APRS digipeater downlink/uplink.
+76b8231a-a50a-4d5f-8c24-abd1ac870ccb,APR-0171,APRS,Digipeater,,144.39,144.39,0.0,none,,none,,narrow,aprs,MYS,KUL,3.2028,101.6869,,,,active,S07,2026-07-01,"APRS digipeater, Bukit Takun area, Kuala Lumpur."
+a07cf58f-21e2-4d49-8639-1e0c58557b95,APR-0172,APRS,Digipeater,,144.39,144.39,0.0,none,,none,,narrow,aprs,MYS,KUL,3.15,101.7,,,,active,S07,2026-07-01,"APRS digipeater, KL coverage."
+547b9fc6-45e9-4158-933e-8fb54db652b5,APR-0173,APRS,Digipeater,,144.39,144.39,0.0,none,,none,,narrow,aprs,MYS,PNG,5.4164,100.3328,,,,active,S07,2026-07-01,"APRS digipeater, Penang."
+1cc14b30-d0d9-488b-b112-1956314b4b3d,APR-0174,APRS,Digipeater,,144.39,144.39,0.0,none,,none,,narrow,aprs,MYS,SGR,3.0733,101.5183,,,,active,S07,2026-07-01,"APRS digipeater, Selangor."
+f5994d93-58c4-4dc6-a65e-a7f7e80574c0,APR-0175,APRS,Digipeater,,144.39,144.39,0.0,none,,none,,narrow,aprs,MYS,JHR,1.4927,103.7414,,,,active,S07,2026-07-01,"APRS digipeater, Johor."
+b46b1996-aed0-48cc-9df5-b7ce756af46b,APR-0176,APRS,Digipeater,,144.39,144.39,0.0,none,,none,,narrow,aprs,MYS,KDH,6.12,100.37,,,,active,S07,2026-07-01,"APRS digipeater, northern coverage."
+060e0861-1595-450d-ab80-cd01d07849a4,APR-0177,APRS,Digipeater,,144.39,144.39,0.0,none,,none,,narrow,aprs,MYS,SBH,5.9804,116.0735,,,,active,S07,2026-07-01,"APRS digipeater, Sabah."
+abab6338-0a64-43da-85fe-dbefaf9559da,APR-0178,APRS,Digipeater,,144.39,144.39,0.0,none,,none,,narrow,aprs,MYS,SWK,1.5535,110.3593,,,,active,S07,2026-07-01,"APRS digipeater, Sarawak."
+36d9a20c-f7af-461f-98d2-7258a620ebf7,APR-0179,APRS,iGate,,144.39,144.39,0.0,none,,none,,narrow,aprs,MYS,KUL,3.139,101.6869,,,,active,S07,2026-07-01,"APRS iGate, KL — forwards packets to APRS-IS."
+295cc161-267b-48ee-9e80-7cba60829c24,APR-0180,APRS,iGate,,144.39,144.39,0.0,none,,none,,narrow,aprs,MYS,KUL,3.15,101.69,,,,active,S07,2026-07-01,"APRS iGate, KL."
+ad13a9fa-43ea-49f3-83ce-7e19d4427e13,APR-0181,APRS,iGate,,144.39,144.39,0.0,none,,none,,narrow,aprs,MYS,SGR,3.08,101.52,,,,active,S07,2026-07-01,"APRS iGate, Selangor."
+62bb67f7-3cb9-41c9-9415-510d3f6dd208,APR-0182,APRS,iGate,,144.39,144.39,0.0,none,,none,,narrow,aprs,MYS,PNG,5.42,100.33,,,,active,S07,2026-07-01,"APRS iGate, Penang."
+500ec5e5-8fc9-49ad-b2d4-f348688b544d,APR-0183,APRS,iGate,,144.39,144.39,0.0,none,,none,,narrow,aprs,MYS,PRK,4.5975,101.0901,,,,active,S07,2026-07-01,"APRS iGate, Perak."
+f5ee23e3-2600-4645-b6e3-8b9c92e4a21d,APR-0184,APRS,iGate,,144.39,144.39,0.0,none,,none,,narrow,aprs,MYS,JHR,1.49,103.74,,,,active,S07,2026-07-01,"APRS iGate, Johor."
+5f4b58ec-d9cf-4123-8c19-46f0c9b59d92,APR-0185,APRS,iGate,,144.39,144.39,0.0,none,,none,,narrow,aprs,MYS,KUL,3.14,101.69,,,,active,S07,2026-07-01,"APRS iGate + digipeater combo, KL."
+f039954c-fd95-4647-95ed-7749b587b68f,APR-0186,APRS,Beacon,,144.39,144.39,0.0,none,,none,,narrow,aprs,MYS,ALL,,,,,,active,S11,2026-07-01,Standard APRS beacon frequency. 1200 baud AFSK.

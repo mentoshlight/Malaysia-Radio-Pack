@@ -1,0 +1,13 @@
+id,name,url,license,last_access,confidence
+S01,MARTS (Malaysian Amateur Radio Transmitters' Society),https://www.marts.org.my,Public reference,2026-07-01,0.9
+S02,RepeaterBook — Malaysia,https://www.repeaterbook.com/repeaters/index.php?state_id=MY,CC BY-SA 4.0,2026-07-01,0.85
+S03,AIP Malaysia (CAAM),https://aip.dca.gov.my,Government public information,2026-07-01,0.95
+S04,ITU-R M.1084 — Marine VHF,https://www.itu.int/rec/R-REC-M.1084,ITU standard,2026-07-01,0.99
+S05,IARU Region 3 Band Plan,https://www.iaru.org/r3-bands/,IARU standard,2026-07-01,0.95
+S06,AMSAT — Satellite Frequencies,https://www.amsat.org,Public reference,2026-07-01,0.9
+S07,APRS.fi — Malaysia APRS,https://aprs.fi,Public tracking,2026-07-01,0.85
+S08,ICAO Annex 10 — Aeronautical Telecommunications,https://www.icao.int,ICAO standard,2026-07-01,0.99
+S09,MCMC — Spectrum Allocation,https://www.mcmc.gov.my,Government public information,2026-07-01,0.95
+S10,QRZ.com — Callsign Database,https://www.qrz.com,Public reference,2026-07-01,0.8
+S11,Bob Bruninga WB4APR — APRS Documentation,http://www.aprs.org,Public reference,2026-07-01,0.95
+S12,ARISS — Amateur Radio on ISS,https://www.ariss.org,Public reference,2026-07-01,0.95

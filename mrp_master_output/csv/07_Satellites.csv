@@ -1,0 +1,16 @@
+uuid,channel_no,category,subcategory,callsign,rx_freq_mhz,tx_freq_mhz,offset_mhz,offset_dir,tone_hz,tone_type,dcs_code,bandwidth,mode,country,state,latitude,longitude,altitude_m,power_watts,coverage_radius_km,status,source,last_verified,notes
+e404383c-f5ec-4a82-ba45-2de893e558ba,SAT-0187,Satellite,FM Satellite,,145.8,145.99,-0.19,minus,,none,,narrow,fm,INT,,,,,,,active,S12/S06,2026-07-01,ISS FM voice — when crew available for amateur contacts.
+51ef1155-91d0-4029-ab6a-b869f76112a0,SAT-0188,Satellite,FM Satellite,,145.825,145.825,0.0,none,,none,,narrow,aprs,INT,,,,,,,active,S12,2026-07-01,ISS APRS digipeater. 1200 baud AFSK on 145.825 MHz.
+19d8bffa-c377-48e8-92b6-f40d64dd1adc,SAT-0189,Satellite,FM Satellite,,436.795,145.85,290.945,plus,,none,,narrow,fm,INT,,,,,,,active,S06,2026-07-01,FM repeater satellite. Requires 67.0 Hz CTCSS uplink tone.
+80bbd417-2721-443e-9c22-6ad322a243e2,SAT-0190,Satellite,FM Satellite,,435.25,145.96,289.29,plus,,none,,narrow,fm,INT,,,,,,,active,S06,2026-07-01,FM satellite. 67.0 Hz CTCSS. Status may vary — check AMSAT.
+5df7303c-e868-4437-9b09-d14d6c2302c9,SAT-0191,Satellite,Linear Satellite,,435.15,145.95,289.2,plus,,none,,narrow,ssb,INT,,,,,,,active,S06,2026-07-01,V/U linear transponder. LSB up / USB down.
+7d3a81b5-8fd4-4517-ba31-2649feb432f8,SAT-0192,Satellite,Linear Satellite,,435.22,145.87,289.35,plus,,none,,narrow,ssb,INT,,,,,,,active,S06,2026-07-01,Linear transponder. LSB up / USB down.
+3dffa828-0213-4947-a467-7f0e613a4f74,SAT-0193,Satellite,Linear Satellite,,435.28,145.91,289.37,plus,,none,,narrow,ssb,INT,,,,,,,active,S06,2026-07-01,Linear transponder. LSB up / USB down.
+d4996a47-c10d-46fa-8c14-d0ec7d17ccb6,SAT-0194,Satellite,Linear Satellite,,435.04,145.675,289.365,plus,,none,,narrow,ssb,INT,,,,,,,active,S06,2026-07-01,XW-2A linear transponder.
+85c09841-aa9f-4693-b200-ad6139253b9b,SAT-0195,Satellite,Linear Satellite,,435.1,145.74,289.36,plus,,none,,narrow,ssb,INT,,,,,,,active,S06,2026-07-01,XW-2B linear transponder.
+2c6251c1-65a9-48ca-88cd-5a085adcdf80,SAT-0196,Satellite,Linear Satellite,,435.16,145.8,289.36,plus,,none,,narrow,ssb,INT,,,,,,,active,S06,2026-07-01,XW-2C linear transponder.
+2164c17e-816a-4c33-b4ba-e550dde82819,SAT-0197,Satellite,Linear Satellite,,435.225,145.865,289.36,plus,,none,,narrow,ssb,INT,,,,,,,active,S06,2026-07-01,XW-2D linear transponder.
+61ed9c2c-5b85-479b-8f8c-8778b0b46486,SAT-0198,Satellite,Linear Satellite,,435.29,145.93,289.36,plus,,none,,narrow,ssb,INT,,,,,,,active,S06,2026-07-01,XW-2E linear transponder.
+ec24f09e-02f7-49a6-8c30-529336206db2,SAT-0199,Satellite,Linear Satellite,,435.355,145.995,289.36,plus,,none,,narrow,ssb,INT,,,,,,,active,S06,2026-07-01,XW-2F linear transponder.
+b5c21245-1361-4dfc-b7cd-6d2e6d8d5d97,SAT-0200,Satellite,Geostationary Satellite,,10489.55,2400.05,8089.5,plus,,none,,narrow,ssb,INT,,,,,,,active,S06,2026-07-01,Geostationary satellite. S-band up / X-band down. Covers Middle East/Asia/Africa.
+24e14427-053c-4d13-b587-79cb11babd70,SAT-0201,Satellite,Linear Satellite,,435.8,145.9,289.9,plus,,none,,narrow,ssb,INT,,,,,,,active,S06,2026-07-01,V/U linear transponder. Status variable — check AMSAT.

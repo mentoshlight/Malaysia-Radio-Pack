@@ -1,0 +1,25 @@
+key,value
+mrp_version,2.0.0
+generated_at,2026-07-01T03:47:45.736949Z
+country,MYS
+country_name,Malaysia
+itu_region,Region 3 (Asia-Pacific)
+iaru_region,Region 3
+regulator,MCMC (Malaysian Communications and Multimedia Commission)
+national_society,MARTS (Malaysian Amateur Radio Transmitters' Society)
+callsign_prefix_9M2,Peninsular Malaysia
+callsign_prefix_9M6,East Malaysia (Sabah & Sarawak)
+callsign_prefix_9W2,"Restricted license, Peninsular"
+callsign_prefix_9W6,"Restricted license, East Malaysia"
+vhf_band,144.000-148.000 MHz (2m)
+uhf_band,430.000-440.000 MHz (70cm)
+vhf_repeater_offset,-600 kHz standard
+uhf_repeater_offset,"-1.6 MHz, -3.6 MHz, -5.0 MHz, +5.0 MHz"
+common_ctcss,"118.8 Hz (MARTS), 100.0 Hz, 110.9 Hz"
+aprs_frequency,144.390 MHz (ITU Region 3)
+aprs_baud,1200 baud AFSK (Bell 202)
+maritime_safety,Ch 16 (156.800 MHz) — mandatory watch
+aviation_emergency,121.500 MHz (VHF Guard)
+total_states,16 (13 states + 3 federal territories)
+generator,MRP Master Generator v2.0.0
+data_quality,"Cross-referenced from MARTS, RepeaterBook, AIP Malaysia, ITU, IARU, AMSAT"

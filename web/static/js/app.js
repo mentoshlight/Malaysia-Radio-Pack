@@ -141,11 +141,20 @@ async function loadInitialData() {
 
 async function loadRepeaters() {
   try {
-    const resp = await fetch(`${API_BASE}/repeaters?limit=5000`);
-    if (!resp.ok) throw new Error(`HTTP ${resp.status}`);
-    const data = await resp.json();
-    allRepeaters = data.repeaters || data.data || data || [];
-    if (!Array.isArray(allRepeaters)) allRepeaters = [];
+    let all = [];
+    let page = 1;
+    let totalPages = 1;
+    while (page <= totalPages) {
+      const resp = await fetch(`${API_BASE}/repeaters?size=500&page=${page}`);
+      if (!resp.ok) throw new Error(`HTTP ${resp.status}`);
+      const data = await resp.json();
+      const items = data.items || data.repeaters || data.data || data || [];
+      if (!Array.isArray(items)) break;
+      all = all.concat(items);
+      totalPages = data.pages || 1;
+      page++;
+    }
+    allRepeaters = all;
     filteredRepeaters = [...allRepeaters];
     updateMapMarkers(allRepeaters);
     renderTable();
@@ -160,17 +169,20 @@ async function loadRepeaters() {
 
 async function loadStats() {
   try {
-    const resp = await fetch(`${REF_BASE}/stats/`);
+    const resp = await fetch(`${REF_BASE}/stats`);
     if (!resp.ok) throw new Error(`HTTP ${resp.status}`);
     const stats = await resp.json();
 
-    // Update hero cards
-    const total = stats.total_repeaters ?? stats.total ?? allRepeaters.length;
+    // Update hero cards — parse actual API shape: { tables: [{table, count}], by_state: [{state, count}], by_mode: [...] }
+    const repeaterTable = stats.tables?.find(t => t.table === 'repeaters');
+    const total = repeaterTable?.count ?? stats.total_repeaters ?? stats.total ?? allRepeaters.length;
     document.getElementById('statTotal').textContent = total.toLocaleString();
-    document.getElementById('statStates').textContent = stats.states_covered ?? stats.states ?? '—';
-    document.getElementById('statModes').textContent = stats.modes ?? '—';
-    document.getElementById('statCategories').textContent = stats.categories ?? '—';
-    document.getElementById('statActiveCount').textContent = (stats.active ?? '—') + ' active';
+    document.getElementById('statStates').textContent = stats.by_state?.length ?? stats.states_covered ?? '—';
+    document.getElementById('statModes').textContent = stats.by_mode?.length ?? stats.modes ?? '—';
+    const categories = new Set(allRepeaters.map(r => r.category).filter(Boolean));
+    document.getElementById('statCategories').textContent = categories.size || '—';
+    const active = stats.tables?.find(t => t.table === 'repeaters');
+    document.getElementById('statActiveCount').textContent = (total ?? '—') + ' total';
 
     // Build charts
     initCharts(stats);
@@ -196,7 +208,7 @@ function computeStatsFromData() {
   document.getElementById('statCategories').textContent = categories.size;
   document.getElementById('statActiveCount').textContent = active + ' active';
 
-  // Build charts from data
+  // Build charts from data — convert to array format to match API shape
   const stateCounts = {};
   const modeCounts = {};
   const bandCounts = {};
@@ -209,9 +221,9 @@ function computeStatsFromData() {
   });
 
   initCharts({
-    by_state: stateCounts,
-    by_mode: modeCounts,
-    by_band: bandCounts,
+    by_state: Object.entries(stateCounts).map(([state, count]) => ({state, count})),
+    by_mode: Object.entries(modeCounts).map(([mode, count]) => ({mode, count})),
+    by_band: Object.entries(bandCounts).map(([band, count]) => ({band, count})),
   });
 }
 
@@ -239,8 +251,9 @@ function initCharts(stats) {
     },
   };
 
-  // States bar chart
-  const stateData = stats.by_state || {};
+  // States bar chart — API returns [{state, count}], convert to {state: count}
+  const stateArr = Array.isArray(stats.by_state) ? stats.by_state : [];
+  const stateData = stateArr.reduce((o, r) => { o[r.state || r.name] = r.count; return o; }, {});
   const stateLabels = Object.keys(stateData).sort((a, b) => stateData[b] - stateData[a]);
   const stateValues = stateLabels.map(k => stateData[k]);
 
@@ -269,8 +282,9 @@ function initCharts(stats) {
     },
   });
 
-  // Modes doughnut chart
-  const modeData = stats.by_mode || {};
+  // Modes doughnut chart — API returns [{mode, count}], convert to {mode: count}
+  const modeArr = Array.isArray(stats.by_mode) ? stats.by_mode : [];
+  const modeData = modeArr.reduce((o, r) => { o[r.mode || r.name] = r.count; return o; }, {});
   const modeLabels = Object.keys(modeData);
   const modeValues = modeLabels.map(k => modeData[k]);
   const modeColors = modeLabels.map(m => {
@@ -305,8 +319,9 @@ function initCharts(stats) {
     },
   });
 
-  // Bands pie chart
-  const bandData = stats.by_band || {};
+  // Bands pie chart — API returns [{band, count}] or may be absent
+  const bandArr = Array.isArray(stats.by_band) ? stats.by_band : [];
+  const bandData = bandArr.reduce((o, r) => { o[r.band || r.name] = r.count; return o; }, {});
   const bandLabels = Object.keys(bandData);
   const bandValues = bandLabels.map(k => bandData[k]);
   const bandColors = bandLabels.map(b => b === 'VHF' ? '#3b82f6' : b === 'UHF' ? '#10b981' : '#f59e0b');
@@ -393,7 +408,7 @@ function searchRepeaters() {
 async function populateFilters() {
   try {
     // Populate states
-    const stateResp = await fetch(`${REF_BASE}/states/`);
+    const stateResp = await fetch(`${REF_BASE}/states`);
     if (stateResp.ok) {
       const stateData = await stateResp.json();
       const states = stateData.states || stateData.data || stateData || [];
@@ -419,7 +434,7 @@ async function populateFilters() {
   }
 
   try {
-    const catResp = await fetch(`${REF_BASE}/categories/`);
+    const catResp = await fetch(`${REF_BASE}/categories`);
     if (catResp.ok) {
       const catData = await catResp.json();
       const cats = catData.categories || catData.data || catData || [];

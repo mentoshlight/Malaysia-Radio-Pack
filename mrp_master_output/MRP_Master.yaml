@@ -1,0 +1,5830 @@
+mrp_version: 2.0.0
+generated_at: '2026-07-01T03:47:45.736949Z'
+sheets:
+  01_Repeaters:
+  - uuid: f4c288ed-b5e8-41e6-b5f5-f78f584ea7f4
+    channel_no: RPT-0001
+    category: Repeater
+    subcategory: FM
+    callsign: 9M2RKK
+    rx_freq_mhz: 147.9
+    tx_freq_mhz: 147.3
+    offset_mhz: 0.6
+    offset_dir: minus
+    tone_hz: 110.9
+    tone_type: ctcss
+    dcs_code: null
+    bandwidth: wide
+    mode: fm
+    country: MYS
+    state: KUL
+    latitude: 3.1528
+    longitude: 101.7038
+    altitude_m: 94
+    power_watts: 25
+    coverage_radius_km: 50
+    status: active
+    source: S01/S02
+    last_verified: '2025-06-01'
+    notes: Primary KL repeater, Bukit Nenas Tower
+  - uuid: c12f46b0-6870-4ba2-b637-c7ac0b9a5b7a
+    channel_no: RPT-0002
+    category: Repeater
+    subcategory: FM
+    callsign: 9M2RKL
+    rx_freq_mhz: 147.9
+    tx_freq_mhz: 147.3
+    offset_mhz: 0.6
+    offset_dir: minus
+    tone_hz: 110.9
+    tone_type: ctcss
+    dcs_code: null
+    bandwidth: wide
+    mode: fm
+    country: MYS
+    state: SGR
+    latitude: 3.4167
+    longitude: 101.9
+    altitude_m: 1493
+    power_watts: 50
+    coverage_radius_km: 80
+    status: active
+    source: S01/S02
+    last_verified: '2025-06-01'
+    notes: High-altitude repeater, Genting Highlands area, wide coverage
+  - uuid: 28f6276d-5d6c-4aa2-9c6e-e7acb32ef577
+    channel_no: RPT-0003
+    category: Repeater
+    subcategory: FM
+    callsign: 9M4RUL
+    rx_freq_mhz: 145.725
+    tx_freq_mhz: 145.125
+    offset_mhz: 0.6
+    offset_dir: minus
+    tone_hz: 118.8
+    tone_type: ctcss
+    dcs_code: null
+    bandwidth: wide
+    mode: fm
+    country: MYS
+    state: KUL
+    latitude: 3.139
+    longitude: 101.6869
+    altitude_m: 50
+    power_watts: 25
+    coverage_radius_km: 40
+    status: active
+    source: S01
+    last_verified: '2025-06-01'
+    notes: MARTS coordinated repeater, KL city
+  - uuid: 54de3d8d-c43f-4689-a93c-1e34dc8b49c4
+    channel_no: RPT-0004
+    category: Repeater
+    subcategory: FM
+    callsign: 9M4RCH
+    rx_freq_mhz: 145.675
+    tx_freq_mhz: 145.075
+    offset_mhz: 0.6
+    offset_dir: minus
+    tone_hz: null
+    tone_type: none
+    dcs_code: null
+    bandwidth: wide
+    mode: fm
+    country: MYS
+    state: SGR
+    latitude: 3.0733
+    longitude: 101.7383
+    altitude_m: 60
+    power_watts: 25
+    coverage_radius_km: 35
+    status: active
+    source: S02
+    last_verified: '2025-06-01'
+    notes: Cheras area repeater
+  - uuid: fad2d0ea-2432-42ff-aa39-fc49232ab3e7
+    channel_no: RPT-0005
+    category: Repeater
+    subcategory: FM
+    callsign: 9M4RGP
+    rx_freq_mhz: 145.625
+    tx_freq_mhz: 145.025
+    offset_mhz: 0.6
+    offset_dir: minus
+    tone_hz: 118.8
+    tone_type: ctcss
+    dcs_code: null
+    bandwidth: wide
+    mode: fm
+    country: MYS
+    state: SGR
+    latitude: 3.35
+    longitude: 101.85
+    altitude_m: 800
+    power_watts: 50
+    coverage_radius_km: 70
+    status: active
+    source: S01/S02
+    last_verified: '2025-06-01'
+    notes: High-site repeater, covers KL-Selangor valley
+  - uuid: f86b174b-4176-4349-a888-f8897cad305f
+    channel_no: RPT-0006
+    category: Repeater
+    subcategory: FM
+    callsign: 9M4RSA
+    rx_freq_mhz: 145.75
+    tx_freq_mhz: 145.15
+    offset_mhz: 0.6
+    offset_dir: minus
+    tone_hz: 100.0
+    tone_type: ctcss
+    dcs_code: null
+    bandwidth: wide
+    mode: fm
+    country: MYS
+    state: SGR
+    latitude: 3.0733
+    longitude: 101.5183
+    altitude_m: 50
+    power_watts: 25
+    coverage_radius_km: 30
+    status: active
+    source: S02
+    last_verified: '2025-06-01'
+    notes: Shah Alam city coverage
+  - uuid: 6e328584-65b9-4474-8296-7dccb64a100a
+    channel_no: RPT-0007
+    category: Repeater
+    subcategory: FM
+    callsign: 9M4RPJ
+    rx_freq_mhz: 145.6
+    tx_freq_mhz: 145.0
+    offset_mhz: 0.6
+    offset_dir: minus
+    tone_hz: null
+    tone_type: none
+    dcs_code: null
+    bandwidth: wide
+    mode: fm
+    country: MYS
+    state: PJY
+    latitude: 2.9264
+    longitude: 101.6964
+    altitude_m: 35
+    power_watts: 15
+    coverage_radius_km: 25
+    status: active
+    source: S02
+    last_verified: '2025-06-01'
+    notes: Putrajaya government area
+  - uuid: 1a3dadc9-5403-4d0d-bdbf-05ed07aa6e3b
+    channel_no: RPT-0008
+    category: Repeater
+    subcategory: FM
+    callsign: 9M4RJB
+    rx_freq_mhz: 145.7
+    tx_freq_mhz: 145.1
+    offset_mhz: 0.6
+    offset_dir: minus
+    tone_hz: 118.8
+    tone_type: ctcss
+    dcs_code: null
+    bandwidth: wide
+    mode: fm
+    country: MYS
+    state: JHR
+    latitude: 1.4927
+    longitude: 103.7414
+    altitude_m: 30
+    power_watts: 25
+    coverage_radius_km: 40
+    status: active
+    source: S01/S02
+    last_verified: '2025-06-01'
+    notes: Primary JB repeater
+  - uuid: 92369d39-3d22-42a8-a7c4-606cdb29f478
+    channel_no: RPT-0009
+    category: Repeater
+    subcategory: FM
+    callsign: 9M4RJH
+    rx_freq_mhz: 145.65
+    tx_freq_mhz: 145.05
+    offset_mhz: 0.6
+    offset_dir: minus
+    tone_hz: 100.0
+    tone_type: ctcss
+    dcs_code: null
+    bandwidth: wide
+    mode: fm
+    country: MYS
+    state: JHR
+    latitude: 1.55
+    longitude: 103.55
+    altitude_m: 654
+    power_watts: 50
+    coverage_radius_km: 60
+    status: active
+    source: S02
+    last_verified: '2025-06-01'
+    notes: High-site Johor, wide coverage south peninsula
+  - uuid: b14623ca-4ad0-4053-add3-dfae16397b57
+    channel_no: RPT-0010
+    category: Repeater
+    subcategory: FM
+    callsign: 9M4RMT
+    rx_freq_mhz: 145.775
+    tx_freq_mhz: 145.175
+    offset_mhz: 0.6
+    offset_dir: minus
+    tone_hz: null
+    tone_type: none
+    dcs_code: null
+    bandwidth: wide
+    mode: fm
+    country: MYS
+    state: JHR
+    latitude: 2.4312
+    longitude: 103.8381
+    altitude_m: 15
+    power_watts: 15
+    coverage_radius_km: 30
+    status: unverified
+    source: S02
+    last_verified: '2025-06-01'
+    notes: East coast Johor coverage
+  - uuid: 1c37827d-9bac-4cd4-ac0d-a88ecf5f0e3a
+    channel_no: RPT-0011
+    category: Repeater
+    subcategory: FM
+    callsign: 9M4RKU
+    rx_freq_mhz: 145.625
+    tx_freq_mhz: 145.025
+    offset_mhz: 0.6
+    offset_dir: minus
+    tone_hz: 118.8
+    tone_type: ctcss
+    dcs_code: null
+    bandwidth: wide
+    mode: fm
+    country: MYS
+    state: JHR
+    latitude: 2.0333
+    longitude: 103.3167
+    altitude_m: 50
+    power_watts: 25
+    coverage_radius_km: 35
+    status: active
+    source: S02
+    last_verified: '2025-06-01'
+    notes: Central Johor
+  - uuid: 4715304f-be04-4abd-8923-fa06c518f520
+    channel_no: RPT-0012
+    category: Repeater
+    subcategory: FM
+    callsign: 9M4RBT
+    rx_freq_mhz: 145.725
+    tx_freq_mhz: 145.125
+    offset_mhz: 0.6
+    offset_dir: minus
+    tone_hz: null
+    tone_type: none
+    dcs_code: null
+    bandwidth: wide
+    mode: fm
+    country: MYS
+    state: JHR
+    latitude: 1.8548
+    longitude: 102.9328
+    altitude_m: 10
+    power_watts: 15
+    coverage_radius_km: 25
+    status: unverified
+    source: S02
+    last_verified: '2025-06-01'
+    notes: Western Johor
+  - uuid: 6a95ba33-9ee9-4bda-8863-1ed8a6300cac
+    channel_no: RPT-0013
+    category: Repeater
+    subcategory: FM
+    callsign: 9M4RPG
+    rx_freq_mhz: 145.625
+    tx_freq_mhz: 145.025
+    offset_mhz: 0.6
+    offset_dir: minus
+    tone_hz: 118.8
+    tone_type: ctcss
+    dcs_code: null
+    bandwidth: wide
+    mode: fm
+    country: MYS
+    state: PNG
+    latitude: 5.4236
+    longitude: 100.2653
+    altitude_m: 833
+    power_watts: 50
+    coverage_radius_km: 70
+    status: active
+    source: S01/S02
+    last_verified: '2025-06-01'
+    notes: Primary Penang repeater, excellent coverage
+  - uuid: 072a6f96-4946-441e-a4cd-f15d79659ee7
+    channel_no: RPT-0014
+    category: Repeater
+    subcategory: FM
+    callsign: 9M4RPN
+    rx_freq_mhz: 145.7
+    tx_freq_mhz: 145.1
+    offset_mhz: 0.6
+    offset_dir: minus
+    tone_hz: 100.0
+    tone_type: ctcss
+    dcs_code: null
+    bandwidth: wide
+    mode: fm
+    country: MYS
+    state: PNG
+    latitude: 5.3633
+    longitude: 100.4583
+    altitude_m: 460
+    power_watts: 25
+    coverage_radius_km: 40
+    status: active
+    source: S02
+    last_verified: '2025-06-01'
+    notes: Mainland Penang coverage
+  - uuid: 931664da-64c3-42f1-92c0-3c2a09fa7234
+    channel_no: RPT-0015
+    category: Repeater
+    subcategory: FM
+    callsign: 9M4RIP
+    rx_freq_mhz: 145.75
+    tx_freq_mhz: 145.15
+    offset_mhz: 0.6
+    offset_dir: minus
+    tone_hz: 118.8
+    tone_type: ctcss
+    dcs_code: null
+    bandwidth: wide
+    mode: fm
+    country: MYS
+    state: PRK
+    latitude: 4.5975
+    longitude: 101.0901
+    altitude_m: 50
+    power_watts: 25
+    coverage_radius_km: 40
+    status: active
+    source: S01/S02
+    last_verified: '2025-06-01'
+    notes: Primary Ipoh repeater
+  - uuid: 712e4e80-58a2-47bc-9e32-65d32155193d
+    channel_no: RPT-0016
+    category: Repeater
+    subcategory: FM
+    callsign: 9M4RKG
+    rx_freq_mhz: 145.675
+    tx_freq_mhz: 145.075
+    offset_mhz: 0.6
+    offset_dir: minus
+    tone_hz: null
+    tone_type: none
+    dcs_code: null
+    bandwidth: wide
+    mode: fm
+    country: MYS
+    state: PRK
+    latitude: 4.6833
+    longitude: 101.2833
+    altitude_m: 1200
+    power_watts: 50
+    coverage_radius_km: 80
+    status: active
+    source: S02
+    last_verified: '2025-06-01'
+    notes: High-site Perak, wide coverage
+  - uuid: 54b9b0e9-fd86-4f80-91b5-1f323933838a
+    channel_no: RPT-0017
+    category: Repeater
+    subcategory: FM
+    callsign: 9M4RTA
+    rx_freq_mhz: 145.6
+    tx_freq_mhz: 145.0
+    offset_mhz: 0.6
+    offset_dir: minus
+    tone_hz: 100.0
+    tone_type: ctcss
+    dcs_code: null
+    bandwidth: wide
+    mode: fm
+    country: MYS
+    state: PRK
+    latitude: 4.85
+    longitude: 100.7333
+    altitude_m: 20
+    power_watts: 15
+    coverage_radius_km: 25
+    status: active
+    source: S02
+    last_verified: '2025-06-01'
+    notes: Northern Perak coverage
+  - uuid: 58e83e7c-f60a-4f06-a2c6-1a1f38ea6419
+    channel_no: RPT-0018
+    category: Repeater
+    subcategory: FM
+    callsign: 9M4RLK
+    rx_freq_mhz: 145.725
+    tx_freq_mhz: 145.125
+    offset_mhz: 0.6
+    offset_dir: minus
+    tone_hz: null
+    tone_type: none
+    dcs_code: null
+    bandwidth: wide
+    mode: fm
+    country: MYS
+    state: PRK
+    latitude: 4.2333
+    longitude: 100.6333
+    altitude_m: 5
+    power_watts: 15
+    coverage_radius_km: 25
+    status: unverified
+    source: S02
+    last_verified: '2025-06-01'
+    notes: Coastal Perak
+  - uuid: 554cc8d9-70f9-4ff7-b11a-58ac16862aaf
+    channel_no: RPT-0019
+    category: Repeater
+    subcategory: FM
+    callsign: 9M4RCA
+    rx_freq_mhz: 145.65
+    tx_freq_mhz: 145.05
+    offset_mhz: 0.6
+    offset_dir: minus
+    tone_hz: 118.8
+    tone_type: ctcss
+    dcs_code: null
+    bandwidth: wide
+    mode: fm
+    country: MYS
+    state: PRK
+    latitude: 4.4667
+    longitude: 101.3833
+    altitude_m: 1500
+    power_watts: 50
+    coverage_radius_km: 90
+    status: active
+    source: S01/S02
+    last_verified: '2025-06-01'
+    notes: High-altitude repeater, covers central peninsula
+  - uuid: ab4b4003-eada-46c0-9870-e0195204b970
+    channel_no: RPT-0020
+    category: Repeater
+    subcategory: FM
+    callsign: 9M4RAS
+    rx_freq_mhz: 145.7
+    tx_freq_mhz: 145.1
+    offset_mhz: 0.6
+    offset_dir: minus
+    tone_hz: 118.8
+    tone_type: ctcss
+    dcs_code: null
+    bandwidth: wide
+    mode: fm
+    country: MYS
+    state: KDH
+    latitude: 6.1248
+    longitude: 100.3678
+    altitude_m: 10
+    power_watts: 25
+    coverage_radius_km: 35
+    status: active
+    source: S01/S02
+    last_verified: '2025-06-01'
+    notes: Primary Kedah repeater
+  - uuid: 79c726e4-b190-402a-a3f1-88361da729a1
+    channel_no: RPT-0021
+    category: Repeater
+    subcategory: FM
+    callsign: 9M4RLG
+    rx_freq_mhz: 145.625
+    tx_freq_mhz: 145.025
+    offset_mhz: 0.6
+    offset_dir: minus
+    tone_hz: null
+    tone_type: none
+    dcs_code: null
+    bandwidth: wide
+    mode: fm
+    country: MYS
+    state: KDH
+    latitude: 5.7833
+    longitude: 100.4333
+    altitude_m: 1217
+    power_watts: 50
+    coverage_radius_km: 80
+    status: active
+    source: S02
+    last_verified: '2025-06-01'
+    notes: High-site Kedah, wide coverage north
+  - uuid: cbb6fdff-c946-41ee-9f4d-ca5d6ba748a8
+    channel_no: RPT-0022
+    category: Repeater
+    subcategory: FM
+    callsign: 9M4RKA
+    rx_freq_mhz: 145.65
+    tx_freq_mhz: 145.05
+    offset_mhz: 0.6
+    offset_dir: minus
+    tone_hz: null
+    tone_type: none
+    dcs_code: null
+    bandwidth: wide
+    mode: fm
+    country: MYS
+    state: PLS
+    latitude: 6.4414
+    longitude: 100.1986
+    altitude_m: 20
+    power_watts: 15
+    coverage_radius_km: 25
+    status: active
+    source: S02
+    last_verified: '2025-06-01'
+    notes: Perlis state repeater
+  - uuid: 21c1b3a3-6324-4254-a2b3-df6681786e2a
+    channel_no: RPT-0023
+    category: Repeater
+    subcategory: FM
+    callsign: 9M4RML
+    rx_freq_mhz: 145.675
+    tx_freq_mhz: 145.075
+    offset_mhz: 0.6
+    offset_dir: minus
+    tone_hz: 118.8
+    tone_type: ctcss
+    dcs_code: null
+    bandwidth: wide
+    mode: fm
+    country: MYS
+    state: MLK
+    latitude: 2.1896
+    longitude: 102.2501
+    altitude_m: 20
+    power_watts: 25
+    coverage_radius_km: 35
+    status: active
+    source: S01/S02
+    last_verified: '2025-06-01'
+    notes: Primary Melaka repeater
+  - uuid: 24aa899f-6b12-41a5-8046-dc0265269af1
+    channel_no: RPT-0024
+    category: Repeater
+    subcategory: FM
+    callsign: 9M4RAF
+    rx_freq_mhz: 145.75
+    tx_freq_mhz: 145.15
+    offset_mhz: 0.6
+    offset_dir: minus
+    tone_hz: null
+    tone_type: none
+    dcs_code: null
+    bandwidth: wide
+    mode: fm
+    country: MYS
+    state: MLK
+    latitude: 2.3833
+    longitude: 102.2083
+    altitude_m: 20
+    power_watts: 15
+    coverage_radius_km: 25
+    status: unverified
+    source: S02
+    last_verified: '2025-06-01'
+    notes: Northern Melaka
+  - uuid: 05a30748-c5b4-4bcf-ac7d-a1b6622f5735
+    channel_no: RPT-0025
+    category: Repeater
+    subcategory: FM
+    callsign: 9M4RSB
+    rx_freq_mhz: 145.7
+    tx_freq_mhz: 145.1
+    offset_mhz: 0.6
+    offset_dir: minus
+    tone_hz: 118.8
+    tone_type: ctcss
+    dcs_code: null
+    bandwidth: wide
+    mode: fm
+    country: MYS
+    state: NSN
+    latitude: 2.7297
+    longitude: 101.9381
+    altitude_m: 50
+    power_watts: 25
+    coverage_radius_km: 35
+    status: active
+    source: S01/S02
+    last_verified: '2025-06-01'
+    notes: Primary NS repeater
+  - uuid: 2862bf7f-e556-429b-8467-27cc1a6bcc00
+    channel_no: RPT-0026
+    category: Repeater
+    subcategory: FM
+    callsign: 9M4RPG2
+    rx_freq_mhz: 145.625
+    tx_freq_mhz: 145.025
+    offset_mhz: 0.6
+    offset_dir: minus
+    tone_hz: null
+    tone_type: none
+    dcs_code: null
+    bandwidth: wide
+    mode: fm
+    country: MYS
+    state: NSN
+    latitude: 2.7167
+    longitude: 102.05
+    altitude_m: 824
+    power_watts: 50
+    coverage_radius_km: 60
+    status: active
+    source: S02
+    last_verified: '2025-06-01'
+    notes: High-site NS, good coverage
+  - uuid: 6f2d06c3-c6f0-4dd0-ac7d-beed83262ae8
+    channel_no: RPT-0027
+    category: Repeater
+    subcategory: FM
+    callsign: 9M4RKN
+    rx_freq_mhz: 145.7
+    tx_freq_mhz: 145.1
+    offset_mhz: 0.6
+    offset_dir: minus
+    tone_hz: 118.8
+    tone_type: ctcss
+    dcs_code: null
+    bandwidth: wide
+    mode: fm
+    country: MYS
+    state: PHG
+    latitude: 3.8077
+    longitude: 103.326
+    altitude_m: 15
+    power_watts: 25
+    coverage_radius_km: 40
+    status: active
+    source: S01/S02
+    last_verified: '2025-06-01'
+    notes: Primary Pahang east coast repeater
+  - uuid: 459d34c8-a0c5-4d6f-aa04-0f0e96d7e70d
+    channel_no: RPT-0028
+    category: Repeater
+    subcategory: FM
+    callsign: 9M4RGG
+    rx_freq_mhz: 145.675
+    tx_freq_mhz: 145.075
+    offset_mhz: 0.6
+    offset_dir: minus
+    tone_hz: null
+    tone_type: none
+    dcs_code: null
+    bandwidth: wide
+    mode: fm
+    country: MYS
+    state: PHG
+    latitude: 3.4167
+    longitude: 101.7833
+    altitude_m: 1800
+    power_watts: 50
+    coverage_radius_km: 100
+    status: active
+    source: S02
+    last_verified: '2025-06-01'
+    notes: Very high site, covers KL to east coast
+  - uuid: a9c02a80-d212-406d-814c-7546dbfa9a99
+    channel_no: RPT-0029
+    category: Repeater
+    subcategory: FM
+    callsign: 9M4RIM
+    rx_freq_mhz: 145.75
+    tx_freq_mhz: 145.15
+    offset_mhz: 0.6
+    offset_dir: minus
+    tone_hz: null
+    tone_type: none
+    dcs_code: null
+    bandwidth: wide
+    mode: fm
+    country: MYS
+    state: PHG
+    latitude: 3.4833
+    longitude: 102.0833
+    altitude_m: 200
+    power_watts: 15
+    coverage_radius_km: 30
+    status: unverified
+    source: S02
+    last_verified: '2025-06-01'
+    notes: Interior Pahang coverage
+  - uuid: ca24c355-b333-4b13-a5b8-15001becdb15
+    channel_no: RPT-0030
+    category: Repeater
+    subcategory: FM
+    callsign: 9M4RTR
+    rx_freq_mhz: 145.6
+    tx_freq_mhz: 145.0
+    offset_mhz: 0.6
+    offset_dir: minus
+    tone_hz: null
+    tone_type: none
+    dcs_code: null
+    bandwidth: wide
+    mode: fm
+    country: MYS
+    state: PHG
+    latitude: 2.8
+    longitude: 104.1667
+    altitude_m: 50
+    power_watts: 10
+    coverage_radius_km: 30
+    status: unverified
+    source: S02
+    last_verified: '2025-06-01'
+    notes: Island repeater, east coast
+  - uuid: e8f3fc35-42e0-4054-beb9-8e58ee48ea6c
+    channel_no: RPT-0031
+    category: Repeater
+    subcategory: FM
+    callsign: 9M4RKT
+    rx_freq_mhz: 145.7
+    tx_freq_mhz: 145.1
+    offset_mhz: 0.6
+    offset_dir: minus
+    tone_hz: 118.8
+    tone_type: ctcss
+    dcs_code: null
+    bandwidth: wide
+    mode: fm
+    country: MYS
+    state: TRG
+    latitude: 5.3294
+    longitude: 103.137
+    altitude_m: 10
+    power_watts: 25
+    coverage_radius_km: 35
+    status: active
+    source: S01/S02
+    last_verified: '2025-06-01'
+    notes: Primary Terengganu repeater
+  - uuid: e9c4a182-e28e-46ea-835a-0ed77ca5db95
+    channel_no: RPT-0032
+    category: Repeater
+    subcategory: FM
+    callsign: 9M4RKB
+    rx_freq_mhz: 145.7
+    tx_freq_mhz: 145.1
+    offset_mhz: 0.6
+    offset_dir: minus
+    tone_hz: 118.8
+    tone_type: ctcss
+    dcs_code: null
+    bandwidth: wide
+    mode: fm
+    country: MYS
+    state: KTN
+    latitude: 6.1254
+    longitude: 102.2381
+    altitude_m: 10
+    power_watts: 25
+    coverage_radius_km: 35
+    status: active
+    source: S01/S02
+    last_verified: '2025-06-01'
+    notes: Primary Kelantan repeater
+  - uuid: d9740b26-0514-42cc-9705-a7a1033d77c4
+    channel_no: RPT-0033
+    category: Repeater
+    subcategory: FM
+    callsign: 9M6RKK
+    rx_freq_mhz: 145.6
+    tx_freq_mhz: 145.0
+    offset_mhz: 0.6
+    offset_dir: minus
+    tone_hz: 118.8
+    tone_type: ctcss
+    dcs_code: null
+    bandwidth: wide
+    mode: fm
+    country: MYS
+    state: SBH
+    latitude: 5.9804
+    longitude: 116.0735
+    altitude_m: 30
+    power_watts: 25
+    coverage_radius_km: 40
+    status: active
+    source: S01/S02
+    last_verified: '2025-06-01'
+    notes: Primary Sabah repeater, KK area
+  - uuid: 865f8956-61b4-4fd6-9d28-8c2e034142cd
+    channel_no: RPT-0034
+    category: Repeater
+    subcategory: FM
+    callsign: 9M6RMT
+    rx_freq_mhz: 145.675
+    tx_freq_mhz: 145.075
+    offset_mhz: 0.6
+    offset_dir: minus
+    tone_hz: null
+    tone_type: none
+    dcs_code: null
+    bandwidth: wide
+    mode: fm
+    country: MYS
+    state: SBH
+    latitude: 6.075
+    longitude: 116.55
+    altitude_m: 1500
+    power_watts: 50
+    coverage_radius_km: 80
+    status: active
+    source: S02
+    last_verified: '2025-06-01'
+    notes: High-site Sabah, wide coverage
+  - uuid: deb3a5c9-40fe-48f6-85c2-5ad82c98fc51
+    channel_no: RPT-0035
+    category: Repeater
+    subcategory: FM
+    callsign: 9M6RSN
+    rx_freq_mhz: 145.725
+    tx_freq_mhz: 145.125
+    offset_mhz: 0.6
+    offset_dir: minus
+    tone_hz: null
+    tone_type: none
+    dcs_code: null
+    bandwidth: wide
+    mode: fm
+    country: MYS
+    state: SBH
+    latitude: 5.8402
+    longitude: 118.1179
+    altitude_m: 10
+    power_watts: 15
+    coverage_radius_km: 30
+    status: active
+    source: S02
+    last_verified: '2025-06-01'
+    notes: East Sabah coast
+  - uuid: f9702930-5e70-41c0-b164-57d512baab1f
+    channel_no: RPT-0036
+    category: Repeater
+    subcategory: FM
+    callsign: 9M6RTW
+    rx_freq_mhz: 145.65
+    tx_freq_mhz: 145.05
+    offset_mhz: 0.6
+    offset_dir: minus
+    tone_hz: null
+    tone_type: none
+    dcs_code: null
+    bandwidth: wide
+    mode: fm
+    country: MYS
+    state: SBH
+    latitude: 4.2447
+    longitude: 117.892
+    altitude_m: 10
+    power_watts: 15
+    coverage_radius_km: 30
+    status: active
+    source: S02
+    last_verified: '2025-06-01'
+    notes: South-east Sabah
+  - uuid: f816088e-6297-4a95-88fc-26985b855eb6
+    channel_no: RPT-0037
+    category: Repeater
+    subcategory: FM
+    callsign: 9M6RLD
+    rx_freq_mhz: 145.775
+    tx_freq_mhz: 145.175
+    offset_mhz: 0.6
+    offset_dir: minus
+    tone_hz: null
+    tone_type: none
+    dcs_code: null
+    bandwidth: wide
+    mode: fm
+    country: MYS
+    state: SBH
+    latitude: 5.0301
+    longitude: 118.327
+    altitude_m: 10
+    power_watts: 15
+    coverage_radius_km: 25
+    status: unverified
+    source: S02
+    last_verified: '2025-06-01'
+    notes: East Sabah coast
+  - uuid: f3ef11e0-8a89-4465-9d8f-01ca33135edf
+    channel_no: RPT-0038
+    category: Repeater
+    subcategory: FM
+    callsign: 9M6RKP
+    rx_freq_mhz: 145.625
+    tx_freq_mhz: 145.025
+    offset_mhz: 0.6
+    offset_dir: minus
+    tone_hz: 100.0
+    tone_type: ctcss
+    dcs_code: null
+    bandwidth: wide
+    mode: fm
+    country: MYS
+    state: SBH
+    latitude: 5.3333
+    longitude: 116.1667
+    altitude_m: 300
+    power_watts: 25
+    coverage_radius_km: 40
+    status: active
+    source: S02
+    last_verified: '2025-06-01'
+    notes: Interior Sabah
+  - uuid: 05b4cb0d-bd24-4074-8fd0-add3771d5b87
+    channel_no: RPT-0039
+    category: Repeater
+    subcategory: FM
+    callsign: 9M6RKS
+    rx_freq_mhz: 145.65
+    tx_freq_mhz: 145.05
+    offset_mhz: 0.6
+    offset_dir: minus
+    tone_hz: 118.8
+    tone_type: ctcss
+    dcs_code: null
+    bandwidth: wide
+    mode: fm
+    country: MYS
+    state: SWK
+    latitude: 1.5535
+    longitude: 110.3593
+    altitude_m: 20
+    power_watts: 25
+    coverage_radius_km: 40
+    status: active
+    source: S01/S02
+    last_verified: '2025-06-01'
+    notes: Primary Sarawak repeater
+  - uuid: f9368537-2bcf-4332-8d14-8987cca1278e
+    channel_no: RPT-0040
+    category: Repeater
+    subcategory: FM
+    callsign: 9M6RMY
+    rx_freq_mhz: 145.7
+    tx_freq_mhz: 145.1
+    offset_mhz: 0.6
+    offset_dir: minus
+    tone_hz: null
+    tone_type: none
+    dcs_code: null
+    bandwidth: wide
+    mode: fm
+    country: MYS
+    state: SWK
+    latitude: 4.3925
+    longitude: 113.987
+    altitude_m: 10
+    power_watts: 15
+    coverage_radius_km: 30
+    status: active
+    source: S02
+    last_verified: '2025-06-01'
+    notes: Northern Sarawak
+  - uuid: 9e5ff63a-962c-4928-8c16-59ff4124384e
+    channel_no: RPT-0041
+    category: Repeater
+    subcategory: FM
+    callsign: 9M6RSW
+    rx_freq_mhz: 145.75
+    tx_freq_mhz: 145.15
+    offset_mhz: 0.6
+    offset_dir: minus
+    tone_hz: null
+    tone_type: none
+    dcs_code: null
+    bandwidth: wide
+    mode: fm
+    country: MYS
+    state: SWK
+    latitude: 2.2875
+    longitude: 111.8303
+    altitude_m: 10
+    power_watts: 15
+    coverage_radius_km: 30
+    status: active
+    source: S02
+    last_verified: '2025-06-01'
+    notes: Central Sarawak
+  - uuid: 7aefa056-449a-4ec9-bc22-fb5488bdaea4
+    channel_no: RPT-0042
+    category: Repeater
+    subcategory: FM
+    callsign: 9M6RBN
+    rx_freq_mhz: 145.625
+    tx_freq_mhz: 145.025
+    offset_mhz: 0.6
+    offset_dir: minus
+    tone_hz: null
+    tone_type: none
+    dcs_code: null
+    bandwidth: wide
+    mode: fm
+    country: MYS
+    state: SWK
+    latitude: 3.1667
+    longitude: 113.0333
+    altitude_m: 10
+    power_watts: 15
+    coverage_radius_km: 30
+    status: active
+    source: S02
+    last_verified: '2025-06-01'
+    notes: Central-north Sarawak
+  - uuid: 9b1505ff-065d-4167-9752-0418b379a61a
+    channel_no: RPT-0043
+    category: Repeater
+    subcategory: FM
+    callsign: 9M6RSL
+    rx_freq_mhz: 145.675
+    tx_freq_mhz: 145.075
+    offset_mhz: 0.6
+    offset_dir: minus
+    tone_hz: null
+    tone_type: none
+    dcs_code: null
+    bandwidth: wide
+    mode: fm
+    country: MYS
+    state: SWK
+    latitude: 1.2333
+    longitude: 111.4667
+    altitude_m: 10
+    power_watts: 15
+    coverage_radius_km: 25
+    status: unverified
+    source: S02
+    last_verified: '2025-06-01'
+    notes: Sarawak interior
+  - uuid: 087d7bf4-7e04-4e92-903d-5a84b1a3e0f0
+    channel_no: RPT-0044
+    category: Repeater
+    subcategory: FM
+    callsign: 9M6RLB
+    rx_freq_mhz: 145.7
+    tx_freq_mhz: 145.1
+    offset_mhz: 0.6
+    offset_dir: minus
+    tone_hz: null
+    tone_type: none
+    dcs_code: null
+    bandwidth: wide
+    mode: fm
+    country: MYS
+    state: LBN
+    latitude: 5.2831
+    longitude: 115.2308
+    altitude_m: 10
+    power_watts: 15
+    coverage_radius_km: 25
+    status: active
+    source: S02
+    last_verified: '2025-06-01'
+    notes: Labuan island repeater
+  - uuid: 9b45394b-b00e-422c-9683-d589156e41db
+    channel_no: RPT-0045
+    category: Repeater
+    subcategory: FM
+    callsign: 9M4RGP2
+    rx_freq_mhz: 438.4
+    tx_freq_mhz: 433.4
+    offset_mhz: 5.0
+    offset_dir: minus
+    tone_hz: 118.8
+    tone_type: ctcss
+    dcs_code: null
+    bandwidth: narrow
+    mode: fm
+    country: MYS
+    state: KUL
+    latitude: 3.139
+    longitude: 101.6869
+    altitude_m: 50
+    power_watts: 25
+    coverage_radius_km: 25
+    status: active
+    source: S01/S02
+    last_verified: '2025-06-01'
+    notes: UHF KL repeater
+  - uuid: cb1c7e4c-78c3-4003-b9b0-e5c506565de4
+    channel_no: RPT-0046
+    category: Repeater
+    subcategory: FM
+    callsign: 9M4RMM
+    rx_freq_mhz: 438.45
+    tx_freq_mhz: 434.85
+    offset_mhz: 3.6
+    offset_dir: minus
+    tone_hz: null
+    tone_type: none
+    dcs_code: null
+    bandwidth: narrow
+    mode: fm
+    country: MYS
+    state: KUL
+    latitude: 3.1528
+    longitude: 101.7038
+    altitude_m: 94
+    power_watts: 25
+    coverage_radius_km: 20
+    status: active
+    source: S02
+    last_verified: '2025-06-01'
+    notes: UHF Bukit Nenas
+  - uuid: fbcc2033-2386-4331-94c3-821edc72788c
+    channel_no: RPT-0047
+    category: Repeater
+    subcategory: FM
+    callsign: 9M4RPN2
+    rx_freq_mhz: 438.425
+    tx_freq_mhz: 433.425
+    offset_mhz: 5.0
+    offset_dir: minus
+    tone_hz: null
+    tone_type: none
+    dcs_code: null
+    bandwidth: narrow
+    mode: fm
+    country: MYS
+    state: PNG
+    latitude: 5.4141
+    longitude: 100.3288
+    altitude_m: 20
+    power_watts: 15
+    coverage_radius_km: 20
+    status: active
+    source: S02
+    last_verified: '2025-06-01'
+    notes: UHF Penang
+  - uuid: 00616d1e-8143-4098-b7f3-6d970d6e55f3
+    channel_no: RPT-0048
+    category: Repeater
+    subcategory: FM
+    callsign: 9M4RXC
+    rx_freq_mhz: 439.475
+    tx_freq_mhz: 434.475
+    offset_mhz: 5.0
+    offset_dir: minus
+    tone_hz: 88.5
+    tone_type: ctcss
+    dcs_code: null
+    bandwidth: narrow
+    mode: fm
+    country: MYS
+    state: KDH
+    latitude: 5.1386
+    longitude: 100.544
+    altitude_m: 100
+    power_watts: 25
+    coverage_radius_km: 30
+    status: active
+    source: S02
+    last_verified: '2025-06-01'
+    notes: REAKSI group repeater, Bukit Panchor. FM + C4FM capable. Covers Kedah/Penang
+      border
+  - uuid: 8deded9a-bb5e-4f50-887b-9eaf6eacad6a
+    channel_no: RPT-0049
+    category: Repeater
+    subcategory: FM
+    callsign: 9M4RJH2
+    rx_freq_mhz: 438.4
+    tx_freq_mhz: 433.4
+    offset_mhz: 5.0
+    offset_dir: minus
+    tone_hz: null
+    tone_type: none
+    dcs_code: null
+    bandwidth: narrow
+    mode: fm
+    country: MYS
+    state: JHR
+    latitude: 1.4927
+    longitude: 103.7414
+    altitude_m: 30
+    power_watts: 15
+    coverage_radius_km: 20
+    status: active
+    source: S02
+    last_verified: '2025-06-01'
+    notes: UHF JB
+  - uuid: 955db7f6-e770-42d5-8c47-a26af43702ba
+    channel_no: RPT-0050
+    category: Repeater
+    subcategory: FM
+    callsign: 9M6RKK2
+    rx_freq_mhz: 438.45
+    tx_freq_mhz: 434.85
+    offset_mhz: 3.6
+    offset_dir: minus
+    tone_hz: null
+    tone_type: none
+    dcs_code: null
+    bandwidth: narrow
+    mode: fm
+    country: MYS
+    state: SBH
+    latitude: 5.9804
+    longitude: 116.0735
+    altitude_m: 30
+    power_watts: 15
+    coverage_radius_km: 20
+    status: active
+    source: S02
+    last_verified: '2025-06-01'
+    notes: UHF KK Sabah
+  - uuid: c0e4e034-c741-45d2-ad26-5bee3bb95548
+    channel_no: RPT-0051
+    category: Repeater
+    subcategory: FM
+    callsign: 9M6RKS2
+    rx_freq_mhz: 438.425
+    tx_freq_mhz: 433.425
+    offset_mhz: 5.0
+    offset_dir: minus
+    tone_hz: null
+    tone_type: none
+    dcs_code: null
+    bandwidth: narrow
+    mode: fm
+    country: MYS
+    state: SWK
+    latitude: 1.5535
+    longitude: 110.3593
+    altitude_m: 20
+    power_watts: 15
+    coverage_radius_km: 20
+    status: active
+    source: S02
+    last_verified: '2025-06-01'
+    notes: UHF Kuching Sarawak
+  - uuid: 046c84b0-1703-411f-8a67-a4b6861795e6
+    channel_no: RPT-0052
+    category: Repeater
+    subcategory: DMR
+    callsign: 9M4DMR
+    rx_freq_mhz: 438.8
+    tx_freq_mhz: 433.8
+    offset_mhz: 5.0
+    offset_dir: minus
+    tone_hz: null
+    tone_type: none
+    dcs_code: null
+    bandwidth: narrow
+    mode: dmr
+    country: MYS
+    state: KUL
+    latitude: 3.139
+    longitude: 101.6869
+    altitude_m: 50
+    power_watts: 25
+    coverage_radius_km: 25
+    status: active
+    source: S02
+    last_verified: '2025-06-01'
+    notes: DMR Brandmeister network, TG502 Malaysia
+  - uuid: 2bc26483-ef2d-4a9f-b1b8-3d88c6a193ee
+    channel_no: RPT-0053
+    category: Repeater
+    subcategory: DMR
+    callsign: 9M4DMR2
+    rx_freq_mhz: 439.25
+    tx_freq_mhz: 434.25
+    offset_mhz: 5.0
+    offset_dir: minus
+    tone_hz: null
+    tone_type: none
+    dcs_code: null
+    bandwidth: narrow
+    mode: dmr
+    country: MYS
+    state: SGR
+    latitude: 3.0733
+    longitude: 101.5183
+    altitude_m: 50
+    power_watts: 25
+    coverage_radius_km: 20
+    status: active
+    source: S02
+    last_verified: '2025-06-01'
+    notes: DMR Selangor
+  - uuid: 750b9c00-cf1d-4304-b84f-1b109b13ba21
+    channel_no: RPT-0054
+    category: Repeater
+    subcategory: DMR
+    callsign: 9M6DMR
+    rx_freq_mhz: 438.8
+    tx_freq_mhz: 433.8
+    offset_mhz: 5.0
+    offset_dir: minus
+    tone_hz: null
+    tone_type: none
+    dcs_code: null
+    bandwidth: narrow
+    mode: dmr
+    country: MYS
+    state: SBH
+    latitude: 5.9804
+    longitude: 116.0735
+    altitude_m: 30
+    power_watts: 15
+    coverage_radius_km: 20
+    status: active
+    source: S02
+    last_verified: '2025-06-01'
+    notes: DMR Sabah
+  - uuid: 4570ae57-5f4f-472a-91df-b06356d10f37
+    channel_no: RPT-0055
+    category: Repeater
+    subcategory: DMR
+    callsign: 9M6DMR2
+    rx_freq_mhz: 439.25
+    tx_freq_mhz: 434.25
+    offset_mhz: 5.0
+    offset_dir: minus
+    tone_hz: null
+    tone_type: none
+    dcs_code: null
+    bandwidth: narrow
+    mode: dmr
+    country: MYS
+    state: SWK
+    latitude: 1.5535
+    longitude: 110.3593
+    altitude_m: 20
+    power_watts: 15
+    coverage_radius_km: 20
+    status: active
+    source: S02
+    last_verified: '2025-06-01'
+    notes: DMR Sarawak
+  - uuid: 32a4ef03-31a9-4670-aea7-e882d453410f
+    channel_no: RPT-0056
+    category: Repeater
+    subcategory: DMR
+    callsign: 9M4DMR3
+    rx_freq_mhz: 438.55
+    tx_freq_mhz: 433.55
+    offset_mhz: 5.0
+    offset_dir: minus
+    tone_hz: null
+    tone_type: none
+    dcs_code: null
+    bandwidth: narrow
+    mode: dmr
+    country: MYS
+    state: PNG
+    latitude: 5.4141
+    longitude: 100.3288
+    altitude_m: 20
+    power_watts: 15
+    coverage_radius_km: 20
+    status: active
+    source: S02
+    last_verified: '2025-06-01'
+    notes: DMR Penang
+  - uuid: 2491a1da-2345-4822-9ea4-0787a2288e6e
+    channel_no: RPT-0057
+    category: Repeater
+    subcategory: DMR
+    callsign: 9M4DMR4
+    rx_freq_mhz: 439.55
+    tx_freq_mhz: 434.55
+    offset_mhz: 5.0
+    offset_dir: minus
+    tone_hz: null
+    tone_type: none
+    dcs_code: null
+    bandwidth: narrow
+    mode: dmr
+    country: MYS
+    state: PRK
+    latitude: 4.5975
+    longitude: 101.0901
+    altitude_m: 50
+    power_watts: 15
+    coverage_radius_km: 20
+    status: active
+    source: S02
+    last_verified: '2025-06-01'
+    notes: DMR Perak
+  - uuid: b3bf6c8b-f757-4e48-9500-5bb8b5d557fd
+    channel_no: RPT-0058
+    category: Repeater
+    subcategory: C4FM
+    callsign: 9M4C4FM
+    rx_freq_mhz: 434.75
+    tx_freq_mhz: 439.75
+    offset_mhz: 5.0
+    offset_dir: minus
+    tone_hz: null
+    tone_type: none
+    dcs_code: null
+    bandwidth: narrow
+    mode: c4fm
+    country: MYS
+    state: KUL
+    latitude: 3.139
+    longitude: 101.6869
+    altitude_m: 50
+    power_watts: 25
+    coverage_radius_km: 20
+    status: active
+    source: S02
+    last_verified: '2025-06-01'
+    notes: Yaesu System Fusion / C4FM repeater
+  - uuid: b7a9963a-18cf-452d-809c-0742b48cfadb
+    channel_no: RPT-0059
+    category: Repeater
+    subcategory: C4FM
+    callsign: 9M4C4FM2
+    rx_freq_mhz: 434.8
+    tx_freq_mhz: 439.8
+    offset_mhz: 5.0
+    offset_dir: minus
+    tone_hz: null
+    tone_type: none
+    dcs_code: null
+    bandwidth: narrow
+    mode: c4fm
+    country: MYS
+    state: JHR
+    latitude: 1.4927
+    longitude: 103.7414
+    altitude_m: 30
+    power_watts: 15
+    coverage_radius_km: 20
+    status: active
+    source: S02
+    last_verified: '2025-06-01'
+    notes: C4FM Johor
+  - uuid: 33820bfe-68f2-4053-b3c8-39e86d0d3618
+    channel_no: RPT-0060
+    category: Repeater
+    subcategory: DSTAR
+    callsign: 9M4DSTR
+    rx_freq_mhz: 439.55
+    tx_freq_mhz: 434.55
+    offset_mhz: 5.0
+    offset_dir: minus
+    tone_hz: null
+    tone_type: none
+    dcs_code: null
+    bandwidth: narrow
+    mode: dstar
+    country: MYS
+    state: KUL
+    latitude: 3.139
+    longitude: 101.6869
+    altitude_m: 50
+    power_watts: 25
+    coverage_radius_km: 20
+    status: active
+    source: S02
+    last_verified: '2025-06-01'
+    notes: D-Star repeater, Icom network
+  - uuid: 781f2c4f-f9c0-43cb-8548-37cb0cd856f8
+    channel_no: RPT-0061
+    category: Repeater
+    subcategory: DSTAR
+    callsign: 9M4DSTR2
+    rx_freq_mhz: 439.6
+    tx_freq_mhz: 434.6
+    offset_mhz: 5.0
+    offset_dir: minus
+    tone_hz: null
+    tone_type: none
+    dcs_code: null
+    bandwidth: narrow
+    mode: dstar
+    country: MYS
+    state: PNG
+    latitude: 5.4141
+    longitude: 100.3288
+    altitude_m: 20
+    power_watts: 15
+    coverage_radius_km: 20
+    status: active
+    source: S02
+    last_verified: '2025-06-01'
+    notes: D-Star Penang
+  02_VHF_Simplex:
+  - uuid: ba03f469-5d37-4d61-aff4-94ed9a2f75bc
+    channel_no: VSX-0062
+    category: Simplex
+    subcategory: VHF Simplex
+    callsign: null
+    rx_freq_mhz: 145.0
+    tx_freq_mhz: 145.0
+    offset_mhz: 0.0
+    offset_dir: none
+    tone_hz: null
+    tone_type: none
+    dcs_code: null
+    bandwidth: wide
+    mode: fm
+    country: MYS
+    state: ALL
+    latitude: null
+    longitude: null
+    altitude_m: null
+    power_watts: null
+    coverage_radius_km: null
+    status: active
+    source: S05/S01
+    last_verified: '2026-07-01'
+    notes: Primary calling freq for 2m FM in Malaysia
+  - uuid: 187c47ce-262e-47ba-a71a-c426e2bd8e78
+    channel_no: VSX-0063
+    category: Simplex
+    subcategory: VHF Simplex
+    callsign: null
+    rx_freq_mhz: 145.35
+    tx_freq_mhz: 145.35
+    offset_mhz: 0.0
+    offset_dir: none
+    tone_hz: null
+    tone_type: none
+    dcs_code: null
+    bandwidth: wide
+    mode: fm
+    country: MYS
+    state: ALL
+    latitude: null
+    longitude: null
+    altitude_m: null
+    power_watts: null
+    coverage_radius_km: null
+    status: active
+    source: S05
+    last_verified: '2026-07-01'
+    notes: Common FM simplex channel
+  - uuid: 9dc2cb31-88c6-4f70-87dc-26f8487765bd
+    channel_no: VSX-0064
+    category: Simplex
+    subcategory: VHF Simplex
+    callsign: null
+    rx_freq_mhz: 145.4
+    tx_freq_mhz: 145.4
+    offset_mhz: 0.0
+    offset_dir: none
+    tone_hz: null
+    tone_type: none
+    dcs_code: null
+    bandwidth: wide
+    mode: fm
+    country: MYS
+    state: ALL
+    latitude: null
+    longitude: null
+    altitude_m: null
+    power_watts: null
+    coverage_radius_km: null
+    status: active
+    source: S05
+    last_verified: '2026-07-01'
+    notes: FM simplex activity
+  - uuid: 0d2a565e-001b-4643-9af4-d8cd806d3289
+    channel_no: VSX-0065
+    category: Simplex
+    subcategory: VHF Simplex
+    callsign: null
+    rx_freq_mhz: 145.45
+    tx_freq_mhz: 145.45
+    offset_mhz: 0.0
+    offset_dir: none
+    tone_hz: null
+    tone_type: none
+    dcs_code: null
+    bandwidth: wide
+    mode: fm
+    country: MYS
+    state: ALL
+    latitude: null
+    longitude: null
+    altitude_m: null
+    power_watts: null
+    coverage_radius_km: null
+    status: active
+    source: S05
+    last_verified: '2026-07-01'
+    notes: FM simplex activity
+  - uuid: 41d1a254-48ff-45d9-bb2f-41b44057d7e8
+    channel_no: VSX-0066
+    category: Simplex
+    subcategory: VHF Simplex
+    callsign: null
+    rx_freq_mhz: 145.5
+    tx_freq_mhz: 145.5
+    offset_mhz: 0.0
+    offset_dir: none
+    tone_hz: null
+    tone_type: none
+    dcs_code: null
+    bandwidth: wide
+    mode: fm
+    country: MYS
+    state: ALL
+    latitude: null
+    longitude: null
+    altitude_m: null
+    power_watts: null
+    coverage_radius_km: null
+    status: active
+    source: S05
+    last_verified: '2026-07-01'
+    notes: Common local QSO frequency
+  - uuid: 86db6f35-433d-437b-8d96-07fc7c9201e7
+    channel_no: VSX-0067
+    category: Simplex
+    subcategory: VHF Simplex
+    callsign: null
+    rx_freq_mhz: 145.525
+    tx_freq_mhz: 145.525
+    offset_mhz: 0.0
+    offset_dir: none
+    tone_hz: null
+    tone_type: none
+    dcs_code: null
+    bandwidth: wide
+    mode: fm
+    country: MYS
+    state: ALL
+    latitude: null
+    longitude: null
+    altitude_m: null
+    power_watts: null
+    coverage_radius_km: null
+    status: active
+    source: S05
+    last_verified: '2026-07-01'
+    notes: FM simplex
+  - uuid: 616e77d3-4e69-4b6c-a828-fe347be32092
+    channel_no: VSX-0068
+    category: Simplex
+    subcategory: VHF Simplex
+    callsign: null
+    rx_freq_mhz: 145.55
+    tx_freq_mhz: 145.55
+    offset_mhz: 0.0
+    offset_dir: none
+    tone_hz: null
+    tone_type: none
+    dcs_code: null
+    bandwidth: wide
+    mode: fm
+    country: MYS
+    state: ALL
+    latitude: null
+    longitude: null
+    altitude_m: null
+    power_watts: null
+    coverage_radius_km: null
+    status: active
+    source: S05/S01
+    last_verified: '2026-07-01'
+    notes: Designated emergency simplex frequency for Malaysia
+  - uuid: 7ccb6fbd-5fb0-4f39-a19b-4297987a60f0
+    channel_no: VSX-0069
+    category: Simplex
+    subcategory: VHF Simplex
+    callsign: null
+    rx_freq_mhz: 145.575
+    tx_freq_mhz: 145.575
+    offset_mhz: 0.0
+    offset_dir: none
+    tone_hz: null
+    tone_type: none
+    dcs_code: null
+    bandwidth: wide
+    mode: fm
+    country: MYS
+    state: ALL
+    latitude: null
+    longitude: null
+    altitude_m: null
+    power_watts: null
+    coverage_radius_km: null
+    status: active
+    source: S05
+    last_verified: '2026-07-01'
+    notes: FM simplex
+  - uuid: 2d99e0df-0986-4929-abbe-5e82e2aa4c64
+    channel_no: VSX-0070
+    category: Simplex
+    subcategory: VHF Simplex
+    callsign: null
+    rx_freq_mhz: 144.5
+    tx_freq_mhz: 144.5
+    offset_mhz: 0.0
+    offset_dir: none
+    tone_hz: null
+    tone_type: none
+    dcs_code: null
+    bandwidth: wide
+    mode: ssb
+    country: MYS
+    state: ALL
+    latitude: null
+    longitude: null
+    altitude_m: null
+    power_watts: null
+    coverage_radius_km: null
+    status: active
+    source: S05
+    last_verified: '2026-07-01'
+    notes: 2m SSB calling, used for weak-signal work
+  - uuid: 0b108c04-54c8-487d-abad-9a0c60533729
+    channel_no: VSX-0071
+    category: Simplex
+    subcategory: VHF Simplex
+    callsign: null
+    rx_freq_mhz: 144.2
+    tx_freq_mhz: 144.2
+    offset_mhz: 0.0
+    offset_dir: none
+    tone_hz: null
+    tone_type: none
+    dcs_code: null
+    bandwidth: wide
+    mode: ssb
+    country: MYS
+    state: ALL
+    latitude: null
+    longitude: null
+    altitude_m: null
+    power_watts: null
+    coverage_radius_km: null
+    status: active
+    source: S05
+    last_verified: '2026-07-01'
+    notes: SSB activity segment centre
+  - uuid: a18a05c6-4007-4213-a167-139227c08c7b
+    channel_no: VSX-0072
+    category: Simplex
+    subcategory: VHF Simplex
+    callsign: null
+    rx_freq_mhz: 144.1
+    tx_freq_mhz: 144.1
+    offset_mhz: 0.0
+    offset_dir: none
+    tone_hz: null
+    tone_type: none
+    dcs_code: null
+    bandwidth: wide
+    mode: cw
+    country: MYS
+    state: ALL
+    latitude: null
+    longitude: null
+    altitude_m: null
+    power_watts: null
+    coverage_radius_km: null
+    status: active
+    source: S05
+    last_verified: '2026-07-01'
+    notes: CW calling segment
+  03_UHF_Simplex:
+  - uuid: f1bb9733-2453-4af7-802c-8c4b6451527f
+    channel_no: USX-0073
+    category: Simplex
+    subcategory: UHF Simplex
+    callsign: null
+    rx_freq_mhz: 433.0
+    tx_freq_mhz: 433.0
+    offset_mhz: 0.0
+    offset_dir: none
+    tone_hz: null
+    tone_type: none
+    dcs_code: null
+    bandwidth: narrow
+    mode: fm
+    country: MYS
+    state: ALL
+    latitude: null
+    longitude: null
+    altitude_m: null
+    power_watts: null
+    coverage_radius_km: null
+    status: active
+    source: S05/S01
+    last_verified: '2026-07-01'
+    notes: Primary calling freq for 70cm FM in Malaysia
+  - uuid: a9767974-2ad6-48b6-ba59-400cd1f4d9f5
+    channel_no: USX-0074
+    category: Simplex
+    subcategory: UHF Simplex
+    callsign: null
+    rx_freq_mhz: 433.5
+    tx_freq_mhz: 433.5
+    offset_mhz: 0.0
+    offset_dir: none
+    tone_hz: null
+    tone_type: none
+    dcs_code: null
+    bandwidth: narrow
+    mode: fm
+    country: MYS
+    state: ALL
+    latitude: null
+    longitude: null
+    altitude_m: null
+    power_watts: null
+    coverage_radius_km: null
+    status: active
+    source: S05
+    last_verified: '2026-07-01'
+    notes: Common UHF simplex
+  - uuid: 7e30411a-6eb8-40f8-af79-065a3094f89d
+    channel_no: USX-0075
+    category: Simplex
+    subcategory: UHF Simplex
+    callsign: null
+    rx_freq_mhz: 433.55
+    tx_freq_mhz: 433.55
+    offset_mhz: 0.0
+    offset_dir: none
+    tone_hz: null
+    tone_type: none
+    dcs_code: null
+    bandwidth: narrow
+    mode: fm
+    country: MYS
+    state: ALL
+    latitude: null
+    longitude: null
+    altitude_m: null
+    power_watts: null
+    coverage_radius_km: null
+    status: active
+    source: S05
+    last_verified: '2026-07-01'
+    notes: UHF simplex activity
+  - uuid: 2a75107a-1329-4bbf-a760-d93719ffea67
+    channel_no: USX-0076
+    category: Simplex
+    subcategory: UHF Simplex
+    callsign: null
+    rx_freq_mhz: 433.6
+    tx_freq_mhz: 433.6
+    offset_mhz: 0.0
+    offset_dir: none
+    tone_hz: null
+    tone_type: none
+    dcs_code: null
+    bandwidth: narrow
+    mode: fm
+    country: MYS
+    state: ALL
+    latitude: null
+    longitude: null
+    altitude_m: null
+    power_watts: null
+    coverage_radius_km: null
+    status: active
+    source: S05
+    last_verified: '2026-07-01'
+    notes: UHF simplex
+  - uuid: 3de2a4f7-9427-4c3e-8850-4c582c495710
+    channel_no: USX-0077
+    category: Simplex
+    subcategory: UHF Simplex
+    callsign: null
+    rx_freq_mhz: 433.65
+    tx_freq_mhz: 433.65
+    offset_mhz: 0.0
+    offset_dir: none
+    tone_hz: null
+    tone_type: none
+    dcs_code: null
+    bandwidth: narrow
+    mode: fm
+    country: MYS
+    state: ALL
+    latitude: null
+    longitude: null
+    altitude_m: null
+    power_watts: null
+    coverage_radius_km: null
+    status: active
+    source: S05
+    last_verified: '2026-07-01'
+    notes: UHF simplex
+  - uuid: 12aa5cdc-9ca7-4fed-92bd-254489a071a6
+    channel_no: USX-0078
+    category: Simplex
+    subcategory: UHF Simplex
+    callsign: null
+    rx_freq_mhz: 433.7
+    tx_freq_mhz: 433.7
+    offset_mhz: 0.0
+    offset_dir: none
+    tone_hz: null
+    tone_type: none
+    dcs_code: null
+    bandwidth: narrow
+    mode: fm
+    country: MYS
+    state: ALL
+    latitude: null
+    longitude: null
+    altitude_m: null
+    power_watts: null
+    coverage_radius_km: null
+    status: active
+    source: S05
+    last_verified: '2026-07-01'
+    notes: UHF simplex
+  - uuid: e30f52ea-1003-48a4-b53e-47b32b2aaf18
+    channel_no: USX-0079
+    category: Simplex
+    subcategory: UHF Simplex
+    callsign: null
+    rx_freq_mhz: 433.8
+    tx_freq_mhz: 433.8
+    offset_mhz: 0.0
+    offset_dir: none
+    tone_hz: null
+    tone_type: none
+    dcs_code: null
+    bandwidth: narrow
+    mode: fm
+    country: MYS
+    state: ALL
+    latitude: null
+    longitude: null
+    altitude_m: null
+    power_watts: null
+    coverage_radius_km: null
+    status: active
+    source: S05/S07
+    last_verified: '2026-07-01'
+    notes: UHF APRS secondary freq / digital modes
+  - uuid: 37daee27-d50e-46f5-b210-a03eb0ef9f5c
+    channel_no: USX-0080
+    category: Simplex
+    subcategory: UHF Simplex
+    callsign: null
+    rx_freq_mhz: 438.0
+    tx_freq_mhz: 438.0
+    offset_mhz: 0.0
+    offset_dir: none
+    tone_hz: null
+    tone_type: none
+    dcs_code: null
+    bandwidth: narrow
+    mode: fm
+    country: MYS
+    state: ALL
+    latitude: null
+    longitude: null
+    altitude_m: null
+    power_watts: null
+    coverage_radius_km: null
+    status: active
+    source: S05
+    last_verified: '2026-07-01'
+    notes: Commonly used for digital links and misc
+  - uuid: a8004461-7bf1-440c-b06f-59ebc3bb5718
+    channel_no: USX-0081
+    category: Simplex
+    subcategory: UHF Simplex
+    callsign: null
+    rx_freq_mhz: 446.0
+    tx_freq_mhz: 446.0
+    offset_mhz: 0.0
+    offset_dir: none
+    tone_hz: null
+    tone_type: none
+    dcs_code: null
+    bandwidth: narrow
+    mode: fm
+    country: MYS
+    state: ALL
+    latitude: null
+    longitude: null
+    altitude_m: null
+    power_watts: null
+    coverage_radius_km: null
+    status: active
+    source: S05
+    last_verified: '2026-07-01'
+    notes: PMR446 — for reference only, not amateur
+  - uuid: 5702dbe1-b83b-4020-9302-dcfa212a35af
+    channel_no: USX-0082
+    category: Simplex
+    subcategory: UHF Simplex
+    callsign: null
+    rx_freq_mhz: 478.55
+    tx_freq_mhz: 478.55
+    offset_mhz: 0.0
+    offset_dir: none
+    tone_hz: 79.7
+    tone_type: ctcss
+    dcs_code: null
+    bandwidth: narrow
+    mode: fm
+    country: MYS
+    state: PRK
+    latitude: null
+    longitude: null
+    altitude_m: null
+    power_watts: null
+    coverage_radius_km: null
+    status: active
+    source: S99
+    last_verified: '2026-07-01'
+    notes: KBTS internal comms, 79.7 Hz CTCSS
+  04_Marine:
+  - uuid: 549f6ded-741a-4360-88fa-6aba70abadd1
+    channel_no: MAR-0083
+    category: Marine
+    subcategory: Distress/Safety
+    callsign: null
+    rx_freq_mhz: 156.8
+    tx_freq_mhz: 156.8
+    offset_mhz: 0.0
+    offset_dir: none
+    tone_hz: null
+    tone_type: none
+    dcs_code: null
+    bandwidth: narrow
+    mode: fm
+    country: INT
+    state: null
+    latitude: null
+    longitude: null
+    altitude_m: null
+    power_watts: 1
+    coverage_radius_km: null
+    status: active
+    source: S04
+    last_verified: '2026-07-01'
+    notes: 'Ch 16: International distress, safety, and calling channel. Mandatory
+      watch on all vessels.'
+  - uuid: daf999f6-9e4e-4f8c-848f-ef7a6ea8cbda
+    channel_no: MAR-0084
+    category: Marine
+    subcategory: Distress/Safety
+    callsign: null
+    rx_freq_mhz: 156.525
+    tx_freq_mhz: 156.525
+    offset_mhz: 0.0
+    offset_dir: none
+    tone_hz: null
+    tone_type: none
+    dcs_code: null
+    bandwidth: narrow
+    mode: fm
+    country: INT
+    state: null
+    latitude: null
+    longitude: null
+    altitude_m: null
+    power_watts: 1
+    coverage_radius_km: null
+    status: active
+    source: S04
+    last_verified: '2026-07-01'
+    notes: 'Ch 70: Digital distress alerting. RX only for monitoring.'
+  - uuid: d8d3880c-b9a2-4adb-814e-2bb4b843fd51
+    channel_no: MAR-0085
+    category: Marine
+    subcategory: Port Operations
+    callsign: null
+    rx_freq_mhz: 156.55
+    tx_freq_mhz: 156.55
+    offset_mhz: 0.0
+    offset_dir: none
+    tone_hz: null
+    tone_type: none
+    dcs_code: null
+    bandwidth: narrow
+    mode: fm
+    country: INT
+    state: null
+    latitude: null
+    longitude: null
+    altitude_m: null
+    power_watts: 1
+    coverage_radius_km: null
+    status: active
+    source: S04
+    last_verified: '2026-07-01'
+    notes: 'Ch 11: VTS communications'
+  - uuid: ddc8aa85-6afb-4e20-89c6-9cd779f51550
+    channel_no: MAR-0086
+    category: Marine
+    subcategory: Port Operations
+    callsign: null
+    rx_freq_mhz: 156.6
+    tx_freq_mhz: 156.6
+    offset_mhz: 0.0
+    offset_dir: none
+    tone_hz: null
+    tone_type: none
+    dcs_code: null
+    bandwidth: narrow
+    mode: fm
+    country: INT
+    state: null
+    latitude: null
+    longitude: null
+    altitude_m: null
+    power_watts: 1
+    coverage_radius_km: null
+    status: active
+    source: S04
+    last_verified: '2026-07-01'
+    notes: 'Ch 12: Port operations, pilot coordination'
+  - uuid: f63fb15e-a38e-475e-9897-b54e6b8de375
+    channel_no: MAR-0087
+    category: Marine
+    subcategory: Port Operations
+    callsign: null
+    rx_freq_mhz: 156.7
+    tx_freq_mhz: 156.7
+    offset_mhz: 0.0
+    offset_dir: none
+    tone_hz: null
+    tone_type: none
+    dcs_code: null
+    bandwidth: narrow
+    mode: fm
+    country: INT
+    state: null
+    latitude: null
+    longitude: null
+    altitude_m: null
+    power_watts: 1
+    coverage_radius_km: null
+    status: active
+    source: S04
+    last_verified: '2026-07-01'
+    notes: 'Ch 14: Port operations'
+  - uuid: 4de09f23-a52a-4977-a72d-14d25c17d751
+    channel_no: MAR-0088
+    category: Marine
+    subcategory: Port Operations
+    callsign: null
+    rx_freq_mhz: 156.9
+    tx_freq_mhz: 161.5
+    offset_mhz: 4.6
+    offset_dir: plus
+    tone_hz: null
+    tone_type: none
+    dcs_code: null
+    bandwidth: narrow
+    mode: fm
+    country: INT
+    state: null
+    latitude: null
+    longitude: null
+    altitude_m: null
+    power_watts: 25
+    coverage_radius_km: null
+    status: active
+    source: S04
+    last_verified: '2026-07-01'
+    notes: 'Ch 18: Port operations duplex'
+  - uuid: eab03756-6990-4761-86de-eb68d617fd7f
+    channel_no: MAR-0089
+    category: Marine
+    subcategory: Port Operations
+    callsign: null
+    rx_freq_mhz: 156.95
+    tx_freq_mhz: 161.55
+    offset_mhz: 4.6
+    offset_dir: plus
+    tone_hz: null
+    tone_type: none
+    dcs_code: null
+    bandwidth: narrow
+    mode: fm
+    country: INT
+    state: null
+    latitude: null
+    longitude: null
+    altitude_m: null
+    power_watts: 25
+    coverage_radius_km: null
+    status: active
+    source: S04
+    last_verified: '2026-07-01'
+    notes: 'Ch 19: Port operations duplex'
+  - uuid: bfd9aa9c-2561-4e43-a843-d7bd4922b9c2
+    channel_no: MAR-0090
+    category: Marine
+    subcategory: Port Operations
+    callsign: null
+    rx_freq_mhz: 157.0
+    tx_freq_mhz: 161.6
+    offset_mhz: 4.6
+    offset_dir: plus
+    tone_hz: null
+    tone_type: none
+    dcs_code: null
+    bandwidth: narrow
+    mode: fm
+    country: INT
+    state: null
+    latitude: null
+    longitude: null
+    altitude_m: null
+    power_watts: 25
+    coverage_radius_km: null
+    status: active
+    source: S04
+    last_verified: '2026-07-01'
+    notes: 'Ch 20: Port operations duplex'
+  - uuid: f157aa38-d09d-4db3-82eb-434873046b91
+    channel_no: MAR-0091
+    category: Marine
+    subcategory: Port Operations
+    callsign: null
+    rx_freq_mhz: 156.675
+    tx_freq_mhz: 156.675
+    offset_mhz: 0.0
+    offset_dir: none
+    tone_hz: null
+    tone_type: none
+    dcs_code: null
+    bandwidth: narrow
+    mode: fm
+    country: INT
+    state: null
+    latitude: null
+    longitude: null
+    altitude_m: null
+    power_watts: 1
+    coverage_radius_km: null
+    status: active
+    source: S04
+    last_verified: '2026-07-01'
+    notes: 'Ch 73: Port operations simplex'
+  - uuid: 9a661504-88d7-41e1-846f-45f55f38e1e9
+    channel_no: MAR-0092
+    category: Marine
+    subcategory: Port Operations
+    callsign: null
+    rx_freq_mhz: 156.725
+    tx_freq_mhz: 156.725
+    offset_mhz: 0.0
+    offset_dir: none
+    tone_hz: null
+    tone_type: none
+    dcs_code: null
+    bandwidth: narrow
+    mode: fm
+    country: INT
+    state: null
+    latitude: null
+    longitude: null
+    altitude_m: null
+    power_watts: 1
+    coverage_radius_km: null
+    status: active
+    source: S04
+    last_verified: '2026-07-01'
+    notes: 'Ch 74: Port operations simplex'
+  - uuid: 97b34db3-95ee-45ee-986b-7c51f0c9bc0e
+    channel_no: MAR-0093
+    category: Marine
+    subcategory: Port Operations
+    callsign: null
+    rx_freq_mhz: 156.875
+    tx_freq_mhz: 156.875
+    offset_mhz: 0.0
+    offset_dir: none
+    tone_hz: null
+    tone_type: none
+    dcs_code: null
+    bandwidth: narrow
+    mode: fm
+    country: INT
+    state: null
+    latitude: null
+    longitude: null
+    altitude_m: null
+    power_watts: 1
+    coverage_radius_km: null
+    status: active
+    source: S04
+    last_verified: '2026-07-01'
+    notes: 'Ch 77: Ship-to-ship port ops'
+  - uuid: cdabbe28-0110-485a-927e-a1ae80102ded
+    channel_no: MAR-0094
+    category: Marine
+    subcategory: Intership
+    callsign: null
+    rx_freq_mhz: 156.3
+    tx_freq_mhz: 156.3
+    offset_mhz: 0.0
+    offset_dir: none
+    tone_hz: null
+    tone_type: none
+    dcs_code: null
+    bandwidth: narrow
+    mode: fm
+    country: INT
+    state: null
+    latitude: null
+    longitude: null
+    altitude_m: null
+    power_watts: 1
+    coverage_radius_km: null
+    status: active
+    source: S04
+    last_verified: '2026-07-01'
+    notes: 'Ch 6: Intership safety communications'
+  - uuid: 3a8e8d88-1ce0-4558-9009-09fbc8570d17
+    channel_no: MAR-0095
+    category: Marine
+    subcategory: Intership
+    callsign: null
+    rx_freq_mhz: 156.4
+    tx_freq_mhz: 156.4
+    offset_mhz: 0.0
+    offset_dir: none
+    tone_hz: null
+    tone_type: none
+    dcs_code: null
+    bandwidth: narrow
+    mode: fm
+    country: INT
+    state: null
+    latitude: null
+    longitude: null
+    altitude_m: null
+    power_watts: 1
+    coverage_radius_km: null
+    status: active
+    source: S04
+    last_verified: '2026-07-01'
+    notes: 'Ch 8: Intership general'
+  - uuid: 92f98600-603e-4d12-9082-8837361fea87
+    channel_no: MAR-0096
+    category: Marine
+    subcategory: Intership
+    callsign: null
+    rx_freq_mhz: 156.45
+    tx_freq_mhz: 156.45
+    offset_mhz: 0.0
+    offset_dir: none
+    tone_hz: null
+    tone_type: none
+    dcs_code: null
+    bandwidth: narrow
+    mode: fm
+    country: INT
+    state: null
+    latitude: null
+    longitude: null
+    altitude_m: null
+    power_watts: 1
+    coverage_radius_km: null
+    status: active
+    source: S04
+    last_verified: '2026-07-01'
+    notes: 'Ch 9: Commercial calling'
+  - uuid: 505c85c1-75e7-4a1f-9ee2-a9da852a60ce
+    channel_no: MAR-0097
+    category: Marine
+    subcategory: Intership
+    callsign: null
+    rx_freq_mhz: 156.5
+    tx_freq_mhz: 156.5
+    offset_mhz: 0.0
+    offset_dir: none
+    tone_hz: null
+    tone_type: none
+    dcs_code: null
+    bandwidth: narrow
+    mode: fm
+    country: INT
+    state: null
+    latitude: null
+    longitude: null
+    altitude_m: null
+    power_watts: 1
+    coverage_radius_km: null
+    status: active
+    source: S04
+    last_verified: '2026-07-01'
+    notes: 'Ch 10: Intership and port'
+  - uuid: 1073b1d8-921b-4ac2-a6d0-89b0f81f81ca
+    channel_no: MAR-0098
+    category: Marine
+    subcategory: Intership
+    callsign: null
+    rx_freq_mhz: 156.65
+    tx_freq_mhz: 156.65
+    offset_mhz: 0.0
+    offset_dir: none
+    tone_hz: null
+    tone_type: none
+    dcs_code: null
+    bandwidth: narrow
+    mode: fm
+    country: INT
+    state: null
+    latitude: null
+    longitude: null
+    altitude_m: null
+    power_watts: 1
+    coverage_radius_km: null
+    status: active
+    source: S04
+    last_verified: '2026-07-01'
+    notes: 'Ch 13: Bridge-to-bridge, navigational safety. Required on all vessels.'
+  - uuid: 2a4963c3-644c-461b-9b4e-418ebe080870
+    channel_no: MAR-0099
+    category: Marine
+    subcategory: Intership
+    callsign: null
+    rx_freq_mhz: 156.375
+    tx_freq_mhz: 156.375
+    offset_mhz: 0.0
+    offset_dir: none
+    tone_hz: null
+    tone_type: none
+    dcs_code: null
+    bandwidth: narrow
+    mode: fm
+    country: INT
+    state: null
+    latitude: null
+    longitude: null
+    altitude_m: null
+    power_watts: 1
+    coverage_radius_km: null
+    status: active
+    source: S04
+    last_verified: '2026-07-01'
+    notes: 'Ch 67: Ship-to-ship safety'
+  - uuid: afed4dcd-84b3-402b-99f4-1ba0db436830
+    channel_no: MAR-0100
+    category: Marine
+    subcategory: Intership
+    callsign: null
+    rx_freq_mhz: 156.625
+    tx_freq_mhz: 156.625
+    offset_mhz: 0.0
+    offset_dir: none
+    tone_hz: null
+    tone_type: none
+    dcs_code: null
+    bandwidth: narrow
+    mode: fm
+    country: INT
+    state: null
+    latitude: null
+    longitude: null
+    altitude_m: null
+    power_watts: 1
+    coverage_radius_km: null
+    status: active
+    source: S04
+    last_verified: '2026-07-01'
+    notes: 'Ch 72: Non-commercial intership'
+  - uuid: 47850f55-3fa5-46d6-9bd0-0404b8bc51d2
+    channel_no: MAR-0101
+    category: Marine
+    subcategory: Public Correspondence
+    callsign: null
+    rx_freq_mhz: 156.0
+    tx_freq_mhz: 160.6
+    offset_mhz: 4.6
+    offset_dir: plus
+    tone_hz: null
+    tone_type: none
+    dcs_code: null
+    bandwidth: narrow
+    mode: fm
+    country: INT
+    state: null
+    latitude: null
+    longitude: null
+    altitude_m: null
+    power_watts: 25
+    coverage_radius_km: null
+    status: active
+    source: S04
+    last_verified: '2026-07-01'
+    notes: 'Ch 0: Public correspondence'
+  - uuid: 266ad656-f944-4fbd-994e-8391df1a1e6a
+    channel_no: MAR-0102
+    category: Marine
+    subcategory: Public Correspondence
+    callsign: null
+    rx_freq_mhz: 156.05
+    tx_freq_mhz: 160.65
+    offset_mhz: 4.6
+    offset_dir: plus
+    tone_hz: null
+    tone_type: none
+    dcs_code: null
+    bandwidth: narrow
+    mode: fm
+    country: INT
+    state: null
+    latitude: null
+    longitude: null
+    altitude_m: null
+    power_watts: 25
+    coverage_radius_km: null
+    status: active
+    source: S04
+    last_verified: '2026-07-01'
+    notes: 'Ch 1: Public correspondence'
+  - uuid: 4f95e882-cd6c-42b8-a0d8-32c968c34286
+    channel_no: MAR-0103
+    category: Marine
+    subcategory: Public Correspondence
+    callsign: null
+    rx_freq_mhz: 156.2
+    tx_freq_mhz: 160.8
+    offset_mhz: 4.6
+    offset_dir: plus
+    tone_hz: null
+    tone_type: none
+    dcs_code: null
+    bandwidth: narrow
+    mode: fm
+    country: INT
+    state: null
+    latitude: null
+    longitude: null
+    altitude_m: null
+    power_watts: 25
+    coverage_radius_km: null
+    status: active
+    source: S04
+    last_verified: '2026-07-01'
+    notes: 'Ch 4: Public correspondence'
+  - uuid: 66ea7536-d443-409d-b84a-75b47c112556
+    channel_no: MAR-0104
+    category: Marine
+    subcategory: Public Correspondence
+    callsign: null
+    rx_freq_mhz: 156.25
+    tx_freq_mhz: 160.85
+    offset_mhz: 4.6
+    offset_dir: plus
+    tone_hz: null
+    tone_type: none
+    dcs_code: null
+    bandwidth: narrow
+    mode: fm
+    country: INT
+    state: null
+    latitude: null
+    longitude: null
+    altitude_m: null
+    power_watts: 25
+    coverage_radius_km: null
+    status: active
+    source: S04
+    last_verified: '2026-07-01'
+    notes: 'Ch 5: Public correspondence'
+  - uuid: 72731cd9-35d2-4bea-b5c3-bd8086176cea
+    channel_no: MAR-0105
+    category: Marine
+    subcategory: Public Correspondence
+    callsign: null
+    rx_freq_mhz: 156.35
+    tx_freq_mhz: 160.95
+    offset_mhz: 4.6
+    offset_dir: plus
+    tone_hz: null
+    tone_type: none
+    dcs_code: null
+    bandwidth: narrow
+    mode: fm
+    country: INT
+    state: null
+    latitude: null
+    longitude: null
+    altitude_m: null
+    power_watts: 25
+    coverage_radius_km: null
+    status: active
+    source: S04
+    last_verified: '2026-07-01'
+    notes: 'Ch 7: Public correspondence'
+  - uuid: bd5bee22-b943-4c3c-a1a1-5a6a806ca9dd
+    channel_no: MAR-0106
+    category: Marine
+    subcategory: Public Correspondence
+    callsign: null
+    rx_freq_mhz: 157.05
+    tx_freq_mhz: 161.65
+    offset_mhz: 4.6
+    offset_dir: plus
+    tone_hz: null
+    tone_type: none
+    dcs_code: null
+    bandwidth: narrow
+    mode: fm
+    country: INT
+    state: null
+    latitude: null
+    longitude: null
+    altitude_m: null
+    power_watts: 25
+    coverage_radius_km: null
+    status: active
+    source: S04
+    last_verified: '2026-07-01'
+    notes: 'Ch 21: Public correspondence / coast guard'
+  - uuid: 53f24f1f-2e3d-40c5-95c7-ad7d8bbed928
+    channel_no: MAR-0107
+    category: Marine
+    subcategory: Public Correspondence
+    callsign: null
+    rx_freq_mhz: 157.1
+    tx_freq_mhz: 161.7
+    offset_mhz: 4.6
+    offset_dir: plus
+    tone_hz: null
+    tone_type: none
+    dcs_code: null
+    bandwidth: narrow
+    mode: fm
+    country: INT
+    state: null
+    latitude: null
+    longitude: null
+    altitude_m: null
+    power_watts: 25
+    coverage_radius_km: null
+    status: active
+    source: S04
+    last_verified: '2026-07-01'
+    notes: 'Ch 22: Coast guard / public correspondence'
+  - uuid: ed93b0fd-2f65-4fe2-8c66-6745a8ec6450
+    channel_no: MAR-0108
+    category: Marine
+    subcategory: Public Correspondence
+    callsign: null
+    rx_freq_mhz: 157.15
+    tx_freq_mhz: 161.75
+    offset_mhz: 4.6
+    offset_dir: plus
+    tone_hz: null
+    tone_type: none
+    dcs_code: null
+    bandwidth: narrow
+    mode: fm
+    country: INT
+    state: null
+    latitude: null
+    longitude: null
+    altitude_m: null
+    power_watts: 25
+    coverage_radius_km: null
+    status: active
+    source: S04
+    last_verified: '2026-07-01'
+    notes: 'Ch 23: Public correspondence (ITU Region 3)'
+  - uuid: d25a3465-179f-4196-bc2b-336bfb637cda
+    channel_no: MAR-0109
+    category: Marine
+    subcategory: Public Correspondence
+    callsign: null
+    rx_freq_mhz: 157.2
+    tx_freq_mhz: 161.8
+    offset_mhz: 4.6
+    offset_dir: plus
+    tone_hz: null
+    tone_type: none
+    dcs_code: null
+    bandwidth: narrow
+    mode: fm
+    country: INT
+    state: null
+    latitude: null
+    longitude: null
+    altitude_m: null
+    power_watts: 25
+    coverage_radius_km: null
+    status: active
+    source: S04
+    last_verified: '2026-07-01'
+    notes: 'Ch 24: Public correspondence'
+  - uuid: df30a271-ecd0-4db7-b8c8-db79a4788edb
+    channel_no: MAR-0110
+    category: Marine
+    subcategory: Public Correspondence
+    callsign: null
+    rx_freq_mhz: 157.25
+    tx_freq_mhz: 161.85
+    offset_mhz: 4.6
+    offset_dir: plus
+    tone_hz: null
+    tone_type: none
+    dcs_code: null
+    bandwidth: narrow
+    mode: fm
+    country: INT
+    state: null
+    latitude: null
+    longitude: null
+    altitude_m: null
+    power_watts: 25
+    coverage_radius_km: null
+    status: active
+    source: S04
+    last_verified: '2026-07-01'
+    notes: 'Ch 25: Public correspondence'
+  - uuid: d9ce402e-425f-4b46-87d4-e907af913cfd
+    channel_no: MAR-0111
+    category: Marine
+    subcategory: Public Correspondence
+    callsign: null
+    rx_freq_mhz: 157.3
+    tx_freq_mhz: 161.9
+    offset_mhz: 4.6
+    offset_dir: plus
+    tone_hz: null
+    tone_type: none
+    dcs_code: null
+    bandwidth: narrow
+    mode: fm
+    country: INT
+    state: null
+    latitude: null
+    longitude: null
+    altitude_m: null
+    power_watts: 25
+    coverage_radius_km: null
+    status: active
+    source: S04
+    last_verified: '2026-07-01'
+    notes: 'Ch 26: Public correspondence'
+  - uuid: c0446cc3-6e55-451e-a7b0-d07cae994109
+    channel_no: MAR-0112
+    category: Marine
+    subcategory: Public Correspondence
+    callsign: null
+    rx_freq_mhz: 157.35
+    tx_freq_mhz: 161.95
+    offset_mhz: 4.6
+    offset_dir: plus
+    tone_hz: null
+    tone_type: none
+    dcs_code: null
+    bandwidth: narrow
+    mode: fm
+    country: INT
+    state: null
+    latitude: null
+    longitude: null
+    altitude_m: null
+    power_watts: 25
+    coverage_radius_km: null
+    status: active
+    source: S04
+    last_verified: '2026-07-01'
+    notes: 'Ch 27: Public correspondence'
+  - uuid: 6eb5769a-8d8c-459f-98b6-247c9a4b3854
+    channel_no: MAR-0113
+    category: Marine
+    subcategory: Public Correspondence
+    callsign: null
+    rx_freq_mhz: 157.4
+    tx_freq_mhz: 162.0
+    offset_mhz: 4.6
+    offset_dir: plus
+    tone_hz: null
+    tone_type: none
+    dcs_code: null
+    bandwidth: narrow
+    mode: fm
+    country: INT
+    state: null
+    latitude: null
+    longitude: null
+    altitude_m: null
+    power_watts: 25
+    coverage_radius_km: null
+    status: active
+    source: S04
+    last_verified: '2026-07-01'
+    notes: 'Ch 28: Public correspondence'
+  - uuid: ea4467b9-5bda-46ef-bd9f-93d58a70995a
+    channel_no: MAR-0114
+    category: Marine
+    subcategory: Public Correspondence
+    callsign: null
+    rx_freq_mhz: 156.025
+    tx_freq_mhz: 160.625
+    offset_mhz: 4.6
+    offset_dir: plus
+    tone_hz: null
+    tone_type: none
+    dcs_code: null
+    bandwidth: narrow
+    mode: fm
+    country: INT
+    state: null
+    latitude: null
+    longitude: null
+    altitude_m: null
+    power_watts: 25
+    coverage_radius_km: null
+    status: active
+    source: S04
+    last_verified: '2026-07-01'
+    notes: 'Ch 60: Public correspondence'
+  - uuid: 2952f399-689a-45c0-96e7-e3feef7894d3
+    channel_no: MAR-0115
+    category: Marine
+    subcategory: Public Correspondence
+    callsign: null
+    rx_freq_mhz: 156.075
+    tx_freq_mhz: 160.675
+    offset_mhz: 4.6
+    offset_dir: plus
+    tone_hz: null
+    tone_type: none
+    dcs_code: null
+    bandwidth: narrow
+    mode: fm
+    country: INT
+    state: null
+    latitude: null
+    longitude: null
+    altitude_m: null
+    power_watts: 25
+    coverage_radius_km: null
+    status: active
+    source: S04
+    last_verified: '2026-07-01'
+    notes: 'Ch 61: Public correspondence'
+  - uuid: 353caccc-c5ac-4ff2-8db5-418ad4c01ece
+    channel_no: MAR-0116
+    category: Marine
+    subcategory: Public Correspondence
+    callsign: null
+    rx_freq_mhz: 156.125
+    tx_freq_mhz: 160.725
+    offset_mhz: 4.6
+    offset_dir: plus
+    tone_hz: null
+    tone_type: none
+    dcs_code: null
+    bandwidth: narrow
+    mode: fm
+    country: INT
+    state: null
+    latitude: null
+    longitude: null
+    altitude_m: null
+    power_watts: 25
+    coverage_radius_km: null
+    status: active
+    source: S04
+    last_verified: '2026-07-01'
+    notes: 'Ch 62: Public correspondence'
+  - uuid: 52ac630a-407f-4f7e-b587-ee693a794ce4
+    channel_no: MAR-0117
+    category: Marine
+    subcategory: Public Correspondence
+    callsign: null
+    rx_freq_mhz: 156.175
+    tx_freq_mhz: 160.775
+    offset_mhz: 4.6
+    offset_dir: plus
+    tone_hz: null
+    tone_type: none
+    dcs_code: null
+    bandwidth: narrow
+    mode: fm
+    country: INT
+    state: null
+    latitude: null
+    longitude: null
+    altitude_m: null
+    power_watts: 25
+    coverage_radius_km: null
+    status: active
+    source: S04
+    last_verified: '2026-07-01'
+    notes: 'Ch 63: Public correspondence'
+  - uuid: 78ef81c9-2093-43ae-b2a5-5e21835f61e5
+    channel_no: MAR-0118
+    category: Marine
+    subcategory: Public Correspondence
+    callsign: null
+    rx_freq_mhz: 156.225
+    tx_freq_mhz: 160.825
+    offset_mhz: 4.6
+    offset_dir: plus
+    tone_hz: null
+    tone_type: none
+    dcs_code: null
+    bandwidth: narrow
+    mode: fm
+    country: INT
+    state: null
+    latitude: null
+    longitude: null
+    altitude_m: null
+    power_watts: 25
+    coverage_radius_km: null
+    status: active
+    source: S04
+    last_verified: '2026-07-01'
+    notes: 'Ch 64: Public correspondence'
+  - uuid: 0af6ddc4-b925-4548-8953-48ee41bf35d5
+    channel_no: MAR-0119
+    category: Marine
+    subcategory: Public Correspondence
+    callsign: null
+    rx_freq_mhz: 156.275
+    tx_freq_mhz: 160.875
+    offset_mhz: 4.6
+    offset_dir: plus
+    tone_hz: null
+    tone_type: none
+    dcs_code: null
+    bandwidth: narrow
+    mode: fm
+    country: INT
+    state: null
+    latitude: null
+    longitude: null
+    altitude_m: null
+    power_watts: 25
+    coverage_radius_km: null
+    status: active
+    source: S04
+    last_verified: '2026-07-01'
+    notes: 'Ch 65: Public correspondence'
+  - uuid: 6060a7f8-cb3a-4506-b3c5-63f5fb5c8f0b
+    channel_no: MAR-0120
+    category: Marine
+    subcategory: Public Correspondence
+    callsign: null
+    rx_freq_mhz: 157.225
+    tx_freq_mhz: 161.825
+    offset_mhz: 4.6
+    offset_dir: plus
+    tone_hz: null
+    tone_type: none
+    dcs_code: null
+    bandwidth: narrow
+    mode: fm
+    country: INT
+    state: null
+    latitude: null
+    longitude: null
+    altitude_m: null
+    power_watts: 25
+    coverage_radius_km: null
+    status: active
+    source: S04
+    last_verified: '2026-07-01'
+    notes: 'Ch 84: Public correspondence'
+  - uuid: 29ba1cff-a52a-47f5-a5ff-2173844e4ebc
+    channel_no: MAR-0121
+    category: Marine
+    subcategory: Public Correspondence
+    callsign: null
+    rx_freq_mhz: 157.275
+    tx_freq_mhz: 161.875
+    offset_mhz: 4.6
+    offset_dir: plus
+    tone_hz: null
+    tone_type: none
+    dcs_code: null
+    bandwidth: narrow
+    mode: fm
+    country: INT
+    state: null
+    latitude: null
+    longitude: null
+    altitude_m: null
+    power_watts: 25
+    coverage_radius_km: null
+    status: active
+    source: S04
+    last_verified: '2026-07-01'
+    notes: 'Ch 85: Public correspondence'
+  - uuid: 3ca746bb-8f6d-4631-984b-4ece468bd6ee
+    channel_no: MAR-0122
+    category: Marine
+    subcategory: Public Correspondence
+    callsign: null
+    rx_freq_mhz: 157.325
+    tx_freq_mhz: 161.925
+    offset_mhz: 4.6
+    offset_dir: plus
+    tone_hz: null
+    tone_type: none
+    dcs_code: null
+    bandwidth: narrow
+    mode: fm
+    country: INT
+    state: null
+    latitude: null
+    longitude: null
+    altitude_m: null
+    power_watts: 25
+    coverage_radius_km: null
+    status: active
+    source: S04
+    last_verified: '2026-07-01'
+    notes: 'Ch 86: Public correspondence'
+  - uuid: 42226570-55f0-453f-a634-251446359be9
+    channel_no: MAR-0123
+    category: Marine
+    subcategory: Public Correspondence
+    callsign: null
+    rx_freq_mhz: 157.375
+    tx_freq_mhz: 157.375
+    offset_mhz: 0.0
+    offset_dir: none
+    tone_hz: null
+    tone_type: none
+    dcs_code: null
+    bandwidth: narrow
+    mode: fm
+    country: INT
+    state: null
+    latitude: null
+    longitude: null
+    altitude_m: null
+    power_watts: 1
+    coverage_radius_km: null
+    status: active
+    source: S04
+    last_verified: '2026-07-01'
+    notes: 'Ch 87: Public correspondence (simplex)'
+  - uuid: 0800302b-7032-4760-99ef-7e397268da84
+    channel_no: MAR-0124
+    category: Marine
+    subcategory: Public Correspondence
+    callsign: null
+    rx_freq_mhz: 157.425
+    tx_freq_mhz: 157.425
+    offset_mhz: 0.0
+    offset_dir: none
+    tone_hz: null
+    tone_type: none
+    dcs_code: null
+    bandwidth: narrow
+    mode: fm
+    country: INT
+    state: null
+    latitude: null
+    longitude: null
+    altitude_m: null
+    power_watts: 1
+    coverage_radius_km: null
+    status: active
+    source: S04
+    last_verified: '2026-07-01'
+    notes: 'Ch 88: Public correspondence (ITU Region 3)'
+  - uuid: 994500fe-0a71-40fb-b3dd-c602bda6c817
+    channel_no: MAR-0125
+    category: Marine
+    subcategory: Non-Commercial
+    callsign: null
+    rx_freq_mhz: 156.425
+    tx_freq_mhz: 156.425
+    offset_mhz: 0.0
+    offset_dir: none
+    tone_hz: null
+    tone_type: none
+    dcs_code: null
+    bandwidth: narrow
+    mode: fm
+    country: INT
+    state: null
+    latitude: null
+    longitude: null
+    altitude_m: null
+    power_watts: 1
+    coverage_radius_km: null
+    status: active
+    source: S04
+    last_verified: '2026-07-01'
+    notes: 'Ch 68: Non-commercial (marina)'
+  - uuid: 2efb29f9-d10e-4a1f-89c8-533517e53c7d
+    channel_no: MAR-0126
+    category: Marine
+    subcategory: Non-Commercial
+    callsign: null
+    rx_freq_mhz: 156.475
+    tx_freq_mhz: 156.475
+    offset_mhz: 0.0
+    offset_dir: none
+    tone_hz: null
+    tone_type: none
+    dcs_code: null
+    bandwidth: narrow
+    mode: fm
+    country: INT
+    state: null
+    latitude: null
+    longitude: null
+    altitude_m: null
+    power_watts: 1
+    coverage_radius_km: null
+    status: active
+    source: S04
+    last_verified: '2026-07-01'
+    notes: 'Ch 69: Non-commercial'
+  - uuid: 9bf7fff1-89ba-410c-bdd2-97fc6eeafc8e
+    channel_no: MAR-0127
+    category: Marine
+    subcategory: Non-Commercial
+    callsign: null
+    rx_freq_mhz: 156.575
+    tx_freq_mhz: 156.575
+    offset_mhz: 0.0
+    offset_dir: none
+    tone_hz: null
+    tone_type: none
+    dcs_code: null
+    bandwidth: narrow
+    mode: fm
+    country: INT
+    state: null
+    latitude: null
+    longitude: null
+    altitude_m: null
+    power_watts: 1
+    coverage_radius_km: null
+    status: active
+    source: S04
+    last_verified: '2026-07-01'
+    notes: 'Ch 71: Non-commercial'
+  - uuid: a33e2900-1930-485e-9bd8-baa83094b407
+    channel_no: MAR-0128
+    category: Marine
+    subcategory: Non-Commercial
+    callsign: null
+    rx_freq_mhz: 156.925
+    tx_freq_mhz: 156.925
+    offset_mhz: 0.0
+    offset_dir: none
+    tone_hz: null
+    tone_type: none
+    dcs_code: null
+    bandwidth: narrow
+    mode: fm
+    country: INT
+    state: null
+    latitude: null
+    longitude: null
+    altitude_m: null
+    power_watts: 1
+    coverage_radius_km: null
+    status: active
+    source: S04
+    last_verified: '2026-07-01'
+    notes: 'Ch 78: Non-commercial (duplex w/ 161.525)'
+  - uuid: 42abd2a2-cc53-41f3-a411-cf46509aa1d2
+    channel_no: MAR-0129
+    category: Marine
+    subcategory: Commercial
+    callsign: null
+    rx_freq_mhz: 156.975
+    tx_freq_mhz: 161.575
+    offset_mhz: 4.6
+    offset_dir: plus
+    tone_hz: null
+    tone_type: none
+    dcs_code: null
+    bandwidth: narrow
+    mode: fm
+    country: INT
+    state: null
+    latitude: null
+    longitude: null
+    altitude_m: null
+    power_watts: 25
+    coverage_radius_km: null
+    status: active
+    source: S04
+    last_verified: '2026-07-01'
+    notes: 'Ch 79: Commercial'
+  - uuid: 50ddb3ae-783d-4353-83e2-eb2fb88c37fb
+    channel_no: MAR-0130
+    category: Marine
+    subcategory: Commercial
+    callsign: null
+    rx_freq_mhz: 157.025
+    tx_freq_mhz: 161.625
+    offset_mhz: 4.6
+    offset_dir: plus
+    tone_hz: null
+    tone_type: none
+    dcs_code: null
+    bandwidth: narrow
+    mode: fm
+    country: INT
+    state: null
+    latitude: null
+    longitude: null
+    altitude_m: null
+    power_watts: 25
+    coverage_radius_km: null
+    status: active
+    source: S04
+    last_verified: '2026-07-01'
+    notes: 'Ch 80: Commercial'
+  - uuid: 8e309521-c554-4097-b7c5-5d38e9166cdd
+    channel_no: MAR-0131
+    category: Marine
+    subcategory: Government
+    callsign: null
+    rx_freq_mhz: 157.075
+    tx_freq_mhz: 161.675
+    offset_mhz: 4.6
+    offset_dir: plus
+    tone_hz: null
+    tone_type: none
+    dcs_code: null
+    bandwidth: narrow
+    mode: fm
+    country: INT
+    state: null
+    latitude: null
+    longitude: null
+    altitude_m: null
+    power_watts: 25
+    coverage_radius_km: null
+    status: active
+    source: S04
+    last_verified: '2026-07-01'
+    notes: 'Ch 81: Government'
+  - uuid: 73bc6cf7-3750-48ee-bbe3-679f75ff9f09
+    channel_no: MAR-0132
+    category: Marine
+    subcategory: Government
+    callsign: null
+    rx_freq_mhz: 157.125
+    tx_freq_mhz: 161.725
+    offset_mhz: 4.6
+    offset_dir: plus
+    tone_hz: null
+    tone_type: none
+    dcs_code: null
+    bandwidth: narrow
+    mode: fm
+    country: INT
+    state: null
+    latitude: null
+    longitude: null
+    altitude_m: null
+    power_watts: 25
+    coverage_radius_km: null
+    status: active
+    source: S04
+    last_verified: '2026-07-01'
+    notes: 'Ch 82: Government'
+  - uuid: b9ef43cb-8b0e-4b54-a6fe-e00312702e24
+    channel_no: MAR-0133
+    category: Marine
+    subcategory: Government
+    callsign: null
+    rx_freq_mhz: 157.175
+    tx_freq_mhz: 161.775
+    offset_mhz: 4.6
+    offset_dir: plus
+    tone_hz: null
+    tone_type: none
+    dcs_code: null
+    bandwidth: narrow
+    mode: fm
+    country: INT
+    state: null
+    latitude: null
+    longitude: null
+    altitude_m: null
+    power_watts: 25
+    coverage_radius_km: null
+    status: active
+    source: S04
+    last_verified: '2026-07-01'
+    notes: 'Ch 83: Government'
+  - uuid: c2c624ff-18c9-48f4-b0e6-b2e95f3c7a96
+    channel_no: MAR-0134
+    category: Marine
+    subcategory: Ship Internal
+    callsign: null
+    rx_freq_mhz: 156.75
+    tx_freq_mhz: 156.75
+    offset_mhz: 0.0
+    offset_dir: none
+    tone_hz: null
+    tone_type: none
+    dcs_code: null
+    bandwidth: narrow
+    mode: fm
+    country: INT
+    state: null
+    latitude: null
+    longitude: null
+    altitude_m: null
+    power_watts: 1
+    coverage_radius_km: null
+    status: active
+    source: S04
+    last_verified: '2026-07-01'
+    notes: 'Ch 15: Low power shipboard communications'
+  - uuid: 81f8b79b-faad-43cd-afa9-720ddcbe2c2a
+    channel_no: MAR-0135
+    category: Marine
+    subcategory: Ship Internal
+    callsign: null
+    rx_freq_mhz: 156.85
+    tx_freq_mhz: 156.85
+    offset_mhz: 0.0
+    offset_dir: none
+    tone_hz: null
+    tone_type: none
+    dcs_code: null
+    bandwidth: narrow
+    mode: fm
+    country: INT
+    state: null
+    latitude: null
+    longitude: null
+    altitude_m: null
+    power_watts: 1
+    coverage_radius_km: null
+    status: active
+    source: S04
+    last_verified: '2026-07-01'
+    notes: 'Ch 17: Low power shipboard communications'
+  - uuid: 79c1ce65-3d67-4ad9-9160-3cdc7cda0958
+    channel_no: MAR-0136
+    category: Marine
+    subcategory: AIS
+    callsign: null
+    rx_freq_mhz: 161.975
+    tx_freq_mhz: 161.975
+    offset_mhz: 0.0
+    offset_dir: none
+    tone_hz: null
+    tone_type: none
+    dcs_code: null
+    bandwidth: narrow
+    mode: fm
+    country: INT
+    state: null
+    latitude: null
+    longitude: null
+    altitude_m: null
+    power_watts: 1
+    coverage_radius_km: null
+    status: active
+    source: S04
+    last_verified: '2026-07-01'
+    notes: 'Ch 87: AIS channel 1. RX only for monitoring.'
+  - uuid: 207866d9-24e9-4fb3-843d-4e5e46bae4c3
+    channel_no: MAR-0137
+    category: Marine
+    subcategory: AIS
+    callsign: null
+    rx_freq_mhz: 162.025
+    tx_freq_mhz: 162.025
+    offset_mhz: 0.0
+    offset_dir: none
+    tone_hz: null
+    tone_type: none
+    dcs_code: null
+    bandwidth: narrow
+    mode: fm
+    country: INT
+    state: null
+    latitude: null
+    longitude: null
+    altitude_m: null
+    power_watts: 1
+    coverage_radius_km: null
+    status: active
+    source: S04
+    last_verified: '2026-07-01'
+    notes: 'Ch 88: AIS channel 2. RX only for monitoring.'
+  05_Aviation:
+  - uuid: 8ef66ff6-3a67-48de-bfeb-6638c785a829
+    channel_no: AVN-0138
+    category: Aviation
+    subcategory: Emergency
+    callsign: null
+    rx_freq_mhz: 121.5
+    tx_freq_mhz: 121.5
+    offset_mhz: 0.0
+    offset_dir: none
+    tone_hz: null
+    tone_type: none
+    dcs_code: null
+    bandwidth: narrow
+    mode: am
+    country: MYS
+    state: null
+    latitude: null
+    longitude: null
+    altitude_m: null
+    power_watts: null
+    coverage_radius_km: null
+    status: active
+    source: S08/S03
+    last_verified: '2026-07-01'
+    notes: RX ONLY — International aeronautical emergency frequency. RX ONLY.
+  - uuid: f63525ab-3794-4c4a-834a-ad4f8f7f0b27
+    channel_no: AVN-0139
+    category: Aviation
+    subcategory: Emergency
+    callsign: null
+    rx_freq_mhz: 243.0
+    tx_freq_mhz: 243.0
+    offset_mhz: 0.0
+    offset_dir: none
+    tone_hz: null
+    tone_type: none
+    dcs_code: null
+    bandwidth: narrow
+    mode: am
+    country: MYS
+    state: null
+    latitude: null
+    longitude: null
+    altitude_m: null
+    power_watts: null
+    coverage_radius_km: null
+    status: active
+    source: S08
+    last_verified: '2026-07-01'
+    notes: RX ONLY — Military emergency UHF. RX ONLY.
+  - uuid: ca90705c-34de-4fe1-b3a4-ec664618f10b
+    channel_no: AVN-0140
+    category: Aviation
+    subcategory: Emergency
+    callsign: null
+    rx_freq_mhz: 123.1
+    tx_freq_mhz: 123.1
+    offset_mhz: 0.0
+    offset_dir: none
+    tone_hz: null
+    tone_type: none
+    dcs_code: null
+    bandwidth: narrow
+    mode: am
+    country: MYS
+    state: null
+    latitude: null
+    longitude: null
+    altitude_m: null
+    power_watts: null
+    coverage_radius_km: null
+    status: active
+    source: S08
+    last_verified: '2026-07-01'
+    notes: RX ONLY — SAR operations. RX ONLY.
+  - uuid: 0f940dde-3d7a-4e88-8102-01b3397e078b
+    channel_no: AVN-0141
+    category: Aviation
+    subcategory: Air-to-Air
+    callsign: null
+    rx_freq_mhz: 123.45
+    tx_freq_mhz: 123.45
+    offset_mhz: 0.0
+    offset_dir: none
+    tone_hz: null
+    tone_type: none
+    dcs_code: null
+    bandwidth: narrow
+    mode: am
+    country: MYS
+    state: null
+    latitude: null
+    longitude: null
+    altitude_m: null
+    power_watts: null
+    coverage_radius_km: null
+    status: active
+    source: S08
+    last_verified: '2026-07-01'
+    notes: RX ONLY — Air-to-air and flight test. RX ONLY.
+  - uuid: 33768a01-259a-43ef-b033-3124f18c9d64
+    channel_no: AVN-0142
+    category: Aviation
+    subcategory: Tower
+    callsign: null
+    rx_freq_mhz: 118.1
+    tx_freq_mhz: 118.1
+    offset_mhz: 0.0
+    offset_dir: none
+    tone_hz: null
+    tone_type: none
+    dcs_code: null
+    bandwidth: narrow
+    mode: am
+    country: MYS
+    state: null
+    latitude: 2.7456
+    longitude: 101.7099
+    altitude_m: null
+    power_watts: null
+    coverage_radius_km: null
+    status: active
+    source: S03
+    last_verified: '2026-07-01'
+    notes: RX ONLY — Kuala Lumpur International Airport Tower. RX ONLY.
+  - uuid: 57860e86-b3b9-4738-9d2c-ad410e64388e
+    channel_no: AVN-0143
+    category: Aviation
+    subcategory: Ground
+    callsign: null
+    rx_freq_mhz: 121.725
+    tx_freq_mhz: 121.725
+    offset_mhz: 0.0
+    offset_dir: none
+    tone_hz: null
+    tone_type: none
+    dcs_code: null
+    bandwidth: narrow
+    mode: am
+    country: MYS
+    state: null
+    latitude: 2.7456
+    longitude: 101.7099
+    altitude_m: null
+    power_watts: null
+    coverage_radius_km: null
+    status: active
+    source: S03
+    last_verified: '2026-07-01'
+    notes: RX ONLY — KLIA Ground control. RX ONLY.
+  - uuid: 08888800-ffcf-4303-8542-0469f36e6901
+    channel_no: AVN-0144
+    category: Aviation
+    subcategory: ATIS
+    callsign: null
+    rx_freq_mhz: 126.0
+    tx_freq_mhz: 126.0
+    offset_mhz: 0.0
+    offset_dir: none
+    tone_hz: null
+    tone_type: none
+    dcs_code: null
+    bandwidth: narrow
+    mode: am
+    country: MYS
+    state: null
+    latitude: 2.7456
+    longitude: 101.7099
+    altitude_m: null
+    power_watts: null
+    coverage_radius_km: null
+    status: active
+    source: S03
+    last_verified: '2026-07-01'
+    notes: RX ONLY — KLIA Automatic Terminal Information Service. RX ONLY.
+  - uuid: 272e3c41-a106-422f-b4bc-ed27f34c38ad
+    channel_no: AVN-0145
+    category: Aviation
+    subcategory: Approach
+    callsign: null
+    rx_freq_mhz: 119.4
+    tx_freq_mhz: 119.4
+    offset_mhz: 0.0
+    offset_dir: none
+    tone_hz: null
+    tone_type: none
+    dcs_code: null
+    bandwidth: narrow
+    mode: am
+    country: MYS
+    state: null
+    latitude: 2.7456
+    longitude: 101.7099
+    altitude_m: null
+    power_watts: null
+    coverage_radius_km: null
+    status: active
+    source: S03
+    last_verified: '2026-07-01'
+    notes: RX ONLY — KL Approach control. RX ONLY.
+  - uuid: 34c3a932-6e90-4a25-a589-3ed392e55aeb
+    channel_no: AVN-0146
+    category: Aviation
+    subcategory: Departure
+    callsign: null
+    rx_freq_mhz: 124.2
+    tx_freq_mhz: 124.2
+    offset_mhz: 0.0
+    offset_dir: none
+    tone_hz: null
+    tone_type: none
+    dcs_code: null
+    bandwidth: narrow
+    mode: am
+    country: MYS
+    state: null
+    latitude: 2.7456
+    longitude: 101.7099
+    altitude_m: null
+    power_watts: null
+    coverage_radius_km: null
+    status: active
+    source: S03
+    last_verified: '2026-07-01'
+    notes: RX ONLY — KL Departure control. RX ONLY.
+  - uuid: 802cd356-96c7-421b-b360-7b36151a3a0c
+    channel_no: AVN-0147
+    category: Aviation
+    subcategory: ACC
+    callsign: null
+    rx_freq_mhz: 125.1
+    tx_freq_mhz: 125.1
+    offset_mhz: 0.0
+    offset_dir: none
+    tone_hz: null
+    tone_type: none
+    dcs_code: null
+    bandwidth: narrow
+    mode: am
+    country: MYS
+    state: null
+    latitude: null
+    longitude: null
+    altitude_m: null
+    power_watts: null
+    coverage_radius_km: null
+    status: active
+    source: S03
+    last_verified: '2026-07-01'
+    notes: RX ONLY — KL Area Control Centre, en-route primary. RX ONLY.
+  - uuid: 38da61bd-a363-4cf0-8ac6-6a5788024808
+    channel_no: AVN-0148
+    category: Aviation
+    subcategory: ACC
+    callsign: null
+    rx_freq_mhz: 123.8
+    tx_freq_mhz: 123.8
+    offset_mhz: 0.0
+    offset_dir: none
+    tone_hz: null
+    tone_type: none
+    dcs_code: null
+    bandwidth: narrow
+    mode: am
+    country: MYS
+    state: null
+    latitude: null
+    longitude: null
+    altitude_m: null
+    power_watts: null
+    coverage_radius_km: null
+    status: active
+    source: S03
+    last_verified: '2026-07-01'
+    notes: RX ONLY — KL Area Control Centre, en-route secondary. RX ONLY.
+  - uuid: 29c95afa-0baa-4388-a0ce-bafac5e23edf
+    channel_no: AVN-0149
+    category: Aviation
+    subcategory: Tower
+    callsign: null
+    rx_freq_mhz: 118.4
+    tx_freq_mhz: 118.4
+    offset_mhz: 0.0
+    offset_dir: none
+    tone_hz: null
+    tone_type: none
+    dcs_code: null
+    bandwidth: narrow
+    mode: am
+    country: MYS
+    state: null
+    latitude: 3.1306
+    longitude: 101.5493
+    altitude_m: null
+    power_watts: null
+    coverage_radius_km: null
+    status: active
+    source: S03
+    last_verified: '2026-07-01'
+    notes: RX ONLY — Subang airport tower. RX ONLY.
+  - uuid: b491207b-3010-4a0c-ba5b-556a06ec015d
+    channel_no: AVN-0150
+    category: Aviation
+    subcategory: Approach
+    callsign: null
+    rx_freq_mhz: 125.2
+    tx_freq_mhz: 125.2
+    offset_mhz: 0.0
+    offset_dir: none
+    tone_hz: null
+    tone_type: none
+    dcs_code: null
+    bandwidth: narrow
+    mode: am
+    country: MYS
+    state: null
+    latitude: 3.1306
+    longitude: 101.5493
+    altitude_m: null
+    power_watts: null
+    coverage_radius_km: null
+    status: active
+    source: S03
+    last_verified: '2026-07-01'
+    notes: RX ONLY — Subang approach. RX ONLY.
+  - uuid: 348cdfbf-ad1b-4d47-9c77-bb9c65cb3632
+    channel_no: AVN-0151
+    category: Aviation
+    subcategory: Ground
+    callsign: null
+    rx_freq_mhz: 121.625
+    tx_freq_mhz: 121.625
+    offset_mhz: 0.0
+    offset_dir: none
+    tone_hz: null
+    tone_type: none
+    dcs_code: null
+    bandwidth: narrow
+    mode: am
+    country: MYS
+    state: null
+    latitude: 3.1306
+    longitude: 101.5493
+    altitude_m: null
+    power_watts: null
+    coverage_radius_km: null
+    status: active
+    source: S03
+    last_verified: '2026-07-01'
+    notes: RX ONLY — Subang ground. RX ONLY.
+  - uuid: dfa39553-3d12-48bc-8b74-1375adf73655
+    channel_no: AVN-0152
+    category: Aviation
+    subcategory: Tower
+    callsign: null
+    rx_freq_mhz: 118.1
+    tx_freq_mhz: 118.1
+    offset_mhz: 0.0
+    offset_dir: none
+    tone_hz: null
+    tone_type: none
+    dcs_code: null
+    bandwidth: narrow
+    mode: am
+    country: MYS
+    state: null
+    latitude: 5.2972
+    longitude: 100.2767
+    altitude_m: null
+    power_watts: null
+    coverage_radius_km: null
+    status: active
+    source: S03
+    last_verified: '2026-07-01'
+    notes: RX ONLY — Penang airport tower. RX ONLY.
+  - uuid: 7d6c8d30-1068-4650-abcc-180ab8936ce1
+    channel_no: AVN-0153
+    category: Aviation
+    subcategory: Ground
+    callsign: null
+    rx_freq_mhz: 121.7
+    tx_freq_mhz: 121.7
+    offset_mhz: 0.0
+    offset_dir: none
+    tone_hz: null
+    tone_type: none
+    dcs_code: null
+    bandwidth: narrow
+    mode: am
+    country: MYS
+    state: null
+    latitude: 5.2972
+    longitude: 100.2767
+    altitude_m: null
+    power_watts: null
+    coverage_radius_km: null
+    status: active
+    source: S03
+    last_verified: '2026-07-01'
+    notes: RX ONLY — Penang ground. RX ONLY.
+  - uuid: ea1c02ac-25fd-4bed-bd3a-315330e94151
+    channel_no: AVN-0154
+    category: Aviation
+    subcategory: Tower
+    callsign: null
+    rx_freq_mhz: 118.1
+    tx_freq_mhz: 118.1
+    offset_mhz: 0.0
+    offset_dir: none
+    tone_hz: null
+    tone_type: none
+    dcs_code: null
+    bandwidth: narrow
+    mode: am
+    country: MYS
+    state: null
+    latitude: 5.9372
+    longitude: 116.0512
+    altitude_m: null
+    power_watts: null
+    coverage_radius_km: null
+    status: active
+    source: S03
+    last_verified: '2026-07-01'
+    notes: RX ONLY — KK airport tower. RX ONLY.
+  - uuid: e6088e22-6da9-4a84-b051-d3c63c7196a8
+    channel_no: AVN-0155
+    category: Aviation
+    subcategory: Ground
+    callsign: null
+    rx_freq_mhz: 121.7
+    tx_freq_mhz: 121.7
+    offset_mhz: 0.0
+    offset_dir: none
+    tone_hz: null
+    tone_type: none
+    dcs_code: null
+    bandwidth: narrow
+    mode: am
+    country: MYS
+    state: null
+    latitude: 5.9372
+    longitude: 116.0512
+    altitude_m: null
+    power_watts: null
+    coverage_radius_km: null
+    status: active
+    source: S03
+    last_verified: '2026-07-01'
+    notes: RX ONLY — KK ground. RX ONLY.
+  - uuid: 5fee44f0-cd83-469a-b651-da0e2a51e3b3
+    channel_no: AVN-0156
+    category: Aviation
+    subcategory: ATIS
+    callsign: null
+    rx_freq_mhz: 126.5
+    tx_freq_mhz: 126.5
+    offset_mhz: 0.0
+    offset_dir: none
+    tone_hz: null
+    tone_type: none
+    dcs_code: null
+    bandwidth: narrow
+    mode: am
+    country: MYS
+    state: null
+    latitude: 5.9372
+    longitude: 116.0512
+    altitude_m: null
+    power_watts: null
+    coverage_radius_km: null
+    status: active
+    source: S03
+    last_verified: '2026-07-01'
+    notes: RX ONLY — KK ATIS. RX ONLY.
+  - uuid: 56597442-c709-41e7-82c9-36e33bd4858a
+    channel_no: AVN-0157
+    category: Aviation
+    subcategory: Tower
+    callsign: null
+    rx_freq_mhz: 118.3
+    tx_freq_mhz: 118.3
+    offset_mhz: 0.0
+    offset_dir: none
+    tone_hz: null
+    tone_type: none
+    dcs_code: null
+    bandwidth: narrow
+    mode: am
+    country: MYS
+    state: null
+    latitude: 1.4847
+    longitude: 110.3469
+    altitude_m: null
+    power_watts: null
+    coverage_radius_km: null
+    status: active
+    source: S03
+    last_verified: '2026-07-01'
+    notes: RX ONLY — Kuching airport tower. RX ONLY.
+  - uuid: 6e5fdd73-046a-4b2a-a7d5-2d1cc708f4c6
+    channel_no: AVN-0158
+    category: Aviation
+    subcategory: Ground
+    callsign: null
+    rx_freq_mhz: 121.7
+    tx_freq_mhz: 121.7
+    offset_mhz: 0.0
+    offset_dir: none
+    tone_hz: null
+    tone_type: none
+    dcs_code: null
+    bandwidth: narrow
+    mode: am
+    country: MYS
+    state: null
+    latitude: 1.4847
+    longitude: 110.3469
+    altitude_m: null
+    power_watts: null
+    coverage_radius_km: null
+    status: active
+    source: S03
+    last_verified: '2026-07-01'
+    notes: RX ONLY — Kuching ground. RX ONLY.
+  - uuid: 2ff4b381-31e5-4749-81f9-522dcecb03f4
+    channel_no: AVN-0159
+    category: Aviation
+    subcategory: Tower
+    callsign: null
+    rx_freq_mhz: 118.05
+    tx_freq_mhz: 118.05
+    offset_mhz: 0.0
+    offset_dir: none
+    tone_hz: null
+    tone_type: none
+    dcs_code: null
+    bandwidth: narrow
+    mode: am
+    country: MYS
+    state: null
+    latitude: 6.3297
+    longitude: 99.7287
+    altitude_m: null
+    power_watts: null
+    coverage_radius_km: null
+    status: active
+    source: S03
+    last_verified: '2026-07-01'
+    notes: RX ONLY — Langkawi airport tower. RX ONLY.
+  - uuid: 44f34e56-b1ab-4909-8aad-e6511a51c916
+    channel_no: AVN-0160
+    category: Aviation
+    subcategory: Tower
+    callsign: null
+    rx_freq_mhz: 118.2
+    tx_freq_mhz: 118.2
+    offset_mhz: 0.0
+    offset_dir: none
+    tone_hz: null
+    tone_type: none
+    dcs_code: null
+    bandwidth: narrow
+    mode: am
+    country: MYS
+    state: null
+    latitude: 1.6413
+    longitude: 103.6696
+    altitude_m: null
+    power_watts: null
+    coverage_radius_km: null
+    status: active
+    source: S03
+    last_verified: '2026-07-01'
+    notes: RX ONLY — Senai airport tower, Johor Bahru. RX ONLY.
+  - uuid: 230e56b1-cdf9-42a0-a54f-a62a4c16a049
+    channel_no: AVN-0161
+    category: Aviation
+    subcategory: Ground
+    callsign: null
+    rx_freq_mhz: 121.7
+    tx_freq_mhz: 121.7
+    offset_mhz: 0.0
+    offset_dir: none
+    tone_hz: null
+    tone_type: none
+    dcs_code: null
+    bandwidth: narrow
+    mode: am
+    country: MYS
+    state: null
+    latitude: 1.6413
+    longitude: 103.6696
+    altitude_m: null
+    power_watts: null
+    coverage_radius_km: null
+    status: active
+    source: S03
+    last_verified: '2026-07-01'
+    notes: RX ONLY — Senai ground. RX ONLY.
+  - uuid: 7397df4f-2e7f-44c0-be97-4a9e7d39d670
+    channel_no: AVN-0162
+    category: Aviation
+    subcategory: Tower
+    callsign: null
+    rx_freq_mhz: 118.3
+    tx_freq_mhz: 118.3
+    offset_mhz: 0.0
+    offset_dir: none
+    tone_hz: null
+    tone_type: none
+    dcs_code: null
+    bandwidth: narrow
+    mode: am
+    country: MYS
+    state: null
+    latitude: 3.7753
+    longitude: 103.2091
+    altitude_m: null
+    power_watts: null
+    coverage_radius_km: null
+    status: active
+    source: S03
+    last_verified: '2026-07-01'
+    notes: RX ONLY — Kuantan airport tower. RX ONLY.
+  - uuid: c91faee1-bde1-47b8-8f3e-2de28c98a2f9
+    channel_no: AVN-0163
+    category: Aviation
+    subcategory: Tower
+    callsign: null
+    rx_freq_mhz: 118.1
+    tx_freq_mhz: 118.1
+    offset_mhz: 0.0
+    offset_dir: none
+    tone_hz: null
+    tone_type: none
+    dcs_code: null
+    bandwidth: narrow
+    mode: am
+    country: MYS
+    state: null
+    latitude: 6.1668
+    longitude: 102.293
+    altitude_m: null
+    power_watts: null
+    coverage_radius_km: null
+    status: active
+    source: S03
+    last_verified: '2026-07-01'
+    notes: RX ONLY — KB airport tower. RX ONLY.
+  - uuid: a125cd42-8980-4c5c-96cc-54abe893003c
+    channel_no: AVN-0164
+    category: Aviation
+    subcategory: Tower
+    callsign: null
+    rx_freq_mhz: 118.1
+    tx_freq_mhz: 118.1
+    offset_mhz: 0.0
+    offset_dir: none
+    tone_hz: null
+    tone_type: none
+    dcs_code: null
+    bandwidth: narrow
+    mode: am
+    country: MYS
+    state: null
+    latitude: 5.3827
+    longitude: 103.1032
+    altitude_m: null
+    power_watts: null
+    coverage_radius_km: null
+    status: active
+    source: S03
+    last_verified: '2026-07-01'
+    notes: RX ONLY — Terengganu airport tower. RX ONLY.
+  - uuid: 2fafe7f8-51da-432e-bad7-6b370e9d1434
+    channel_no: AVN-0165
+    category: Aviation
+    subcategory: Tower
+    callsign: null
+    rx_freq_mhz: 118.1
+    tx_freq_mhz: 118.1
+    offset_mhz: 0.0
+    offset_dir: none
+    tone_hz: null
+    tone_type: none
+    dcs_code: null
+    bandwidth: narrow
+    mode: am
+    country: MYS
+    state: null
+    latitude: 6.1897
+    longitude: 100.398
+    altitude_m: null
+    power_watts: null
+    coverage_radius_km: null
+    status: active
+    source: S03
+    last_verified: '2026-07-01'
+    notes: RX ONLY — Alor Setar airport tower. RX ONLY.
+  - uuid: eabdb1d5-eba5-410c-a1f5-981c40c02d57
+    channel_no: AVN-0166
+    category: Aviation
+    subcategory: Tower
+    callsign: null
+    rx_freq_mhz: 118.1
+    tx_freq_mhz: 118.1
+    offset_mhz: 0.0
+    offset_dir: none
+    tone_hz: null
+    tone_type: none
+    dcs_code: null
+    bandwidth: narrow
+    mode: am
+    country: MYS
+    state: null
+    latitude: 4.5679
+    longitude: 101.0921
+    altitude_m: null
+    power_watts: null
+    coverage_radius_km: null
+    status: active
+    source: S03
+    last_verified: '2026-07-01'
+    notes: RX ONLY — Ipoh airport tower. RX ONLY.
+  - uuid: 40d6a41d-d95f-44f6-a5ed-1ba99cceba15
+    channel_no: AVN-0167
+    category: Aviation
+    subcategory: Navigation
+    callsign: null
+    rx_freq_mhz: 114.1
+    tx_freq_mhz: 114.1
+    offset_mhz: 0.0
+    offset_dir: none
+    tone_hz: null
+    tone_type: none
+    dcs_code: null
+    bandwidth: narrow
+    mode: am
+    country: MYS
+    state: null
+    latitude: 3.0
+    longitude: 101.7
+    altitude_m: null
+    power_watts: null
+    coverage_radius_km: null
+    status: active
+    source: S03
+    last_verified: '2026-07-01'
+    notes: RX ONLY — KL VOR/DME navigation aid. RX ONLY.
+  06_APRS:
+  - uuid: a02a9762-fc63-4879-a840-e342e1ef08f7
+    channel_no: APR-0168
+    category: APRS
+    subcategory: Frequency
+    callsign: null
+    rx_freq_mhz: 144.39
+    tx_freq_mhz: 144.39
+    offset_mhz: 0.0
+    offset_dir: none
+    tone_hz: null
+    tone_type: none
+    dcs_code: null
+    bandwidth: narrow
+    mode: aprs
+    country: MYS
+    state: ALL
+    latitude: null
+    longitude: null
+    altitude_m: null
+    power_watts: null
+    coverage_radius_km: null
+    status: active
+    source: S07/S11
+    last_verified: '2026-07-01'
+    notes: Standard APRS frequency for ITU Region 3. 1200 baud AFSK (Bell 202).
+  - uuid: a30234f1-2948-44bf-8ae7-8149c36f4798
+    channel_no: APR-0169
+    category: APRS
+    subcategory: Frequency
+    callsign: null
+    rx_freq_mhz: 144.8
+    tx_freq_mhz: 144.8
+    offset_mhz: 0.0
+    offset_dir: none
+    tone_hz: null
+    tone_type: none
+    dcs_code: null
+    bandwidth: narrow
+    mode: aprs
+    country: MYS
+    state: ALL
+    latitude: null
+    longitude: null
+    altitude_m: null
+    power_watts: null
+    coverage_radius_km: null
+    status: active
+    source: S07/S11
+    last_verified: '2026-07-01'
+    notes: Alternate APRS frequency sometimes used in Asia.
+  - uuid: 29c33330-d020-4869-bc57-1b9a17db06b3
+    channel_no: APR-0170
+    category: APRS
+    subcategory: Frequency
+    callsign: null
+    rx_freq_mhz: 145.825
+    tx_freq_mhz: 145.825
+    offset_mhz: 0.0
+    offset_dir: none
+    tone_hz: null
+    tone_type: none
+    dcs_code: null
+    bandwidth: narrow
+    mode: aprs
+    country: MYS
+    state: ALL
+    latitude: null
+    longitude: null
+    altitude_m: null
+    power_watts: null
+    coverage_radius_km: null
+    status: active
+    source: S12/S07
+    last_verified: '2026-07-01'
+    notes: ISS APRS digipeater downlink/uplink.
+  - uuid: 76b8231a-a50a-4d5f-8c24-abd1ac870ccb
+    channel_no: APR-0171
+    category: APRS
+    subcategory: Digipeater
+    callsign: null
+    rx_freq_mhz: 144.39
+    tx_freq_mhz: 144.39
+    offset_mhz: 0.0
+    offset_dir: none
+    tone_hz: null
+    tone_type: none
+    dcs_code: null
+    bandwidth: narrow
+    mode: aprs
+    country: MYS
+    state: KUL
+    latitude: 3.2028
+    longitude: 101.6869
+    altitude_m: null
+    power_watts: null
+    coverage_radius_km: null
+    status: active
+    source: S07
+    last_verified: '2026-07-01'
+    notes: APRS digipeater, Bukit Takun area, Kuala Lumpur.
+  - uuid: a07cf58f-21e2-4d49-8639-1e0c58557b95
+    channel_no: APR-0172
+    category: APRS
+    subcategory: Digipeater
+    callsign: null
+    rx_freq_mhz: 144.39
+    tx_freq_mhz: 144.39
+    offset_mhz: 0.0
+    offset_dir: none
+    tone_hz: null
+    tone_type: none
+    dcs_code: null
+    bandwidth: narrow
+    mode: aprs
+    country: MYS
+    state: KUL
+    latitude: 3.15
+    longitude: 101.7
+    altitude_m: null
+    power_watts: null
+    coverage_radius_km: null
+    status: active
+    source: S07
+    last_verified: '2026-07-01'
+    notes: APRS digipeater, KL coverage.
+  - uuid: 547b9fc6-45e9-4158-933e-8fb54db652b5
+    channel_no: APR-0173
+    category: APRS
+    subcategory: Digipeater
+    callsign: null
+    rx_freq_mhz: 144.39
+    tx_freq_mhz: 144.39
+    offset_mhz: 0.0
+    offset_dir: none
+    tone_hz: null
+    tone_type: none
+    dcs_code: null
+    bandwidth: narrow
+    mode: aprs
+    country: MYS
+    state: PNG
+    latitude: 5.4164
+    longitude: 100.3328
+    altitude_m: null
+    power_watts: null
+    coverage_radius_km: null
+    status: active
+    source: S07
+    last_verified: '2026-07-01'
+    notes: APRS digipeater, Penang.
+  - uuid: 1cc14b30-d0d9-488b-b112-1956314b4b3d
+    channel_no: APR-0174
+    category: APRS
+    subcategory: Digipeater
+    callsign: null
+    rx_freq_mhz: 144.39
+    tx_freq_mhz: 144.39
+    offset_mhz: 0.0
+    offset_dir: none
+    tone_hz: null
+    tone_type: none
+    dcs_code: null
+    bandwidth: narrow
+    mode: aprs
+    country: MYS
+    state: SGR
+    latitude: 3.0733
+    longitude: 101.5183
+    altitude_m: null
+    power_watts: null
+    coverage_radius_km: null
+    status: active
+    source: S07
+    last_verified: '2026-07-01'
+    notes: APRS digipeater, Selangor.
+  - uuid: f5994d93-58c4-4dc6-a65e-a7f7e80574c0
+    channel_no: APR-0175
+    category: APRS
+    subcategory: Digipeater
+    callsign: null
+    rx_freq_mhz: 144.39
+    tx_freq_mhz: 144.39
+    offset_mhz: 0.0
+    offset_dir: none
+    tone_hz: null
+    tone_type: none
+    dcs_code: null
+    bandwidth: narrow
+    mode: aprs
+    country: MYS
+    state: JHR
+    latitude: 1.4927
+    longitude: 103.7414
+    altitude_m: null
+    power_watts: null
+    coverage_radius_km: null
+    status: active
+    source: S07
+    last_verified: '2026-07-01'
+    notes: APRS digipeater, Johor.
+  - uuid: b46b1996-aed0-48cc-9df5-b7ce756af46b
+    channel_no: APR-0176
+    category: APRS
+    subcategory: Digipeater
+    callsign: null
+    rx_freq_mhz: 144.39
+    tx_freq_mhz: 144.39
+    offset_mhz: 0.0
+    offset_dir: none
+    tone_hz: null
+    tone_type: none
+    dcs_code: null
+    bandwidth: narrow
+    mode: aprs
+    country: MYS
+    state: KDH
+    latitude: 6.12
+    longitude: 100.37
+    altitude_m: null
+    power_watts: null
+    coverage_radius_km: null
+    status: active
+    source: S07
+    last_verified: '2026-07-01'
+    notes: APRS digipeater, northern coverage.
+  - uuid: 060e0861-1595-450d-ab80-cd01d07849a4
+    channel_no: APR-0177
+    category: APRS
+    subcategory: Digipeater
+    callsign: null
+    rx_freq_mhz: 144.39
+    tx_freq_mhz: 144.39
+    offset_mhz: 0.0
+    offset_dir: none
+    tone_hz: null
+    tone_type: none
+    dcs_code: null
+    bandwidth: narrow
+    mode: aprs
+    country: MYS
+    state: SBH
+    latitude: 5.9804
+    longitude: 116.0735
+    altitude_m: null
+    power_watts: null
+    coverage_radius_km: null
+    status: active
+    source: S07
+    last_verified: '2026-07-01'
+    notes: APRS digipeater, Sabah.
+  - uuid: abab6338-0a64-43da-85fe-dbefaf9559da
+    channel_no: APR-0178
+    category: APRS
+    subcategory: Digipeater
+    callsign: null
+    rx_freq_mhz: 144.39
+    tx_freq_mhz: 144.39
+    offset_mhz: 0.0
+    offset_dir: none
+    tone_hz: null
+    tone_type: none
+    dcs_code: null
+    bandwidth: narrow
+    mode: aprs
+    country: MYS
+    state: SWK
+    latitude: 1.5535
+    longitude: 110.3593
+    altitude_m: null
+    power_watts: null
+    coverage_radius_km: null
+    status: active
+    source: S07
+    last_verified: '2026-07-01'
+    notes: APRS digipeater, Sarawak.
+  - uuid: 36d9a20c-f7af-461f-98d2-7258a620ebf7
+    channel_no: APR-0179
+    category: APRS
+    subcategory: iGate
+    callsign: null
+    rx_freq_mhz: 144.39
+    tx_freq_mhz: 144.39
+    offset_mhz: 0.0
+    offset_dir: none
+    tone_hz: null
+    tone_type: none
+    dcs_code: null
+    bandwidth: narrow
+    mode: aprs
+    country: MYS
+    state: KUL
+    latitude: 3.139
+    longitude: 101.6869
+    altitude_m: null
+    power_watts: null
+    coverage_radius_km: null
+    status: active
+    source: S07
+    last_verified: '2026-07-01'
+    notes: APRS iGate, KL — forwards packets to APRS-IS.
+  - uuid: 295cc161-267b-48ee-9e80-7cba60829c24
+    channel_no: APR-0180
+    category: APRS
+    subcategory: iGate
+    callsign: null
+    rx_freq_mhz: 144.39
+    tx_freq_mhz: 144.39
+    offset_mhz: 0.0
+    offset_dir: none
+    tone_hz: null
+    tone_type: none
+    dcs_code: null
+    bandwidth: narrow
+    mode: aprs
+    country: MYS
+    state: KUL
+    latitude: 3.15
+    longitude: 101.69
+    altitude_m: null
+    power_watts: null
+    coverage_radius_km: null
+    status: active
+    source: S07
+    last_verified: '2026-07-01'
+    notes: APRS iGate, KL.
+  - uuid: ad13a9fa-43ea-49f3-83ce-7e19d4427e13
+    channel_no: APR-0181
+    category: APRS
+    subcategory: iGate
+    callsign: null
+    rx_freq_mhz: 144.39
+    tx_freq_mhz: 144.39
+    offset_mhz: 0.0
+    offset_dir: none
+    tone_hz: null
+    tone_type: none
+    dcs_code: null
+    bandwidth: narrow
+    mode: aprs
+    country: MYS
+    state: SGR
+    latitude: 3.08
+    longitude: 101.52
+    altitude_m: null
+    power_watts: null
+    coverage_radius_km: null
+    status: active
+    source: S07
+    last_verified: '2026-07-01'
+    notes: APRS iGate, Selangor.
+  - uuid: 62bb67f7-3cb9-41c9-9415-510d3f6dd208
+    channel_no: APR-0182
+    category: APRS
+    subcategory: iGate
+    callsign: null
+    rx_freq_mhz: 144.39
+    tx_freq_mhz: 144.39
+    offset_mhz: 0.0
+    offset_dir: none
+    tone_hz: null
+    tone_type: none
+    dcs_code: null
+    bandwidth: narrow
+    mode: aprs
+    country: MYS
+    state: PNG
+    latitude: 5.42
+    longitude: 100.33
+    altitude_m: null
+    power_watts: null
+    coverage_radius_km: null
+    status: active
+    source: S07
+    last_verified: '2026-07-01'
+    notes: APRS iGate, Penang.
+  - uuid: 500ec5e5-8fc9-49ad-b2d4-f348688b544d
+    channel_no: APR-0183
+    category: APRS
+    subcategory: iGate
+    callsign: null
+    rx_freq_mhz: 144.39
+    tx_freq_mhz: 144.39
+    offset_mhz: 0.0
+    offset_dir: none
+    tone_hz: null
+    tone_type: none
+    dcs_code: null
+    bandwidth: narrow
+    mode: aprs
+    country: MYS
+    state: PRK
+    latitude: 4.5975
+    longitude: 101.0901
+    altitude_m: null
+    power_watts: null
+    coverage_radius_km: null
+    status: active
+    source: S07
+    last_verified: '2026-07-01'
+    notes: APRS iGate, Perak.
+  - uuid: f5ee23e3-2600-4645-b6e3-8b9c92e4a21d
+    channel_no: APR-0184
+    category: APRS
+    subcategory: iGate
+    callsign: null
+    rx_freq_mhz: 144.39
+    tx_freq_mhz: 144.39
+    offset_mhz: 0.0
+    offset_dir: none
+    tone_hz: null
+    tone_type: none
+    dcs_code: null
+    bandwidth: narrow
+    mode: aprs
+    country: MYS
+    state: JHR
+    latitude: 1.49
+    longitude: 103.74
+    altitude_m: null
+    power_watts: null
+    coverage_radius_km: null
+    status: active
+    source: S07
+    last_verified: '2026-07-01'
+    notes: APRS iGate, Johor.
+  - uuid: 5f4b58ec-d9cf-4123-8c19-46f0c9b59d92
+    channel_no: APR-0185
+    category: APRS
+    subcategory: iGate
+    callsign: null
+    rx_freq_mhz: 144.39
+    tx_freq_mhz: 144.39
+    offset_mhz: 0.0
+    offset_dir: none
+    tone_hz: null
+    tone_type: none
+    dcs_code: null
+    bandwidth: narrow
+    mode: aprs
+    country: MYS
+    state: KUL
+    latitude: 3.14
+    longitude: 101.69
+    altitude_m: null
+    power_watts: null
+    coverage_radius_km: null
+    status: active
+    source: S07
+    last_verified: '2026-07-01'
+    notes: APRS iGate + digipeater combo, KL.
+  - uuid: f039954c-fd95-4647-95ed-7749b587b68f
+    channel_no: APR-0186
+    category: APRS
+    subcategory: Beacon
+    callsign: null
+    rx_freq_mhz: 144.39
+    tx_freq_mhz: 144.39
+    offset_mhz: 0.0
+    offset_dir: none
+    tone_hz: null
+    tone_type: none
+    dcs_code: null
+    bandwidth: narrow
+    mode: aprs
+    country: MYS
+    state: ALL
+    latitude: null
+    longitude: null
+    altitude_m: null
+    power_watts: null
+    coverage_radius_km: null
+    status: active
+    source: S11
+    last_verified: '2026-07-01'
+    notes: Standard APRS beacon frequency. 1200 baud AFSK.
+  07_Satellites:
+  - uuid: e404383c-f5ec-4a82-ba45-2de893e558ba
+    channel_no: SAT-0187
+    category: Satellite
+    subcategory: FM Satellite
+    callsign: null
+    rx_freq_mhz: 145.8
+    tx_freq_mhz: 145.99
+    offset_mhz: -0.19
+    offset_dir: minus
+    tone_hz: null
+    tone_type: none
+    dcs_code: null
+    bandwidth: narrow
+    mode: fm
+    country: INT
+    state: null
+    latitude: null
+    longitude: null
+    altitude_m: null
+    power_watts: null
+    coverage_radius_km: null
+    status: active
+    source: S12/S06
+    last_verified: '2026-07-01'
+    notes: ISS FM voice — when crew available for amateur contacts.
+  - uuid: 51ef1155-91d0-4029-ab6a-b869f76112a0
+    channel_no: SAT-0188
+    category: Satellite
+    subcategory: FM Satellite
+    callsign: null
+    rx_freq_mhz: 145.825
+    tx_freq_mhz: 145.825
+    offset_mhz: 0.0
+    offset_dir: none
+    tone_hz: null
+    tone_type: none
+    dcs_code: null
+    bandwidth: narrow
+    mode: aprs
+    country: INT
+    state: null
+    latitude: null
+    longitude: null
+    altitude_m: null
+    power_watts: null
+    coverage_radius_km: null
+    status: active
+    source: S12
+    last_verified: '2026-07-01'
+    notes: ISS APRS digipeater. 1200 baud AFSK on 145.825 MHz.
+  - uuid: 19d8bffa-c377-48e8-92b6-f40d64dd1adc
+    channel_no: SAT-0189
+    category: Satellite
+    subcategory: FM Satellite
+    callsign: null
+    rx_freq_mhz: 436.795
+    tx_freq_mhz: 145.85
+    offset_mhz: 290.945
+    offset_dir: plus
+    tone_hz: null
+    tone_type: none
+    dcs_code: null
+    bandwidth: narrow
+    mode: fm
+    country: INT
+    state: null
+    latitude: null
+    longitude: null
+    altitude_m: null
+    power_watts: null
+    coverage_radius_km: null
+    status: active
+    source: S06
+    last_verified: '2026-07-01'
+    notes: FM repeater satellite. Requires 67.0 Hz CTCSS uplink tone.
+  - uuid: 80bbd417-2721-443e-9c22-6ad322a243e2
+    channel_no: SAT-0190
+    category: Satellite
+    subcategory: FM Satellite
+    callsign: null
+    rx_freq_mhz: 435.25
+    tx_freq_mhz: 145.96
+    offset_mhz: 289.29
+    offset_dir: plus
+    tone_hz: null
+    tone_type: none
+    dcs_code: null
+    bandwidth: narrow
+    mode: fm
+    country: INT
+    state: null
+    latitude: null
+    longitude: null
+    altitude_m: null
+    power_watts: null
+    coverage_radius_km: null
+    status: active
+    source: S06
+    last_verified: '2026-07-01'
+    notes: FM satellite. 67.0 Hz CTCSS. Status may vary — check AMSAT.
+  - uuid: 5df7303c-e868-4437-9b09-d14d6c2302c9
+    channel_no: SAT-0191
+    category: Satellite
+    subcategory: Linear Satellite
+    callsign: null
+    rx_freq_mhz: 435.15
+    tx_freq_mhz: 145.95
+    offset_mhz: 289.2
+    offset_dir: plus
+    tone_hz: null
+    tone_type: none
+    dcs_code: null
+    bandwidth: narrow
+    mode: ssb
+    country: INT
+    state: null
+    latitude: null
+    longitude: null
+    altitude_m: null
+    power_watts: null
+    coverage_radius_km: null
+    status: active
+    source: S06
+    last_verified: '2026-07-01'
+    notes: V/U linear transponder. LSB up / USB down.
+  - uuid: 7d3a81b5-8fd4-4517-ba31-2649feb432f8
+    channel_no: SAT-0192
+    category: Satellite
+    subcategory: Linear Satellite
+    callsign: null
+    rx_freq_mhz: 435.22
+    tx_freq_mhz: 145.87
+    offset_mhz: 289.35
+    offset_dir: plus
+    tone_hz: null
+    tone_type: none
+    dcs_code: null
+    bandwidth: narrow
+    mode: ssb
+    country: INT
+    state: null
+    latitude: null
+    longitude: null
+    altitude_m: null
+    power_watts: null
+    coverage_radius_km: null
+    status: active
+    source: S06
+    last_verified: '2026-07-01'
+    notes: Linear transponder. LSB up / USB down.
+  - uuid: 3dffa828-0213-4947-a467-7f0e613a4f74
+    channel_no: SAT-0193
+    category: Satellite
+    subcategory: Linear Satellite
+    callsign: null
+    rx_freq_mhz: 435.28
+    tx_freq_mhz: 145.91
+    offset_mhz: 289.37
+    offset_dir: plus
+    tone_hz: null
+    tone_type: none
+    dcs_code: null
+    bandwidth: narrow
+    mode: ssb
+    country: INT
+    state: null
+    latitude: null
+    longitude: null
+    altitude_m: null
+    power_watts: null
+    coverage_radius_km: null
+    status: active
+    source: S06
+    last_verified: '2026-07-01'
+    notes: Linear transponder. LSB up / USB down.
+  - uuid: d4996a47-c10d-46fa-8c14-d0ec7d17ccb6
+    channel_no: SAT-0194
+    category: Satellite
+    subcategory: Linear Satellite
+    callsign: null
+    rx_freq_mhz: 435.04
+    tx_freq_mhz: 145.675
+    offset_mhz: 289.365
+    offset_dir: plus
+    tone_hz: null
+    tone_type: none
+    dcs_code: null
+    bandwidth: narrow
+    mode: ssb
+    country: INT
+    state: null
+    latitude: null
+    longitude: null
+    altitude_m: null
+    power_watts: null
+    coverage_radius_km: null
+    status: active
+    source: S06
+    last_verified: '2026-07-01'
+    notes: XW-2A linear transponder.
+  - uuid: 85c09841-aa9f-4693-b200-ad6139253b9b
+    channel_no: SAT-0195
+    category: Satellite
+    subcategory: Linear Satellite
+    callsign: null
+    rx_freq_mhz: 435.1
+    tx_freq_mhz: 145.74
+    offset_mhz: 289.36
+    offset_dir: plus
+    tone_hz: null
+    tone_type: none
+    dcs_code: null
+    bandwidth: narrow
+    mode: ssb
+    country: INT
+    state: null
+    latitude: null
+    longitude: null
+    altitude_m: null
+    power_watts: null
+    coverage_radius_km: null
+    status: active
+    source: S06
+    last_verified: '2026-07-01'
+    notes: XW-2B linear transponder.
+  - uuid: 2c6251c1-65a9-48ca-88cd-5a085adcdf80
+    channel_no: SAT-0196
+    category: Satellite
+    subcategory: Linear Satellite
+    callsign: null
+    rx_freq_mhz: 435.16
+    tx_freq_mhz: 145.8
+    offset_mhz: 289.36
+    offset_dir: plus
+    tone_hz: null
+    tone_type: none
+    dcs_code: null
+    bandwidth: narrow
+    mode: ssb
+    country: INT
+    state: null
+    latitude: null
+    longitude: null
+    altitude_m: null
+    power_watts: null
+    coverage_radius_km: null
+    status: active
+    source: S06
+    last_verified: '2026-07-01'
+    notes: XW-2C linear transponder.
+  - uuid: 2164c17e-816a-4c33-b4ba-e550dde82819
+    channel_no: SAT-0197
+    category: Satellite
+    subcategory: Linear Satellite
+    callsign: null
+    rx_freq_mhz: 435.225
+    tx_freq_mhz: 145.865
+    offset_mhz: 289.36
+    offset_dir: plus
+    tone_hz: null
+    tone_type: none
+    dcs_code: null
+    bandwidth: narrow
+    mode: ssb
+    country: INT
+    state: null
+    latitude: null
+    longitude: null
+    altitude_m: null
+    power_watts: null
+    coverage_radius_km: null
+    status: active
+    source: S06
+    last_verified: '2026-07-01'
+    notes: XW-2D linear transponder.
+  - uuid: 61ed9c2c-5b85-479b-8f8c-8778b0b46486
+    channel_no: SAT-0198
+    category: Satellite
+    subcategory: Linear Satellite
+    callsign: null
+    rx_freq_mhz: 435.29
+    tx_freq_mhz: 145.93
+    offset_mhz: 289.36
+    offset_dir: plus
+    tone_hz: null
+    tone_type: none
+    dcs_code: null
+    bandwidth: narrow
+    mode: ssb
+    country: INT
+    state: null
+    latitude: null
+    longitude: null
+    altitude_m: null
+    power_watts: null
+    coverage_radius_km: null
+    status: active
+    source: S06
+    last_verified: '2026-07-01'
+    notes: XW-2E linear transponder.
+  - uuid: ec24f09e-02f7-49a6-8c30-529336206db2
+    channel_no: SAT-0199
+    category: Satellite
+    subcategory: Linear Satellite
+    callsign: null
+    rx_freq_mhz: 435.355
+    tx_freq_mhz: 145.995
+    offset_mhz: 289.36
+    offset_dir: plus
+    tone_hz: null
+    tone_type: none
+    dcs_code: null
+    bandwidth: narrow
+    mode: ssb
+    country: INT
+    state: null
+    latitude: null
+    longitude: null
+    altitude_m: null
+    power_watts: null
+    coverage_radius_km: null
+    status: active
+    source: S06
+    last_verified: '2026-07-01'
+    notes: XW-2F linear transponder.
+  - uuid: b5c21245-1361-4dfc-b7cd-6d2e6d8d5d97
+    channel_no: SAT-0200
+    category: Satellite
+    subcategory: Geostationary Satellite
+    callsign: null
+    rx_freq_mhz: 10489.55
+    tx_freq_mhz: 2400.05
+    offset_mhz: 8089.5
+    offset_dir: plus
+    tone_hz: null
+    tone_type: none
+    dcs_code: null
+    bandwidth: narrow
+    mode: ssb
+    country: INT
+    state: null
+    latitude: null
+    longitude: null
+    altitude_m: null
+    power_watts: null
+    coverage_radius_km: null
+    status: active
+    source: S06
+    last_verified: '2026-07-01'
+    notes: Geostationary satellite. S-band up / X-band down. Covers Middle East/Asia/Africa.
+  - uuid: 24e14427-053c-4d13-b587-79cb11babd70
+    channel_no: SAT-0201
+    category: Satellite
+    subcategory: Linear Satellite
+    callsign: null
+    rx_freq_mhz: 435.8
+    tx_freq_mhz: 145.9
+    offset_mhz: 289.9
+    offset_dir: plus
+    tone_hz: null
+    tone_type: none
+    dcs_code: null
+    bandwidth: narrow
+    mode: ssb
+    country: INT
+    state: null
+    latitude: null
+    longitude: null
+    altitude_m: null
+    power_watts: null
+    coverage_radius_km: null
+    status: active
+    source: S06
+    last_verified: '2026-07-01'
+    notes: V/U linear transponder. Status variable — check AMSAT.
+  08_Calling:
+  - uuid: 73baf669-4f71-4ae0-b64a-a47ee4f596c8
+    channel_no: CLG-0202
+    category: Calling
+    subcategory: National FM Calling
+    callsign: null
+    rx_freq_mhz: 145.0
+    tx_freq_mhz: 145.0
+    offset_mhz: 0.0
+    offset_dir: none
+    tone_hz: null
+    tone_type: none
+    dcs_code: null
+    bandwidth: wide
+    mode: fm
+    country: MYS
+    state: ALL
+    latitude: null
+    longitude: null
+    altitude_m: null
+    power_watts: null
+    coverage_radius_km: null
+    status: active
+    source: S05/S01
+    last_verified: '2026-07-01'
+    notes: Primary 2m FM calling frequency for Malaysia.
+  - uuid: ea6a3028-45ff-43dd-bde7-fbd1556f34b7
+    channel_no: CLG-0203
+    category: Calling
+    subcategory: National FM Calling
+    callsign: null
+    rx_freq_mhz: 433.0
+    tx_freq_mhz: 433.0
+    offset_mhz: 0.0
+    offset_dir: none
+    tone_hz: null
+    tone_type: none
+    dcs_code: null
+    bandwidth: wide
+    mode: fm
+    country: MYS
+    state: ALL
+    latitude: null
+    longitude: null
+    altitude_m: null
+    power_watts: null
+    coverage_radius_km: null
+    status: active
+    source: S05/S01
+    last_verified: '2026-07-01'
+    notes: Primary 70cm FM calling frequency for Malaysia.
+  - uuid: 12b3c33a-c507-44a2-8138-1acdd5327fac
+    channel_no: CLG-0204
+    category: Calling
+    subcategory: National SSB Calling
+    callsign: null
+    rx_freq_mhz: 144.5
+    tx_freq_mhz: 144.5
+    offset_mhz: 0.0
+    offset_dir: none
+    tone_hz: null
+    tone_type: none
+    dcs_code: null
+    bandwidth: wide
+    mode: ssb
+    country: MYS
+    state: ALL
+    latitude: null
+    longitude: null
+    altitude_m: null
+    power_watts: null
+    coverage_radius_km: null
+    status: active
+    source: S05
+    last_verified: '2026-07-01'
+    notes: 2m SSB calling frequency for Malaysia.
+  - uuid: 318ef69f-62b4-4ac2-8386-c5c474218374
+    channel_no: CLG-0205
+    category: Calling
+    subcategory: National SSB Calling
+    callsign: null
+    rx_freq_mhz: 432.2
+    tx_freq_mhz: 432.2
+    offset_mhz: 0.0
+    offset_dir: none
+    tone_hz: null
+    tone_type: none
+    dcs_code: null
+    bandwidth: wide
+    mode: ssb
+    country: MYS
+    state: ALL
+    latitude: null
+    longitude: null
+    altitude_m: null
+    power_watts: null
+    coverage_radius_km: null
+    status: active
+    source: S05
+    last_verified: '2026-07-01'
+    notes: 70cm SSB calling frequency for Malaysia.
+  - uuid: 00b84e9b-bda3-43bc-a4e7-f906bc264fc1
+    channel_no: CLG-0206
+    category: Calling
+    subcategory: International FM Calling
+    callsign: null
+    rx_freq_mhz: 145.5
+    tx_freq_mhz: 145.5
+    offset_mhz: 0.0
+    offset_dir: none
+    tone_hz: null
+    tone_type: none
+    dcs_code: null
+    bandwidth: wide
+    mode: fm
+    country: INT
+    state: ALL
+    latitude: null
+    longitude: null
+    altitude_m: null
+    power_watts: null
+    coverage_radius_km: null
+    status: active
+    source: S05
+    last_verified: '2026-07-01'
+    notes: IARU Region 3 FM calling frequency.
+  - uuid: 70359ada-92aa-4668-b566-982b5a207342
+    channel_no: CLG-0207
+    category: Calling
+    subcategory: International SSB Calling
+    callsign: null
+    rx_freq_mhz: 144.5
+    tx_freq_mhz: 144.5
+    offset_mhz: 0.0
+    offset_dir: none
+    tone_hz: null
+    tone_type: none
+    dcs_code: null
+    bandwidth: wide
+    mode: ssb
+    country: INT
+    state: ALL
+    latitude: null
+    longitude: null
+    altitude_m: null
+    power_watts: null
+    coverage_radius_km: null
+    status: active
+    source: S05
+    last_verified: '2026-07-01'
+    notes: IARU Region 3 SSB calling frequency.
+  - uuid: 4fe85e82-8e09-46f9-be6c-35d71ba7b6b0
+    channel_no: CLG-0208
+    category: Calling
+    subcategory: International FM Calling
+    callsign: null
+    rx_freq_mhz: 433.5
+    tx_freq_mhz: 433.5
+    offset_mhz: 0.0
+    offset_dir: none
+    tone_hz: null
+    tone_type: none
+    dcs_code: null
+    bandwidth: wide
+    mode: fm
+    country: INT
+    state: ALL
+    latitude: null
+    longitude: null
+    altitude_m: null
+    power_watts: null
+    coverage_radius_km: null
+    status: active
+    source: S05
+    last_verified: '2026-07-01'
+    notes: IARU Region 3 UHF FM calling.
+  - uuid: 68a34043-0105-465c-9685-8e83a1053551
+    channel_no: CLG-0209
+    category: Calling
+    subcategory: HF International Calling
+    callsign: null
+    rx_freq_mhz: 14.195
+    tx_freq_mhz: 14.195
+    offset_mhz: 0.0
+    offset_dir: none
+    tone_hz: null
+    tone_type: none
+    dcs_code: null
+    bandwidth: wide
+    mode: ssb
+    country: INT
+    state: ALL
+    latitude: null
+    longitude: null
+    altitude_m: null
+    power_watts: null
+    coverage_radius_km: null
+    status: active
+    source: S05
+    last_verified: '2026-07-01'
+    notes: 20m international SSB calling. RX only unless licensed for HF.
+  - uuid: 8970c3c1-278c-4651-baa7-a71f0b38a375
+    channel_no: CLG-0210
+    category: Calling
+    subcategory: HF National Calling
+    callsign: null
+    rx_freq_mhz: 7.11
+    tx_freq_mhz: 7.11
+    offset_mhz: 0.0
+    offset_dir: none
+    tone_hz: null
+    tone_type: none
+    dcs_code: null
+    bandwidth: wide
+    mode: ssb
+    country: MYS
+    state: ALL
+    latitude: null
+    longitude: null
+    altitude_m: null
+    power_watts: null
+    coverage_radius_km: null
+    status: active
+    source: S05/S01
+    last_verified: '2026-07-01'
+    notes: 40m Malaysian SSB calling / emergency net.
+  - uuid: d674ed53-54e9-4622-86d1-ec063bf99075
+    channel_no: CLG-0211
+    category: Calling
+    subcategory: HF National Calling
+    callsign: null
+    rx_freq_mhz: 3.6
+    tx_freq_mhz: 3.6
+    offset_mhz: 0.0
+    offset_dir: none
+    tone_hz: null
+    tone_type: none
+    dcs_code: null
+    bandwidth: wide
+    mode: ssb
+    country: MYS
+    state: ALL
+    latitude: null
+    longitude: null
+    altitude_m: null
+    power_watts: null
+    coverage_radius_km: null
+    status: active
+    source: S05/S01
+    last_verified: '2026-07-01'
+    notes: 80m Malaysian SSB calling / emergency net.
+  09_Emergency:
+  - uuid: 85c8405b-61a7-4a10-92be-4c27d5ab61c6
+    channel_no: EMG-0212
+    category: Emergency
+    subcategory: Amateur Emergency
+    callsign: null
+    rx_freq_mhz: 145.55
+    tx_freq_mhz: 145.55
+    offset_mhz: 0.0
+    offset_dir: none
+    tone_hz: null
+    tone_type: none
+    dcs_code: null
+    bandwidth: wide
+    mode: fm
+    country: MYS
+    state: ALL
+    latitude: null
+    longitude: null
+    altitude_m: null
+    power_watts: null
+    coverage_radius_km: null
+    status: active
+    source: S05/S01
+    last_verified: '2026-07-01'
+    notes: Primary emergency/disaster frequency for Malaysian amateurs.
+  - uuid: f851f2e0-6fa8-42aa-9ba9-aac9f176b130
+    channel_no: EMG-0213
+    category: Emergency
+    subcategory: Amateur Emergency
+    callsign: null
+    rx_freq_mhz: 145.0
+    tx_freq_mhz: 145.0
+    offset_mhz: 0.0
+    offset_dir: none
+    tone_hz: null
+    tone_type: none
+    dcs_code: null
+    bandwidth: wide
+    mode: fm
+    country: MYS
+    state: ALL
+    latitude: null
+    longitude: null
+    altitude_m: null
+    power_watts: null
+    coverage_radius_km: null
+    status: active
+    source: S05/S01
+    last_verified: '2026-07-01'
+    notes: Emergency fallback / calling frequency.
+  - uuid: 786cf6ad-b76f-4401-8cb8-ab6904ae13b7
+    channel_no: EMG-0214
+    category: Emergency
+    subcategory: Amateur Emergency
+    callsign: null
+    rx_freq_mhz: 144.39
+    tx_freq_mhz: 144.39
+    offset_mhz: 0.0
+    offset_dir: none
+    tone_hz: null
+    tone_type: none
+    dcs_code: null
+    bandwidth: wide
+    mode: aprs
+    country: MYS
+    state: ALL
+    latitude: null
+    longitude: null
+    altitude_m: null
+    power_watts: null
+    coverage_radius_km: null
+    status: active
+    source: S07/S11
+    last_verified: '2026-07-01'
+    notes: APRS for emergency position tracking and disaster comms.
+  - uuid: f50f1702-f686-4ab7-869c-4111916362bb
+    channel_no: EMG-0215
+    category: Emergency
+    subcategory: HF Emergency
+    callsign: null
+    rx_freq_mhz: 7.11
+    tx_freq_mhz: 7.11
+    offset_mhz: 0.0
+    offset_dir: none
+    tone_hz: null
+    tone_type: none
+    dcs_code: null
+    bandwidth: wide
+    mode: ssb
+    country: MYS
+    state: ALL
+    latitude: null
+    longitude: null
+    altitude_m: null
+    power_watts: null
+    coverage_radius_km: null
+    status: active
+    source: S05/S01
+    last_verified: '2026-07-01'
+    notes: HF emergency net (40m). Malaysian amateur emergency comms.
+  - uuid: d1cf1e03-1563-4618-95e5-fc99cc80c896
+    channel_no: EMG-0216
+    category: Emergency
+    subcategory: HF Emergency
+    callsign: null
+    rx_freq_mhz: 3.6
+    tx_freq_mhz: 3.6
+    offset_mhz: 0.0
+    offset_dir: none
+    tone_hz: null
+    tone_type: none
+    dcs_code: null
+    bandwidth: wide
+    mode: ssb
+    country: MYS
+    state: ALL
+    latitude: null
+    longitude: null
+    altitude_m: null
+    power_watts: null
+    coverage_radius_km: null
+    status: active
+    source: S05/S01
+    last_verified: '2026-07-01'
+    notes: HF emergency net (80m). Malaysian amateur emergency comms.
+  - uuid: 5a978289-69ba-4e31-9d02-b059749e5b2b
+    channel_no: EMG-0217
+    category: Emergency
+    subcategory: Aviation Emergency
+    callsign: null
+    rx_freq_mhz: 121.5
+    tx_freq_mhz: 121.5
+    offset_mhz: 0.0
+    offset_dir: none
+    tone_hz: null
+    tone_type: none
+    dcs_code: null
+    bandwidth: wide
+    mode: am
+    country: INT
+    state: ALL
+    latitude: null
+    longitude: null
+    altitude_m: null
+    power_watts: null
+    coverage_radius_km: null
+    status: active
+    source: S08
+    last_verified: '2026-07-01'
+    notes: International aeronautical emergency. RX ONLY for amateurs.
+  - uuid: fd071879-f6de-4105-8610-99a1bb118758
+    channel_no: EMG-0218
+    category: Emergency
+    subcategory: Aviation Emergency
+    callsign: null
+    rx_freq_mhz: 243.0
+    tx_freq_mhz: 243.0
+    offset_mhz: 0.0
+    offset_dir: none
+    tone_hz: null
+    tone_type: none
+    dcs_code: null
+    bandwidth: wide
+    mode: am
+    country: INT
+    state: ALL
+    latitude: null
+    longitude: null
+    altitude_m: null
+    power_watts: null
+    coverage_radius_km: null
+    status: active
+    source: S08
+    last_verified: '2026-07-01'
+    notes: Military aviation emergency. RX ONLY.
+  - uuid: 82dd74f3-6faf-4ef6-b1e1-974bf45fe46e
+    channel_no: EMG-0219
+    category: Emergency
+    subcategory: SAR
+    callsign: null
+    rx_freq_mhz: 123.1
+    tx_freq_mhz: 123.1
+    offset_mhz: 0.0
+    offset_dir: none
+    tone_hz: null
+    tone_type: none
+    dcs_code: null
+    bandwidth: wide
+    mode: am
+    country: INT
+    state: ALL
+    latitude: null
+    longitude: null
+    altitude_m: null
+    power_watts: null
+    coverage_radius_km: null
+    status: active
+    source: S08
+    last_verified: '2026-07-01'
+    notes: SAR operations frequency. RX ONLY for amateurs.
+  - uuid: 216b2c91-3858-442b-8dad-a376b090ee73
+    channel_no: EMG-0220
+    category: Emergency
+    subcategory: Marine Emergency
+    callsign: null
+    rx_freq_mhz: 156.8
+    tx_freq_mhz: 156.8
+    offset_mhz: 0.0
+    offset_dir: none
+    tone_hz: null
+    tone_type: none
+    dcs_code: null
+    bandwidth: wide
+    mode: fm
+    country: INT
+    state: ALL
+    latitude: null
+    longitude: null
+    altitude_m: null
+    power_watts: null
+    coverage_radius_km: null
+    status: active
+    source: S04
+    last_verified: '2026-07-01'
+    notes: International marine distress, safety, calling. RX ONLY for amateurs.
+  - uuid: 746c1649-6c6a-4ac9-93fc-80d6b814a62f
+    channel_no: EMG-0221
+    category: Emergency
+    subcategory: Marine Emergency
+    callsign: null
+    rx_freq_mhz: 156.525
+    tx_freq_mhz: 156.525
+    offset_mhz: 0.0
+    offset_dir: none
+    tone_hz: null
+    tone_type: none
+    dcs_code: null
+    bandwidth: wide
+    mode: fm
+    country: INT
+    state: ALL
+    latitude: null
+    longitude: null
+    altitude_m: null
+    power_watts: null
+    coverage_radius_km: null
+    status: active
+    source: S04
+    last_verified: '2026-07-01'
+    notes: Digital Selective Calling distress alerting. RX ONLY.
+  10_Metadata:
+  - key: mrp_version
+    value: 2.0.0
+  - key: generated_at
+    value: '2026-07-01T03:47:45.736949Z'
+  - key: country
+    value: MYS
+  - key: country_name
+    value: Malaysia
+  - key: itu_region
+    value: Region 3 (Asia-Pacific)
+  - key: iaru_region
+    value: Region 3
+  - key: regulator
+    value: MCMC (Malaysian Communications and Multimedia Commission)
+  - key: national_society
+    value: MARTS (Malaysian Amateur Radio Transmitters' Society)
+  - key: callsign_prefix_9M2
+    value: Peninsular Malaysia
+  - key: callsign_prefix_9M6
+    value: East Malaysia (Sabah & Sarawak)
+  - key: callsign_prefix_9W2
+    value: Restricted license, Peninsular
+  - key: callsign_prefix_9W6
+    value: Restricted license, East Malaysia
+  - key: vhf_band
+    value: 144.000-148.000 MHz (2m)
+  - key: uhf_band
+    value: 430.000-440.000 MHz (70cm)
+  - key: vhf_repeater_offset
+    value: -600 kHz standard
+  - key: uhf_repeater_offset
+    value: -1.6 MHz, -3.6 MHz, -5.0 MHz, +5.0 MHz
+  - key: common_ctcss
+    value: 118.8 Hz (MARTS), 100.0 Hz, 110.9 Hz
+  - key: aprs_frequency
+    value: 144.390 MHz (ITU Region 3)
+  - key: aprs_baud
+    value: 1200 baud AFSK (Bell 202)
+  - key: maritime_safety
+    value: Ch 16 (156.800 MHz) — mandatory watch
+  - key: aviation_emergency
+    value: 121.500 MHz (VHF Guard)
+  - key: total_states
+    value: 16 (13 states + 3 federal territories)
+  - key: generator
+    value: MRP Master Generator v2.0.0
+  - key: data_quality
+    value: Cross-referenced from MARTS, RepeaterBook, AIP Malaysia, ITU, IARU, AMSAT
+  11_Bandplan:
+  - uuid: 8b396da8-46ff-4edb-b983-a4739273b8fc
+    band: 2m (VHF)
+    start_mhz: 144.0
+    end_mhz: 144.025
+    mode: CW
+    usage: CW calling / weak signal
+    notes: CW segment for weak-signal work
+    source: S05/S09
+  - uuid: e3b32627-8882-4094-86ba-943537a4dca1
+    band: 2m (VHF)
+    start_mhz: 144.025
+    end_mhz: 144.1
+    mode: CW/SSB
+    usage: CW/SSB weak signal
+    notes: Weak signal segment
+    source: S05/S09
+  - uuid: e73791d0-218f-41f0-8a89-6dee01a8772b
+    band: 2m (VHF)
+    start_mhz: 144.1
+    end_mhz: 144.5
+    mode: SSB
+    usage: SSB activity
+    notes: SSB activity segment
+    source: S05/S09
+  - uuid: 3c657324-550c-4be6-a462-cbb10704ed8a
+    band: 2m (VHF)
+    start_mhz: 144.5
+    end_mhz: 144.5
+    mode: SSB
+    usage: SSB Calling
+    notes: National SSB calling frequency
+    source: S05/S09
+  - uuid: 056ee066-19a6-48ea-9d29-ea15668a4464
+    band: 2m (VHF)
+    start_mhz: 144.5
+    end_mhz: 145.0
+    mode: SSB/misc
+    usage: SSB / image / misc
+    notes: Misc modes
+    source: S05/S09
+  - uuid: cf263d87-00ae-4aad-9d02-d912ddaf0cab
+    band: 2m (VHF)
+    start_mhz: 145.0
+    end_mhz: 145.0
+    mode: FM
+    usage: FM Calling
+    notes: National FM calling frequency
+    source: S05/S09
+  - uuid: 694a6a01-a2da-4671-8b12-b854d50c00a5
+    band: 2m (VHF)
+    start_mhz: 145.0
+    end_mhz: 145.5
+    mode: FM
+    usage: FM Simplex
+    notes: FM simplex channels
+    source: S05/S09
+  - uuid: 21033622-7972-440e-a571-5610b85a645d
+    band: 2m (VHF)
+    start_mhz: 145.5
+    end_mhz: 145.55
+    mode: FM
+    usage: Emergency / Simplex
+    notes: Emergency and local simplex
+    source: S05/S09
+  - uuid: 47cf684a-7beb-46ee-9b10-2b3979b2bcec
+    band: 2m (VHF)
+    start_mhz: 145.55
+    end_mhz: 145.55
+    mode: FM
+    usage: Emergency
+    notes: Designated emergency frequency
+    source: S05/S09
+  - uuid: 1cdc567b-f546-4eff-9daa-51a4f56dc27b
+    band: 2m (VHF)
+    start_mhz: 145.6
+    end_mhz: 145.8
+    mode: FM
+    usage: Repeater Outputs
+    notes: FM repeater output segment
+    source: S05/S09
+  - uuid: 7a0f123b-e180-4b3e-b04c-f3a5ba1ba4f4
+    band: 2m (VHF)
+    start_mhz: 145.8
+    end_mhz: 146.0
+    mode: FM/SSB
+    usage: Satellite / APRS
+    notes: Satellite downlinks and APRS
+    source: S05/S09
+  - uuid: f96eee8e-b6af-4063-af71-d4d35d29cdb1
+    band: 2m (VHF)
+    start_mhz: 144.39
+    end_mhz: 144.39
+    mode: APRS
+    usage: APRS
+    notes: APRS frequency (Asia-Pacific)
+    source: S05/S09
+  - uuid: b4ab63ea-b4ae-434e-ad2f-29dd6938f693
+    band: 70cm (UHF)
+    start_mhz: 430.0
+    end_mhz: 433.0
+    mode: FM
+    usage: Repeater Inputs
+    notes: Repeater input segment
+    source: S05/S09
+  - uuid: a7e3ac22-4857-458e-8d43-41b6219ef9f8
+    band: 70cm (UHF)
+    start_mhz: 433.0
+    end_mhz: 433.0
+    mode: FM
+    usage: FM Calling
+    notes: UHF FM calling frequency
+    source: S05/S09
+  - uuid: 7b68e7a1-1720-450e-b3ec-cf9690e0f49b
+    band: 70cm (UHF)
+    start_mhz: 433.0
+    end_mhz: 434.0
+    mode: FM
+    usage: FM Simplex
+    notes: Simplex activity
+    source: S05/S09
+  - uuid: 2f7b8bcf-6385-432f-91be-13aabda05532
+    band: 70cm (UHF)
+    start_mhz: 434.0
+    end_mhz: 438.0
+    mode: FM/DMR/C4FM
+    usage: Repeater Outputs
+    notes: Repeater outputs + digital modes
+    source: S05/S09
+  - uuid: b0d302fa-9556-44d6-932c-b79d874474e1
+    band: 70cm (UHF)
+    start_mhz: 438.0
+    end_mhz: 440.0
+    mode: Various
+    usage: Digital / Links
+    notes: Digital modes, links, misc
+    source: S05/S09
+  - uuid: fade7214-c415-45b3-9949-40d2d782566a
+    band: 70cm (UHF)
+    start_mhz: 433.8
+    end_mhz: 433.8
+    mode: APRS
+    usage: APRS (UHF)
+    notes: APRS on UHF (secondary)
+    source: S05/S09
+  - uuid: b25ed7e3-fb44-4809-a7a8-886cce0b4712
+    band: 70cm (UHF)
+    start_mhz: 438.8
+    end_mhz: 438.8
+    mode: DMR
+    usage: DMR
+    notes: DMR repeater common frequency
+    source: S05/S09
+  - uuid: f8b1e539-be1e-463a-8eb0-d2907139fd92
+    band: 70cm (UHF)
+    start_mhz: 439.55
+    end_mhz: 439.55
+    mode: D-Star
+    usage: D-Star
+    notes: D-Star repeater common frequency
+    source: S05/S09
+  - uuid: 999f7f9b-c209-4478-8163-b0abef221971
+    band: 70cm (UHF)
+    start_mhz: 434.75
+    end_mhz: 434.75
+    mode: C4FM
+    usage: C4FM / Fusion
+    notes: Yaesu System Fusion common frequency
+    source: S05/S09
+  12_Sources:
+  - id: S01
+    name: MARTS (Malaysian Amateur Radio Transmitters' Society)
+    url: https://www.marts.org.my
+    license: Public reference
+    last_access: '2026-07-01'
+    confidence: 0.9
+  - id: S02
+    name: RepeaterBook — Malaysia
+    url: https://www.repeaterbook.com/repeaters/index.php?state_id=MY
+    license: CC BY-SA 4.0
+    last_access: '2026-07-01'
+    confidence: 0.85
+  - id: S03
+    name: AIP Malaysia (CAAM)
+    url: https://aip.dca.gov.my
+    license: Government public information
+    last_access: '2026-07-01'
+    confidence: 0.95
+  - id: S04
+    name: ITU-R M.1084 — Marine VHF
+    url: https://www.itu.int/rec/R-REC-M.1084
+    license: ITU standard
+    last_access: '2026-07-01'
+    confidence: 0.99
+  - id: S05
+    name: IARU Region 3 Band Plan
+    url: https://www.iaru.org/r3-bands/
+    license: IARU standard
+    last_access: '2026-07-01'
+    confidence: 0.95
+  - id: S06
+    name: AMSAT — Satellite Frequencies
+    url: https://www.amsat.org
+    license: Public reference
+    last_access: '2026-07-01'
+    confidence: 0.9
+  - id: S07
+    name: APRS.fi — Malaysia APRS
+    url: https://aprs.fi
+    license: Public tracking
+    last_access: '2026-07-01'
+    confidence: 0.85
+  - id: S08
+    name: ICAO Annex 10 — Aeronautical Telecommunications
+    url: https://www.icao.int
+    license: ICAO standard
+    last_access: '2026-07-01'
+    confidence: 0.99
+  - id: S09
+    name: MCMC — Spectrum Allocation
+    url: https://www.mcmc.gov.my
+    license: Government public information
+    last_access: '2026-07-01'
+    confidence: 0.95
+  - id: S10
+    name: QRZ.com — Callsign Database
+    url: https://www.qrz.com
+    license: Public reference
+    last_access: '2026-07-01'
+    confidence: 0.8
+  - id: S11
+    name: Bob Bruninga WB4APR — APRS Documentation
+    url: http://www.aprs.org
+    license: Public reference
+    last_access: '2026-07-01'
+    confidence: 0.95
+  - id: S12
+    name: ARISS — Amateur Radio on ISS
+    url: https://www.ariss.org
+    license: Public reference
+    last_access: '2026-07-01'
+    confidence: 0.95

@@ -12,7 +12,7 @@ from sqlalchemy.ext.asyncio import AsyncSession
 
 from ..cache import _make_key, cache_get, cache_invalidate, cache_set
 from ..database import get_db
-from ..models import Repeater
+from ..models import Repeater, State
 from ..schemas import PageParams, PageResponse, RepeaterCreate, RepeaterRead, RepeaterUpdate
 
 router = APIRouter(prefix="/repeaters", tags=["Repeaters"])
@@ -47,7 +47,7 @@ async def list_repeaters(
     if cached:
         return cached
 
-    q = select(Repeater)
+    q = select(Repeater, State.name).join(State, Repeater.state_id == State.id, isouter=True)
     count_q = select(func.count(Repeater.id))
 
     if state_id is not None:
@@ -69,10 +69,13 @@ async def list_repeaters(
 
     total = (await db.execute(count_q)).scalar_one()
     pages = max(1, math.ceil(total / size))
-    rows = (await db.execute(q.offset((page - 1) * size).limit(size))).scalars().all()
+    rows = (await db.execute(q.offset((page - 1) * size).limit(size))).all()
 
     result = PageResponse(
-        items=[RepeaterRead.model_validate(r) for r in rows],
+        items=[
+            {**RepeaterRead.model_validate(r).model_dump(), "state": s}
+            for r, s in rows
+        ],
         total=total,
         page=page,
         pages=pages,

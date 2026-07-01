@@ -1,0 +1,62 @@
+uuid,channel_no,category,subcategory,callsign,rx_freq_mhz,tx_freq_mhz,offset_mhz,offset_dir,tone_hz,tone_type,dcs_code,bandwidth,mode,country,state,latitude,longitude,altitude_m,power_watts,coverage_radius_km,status,source,last_verified,notes
+f4c288ed-b5e8-41e6-b5f5-f78f584ea7f4,RPT-0001,Repeater,FM,9M2RKK,147.9,147.3,0.6,minus,110.9,ctcss,,wide,fm,MYS,KUL,3.1528,101.7038,94,25,50,active,S01/S02,2025-06-01,"Primary KL repeater, Bukit Nenas Tower"
+c12f46b0-6870-4ba2-b637-c7ac0b9a5b7a,RPT-0002,Repeater,FM,9M2RKL,147.9,147.3,0.6,minus,110.9,ctcss,,wide,fm,MYS,SGR,3.4167,101.9,1493,50,80,active,S01/S02,2025-06-01,"High-altitude repeater, Genting Highlands area, wide coverage"
+28f6276d-5d6c-4aa2-9c6e-e7acb32ef577,RPT-0003,Repeater,FM,9M4RUL,145.725,145.125,0.6,minus,118.8,ctcss,,wide,fm,MYS,KUL,3.139,101.6869,50,25,40,active,S01,2025-06-01,"MARTS coordinated repeater, KL city"
+54de3d8d-c43f-4689-a93c-1e34dc8b49c4,RPT-0004,Repeater,FM,9M4RCH,145.675,145.075,0.6,minus,,none,,wide,fm,MYS,SGR,3.0733,101.7383,60,25,35,active,S02,2025-06-01,Cheras area repeater
+fad2d0ea-2432-42ff-aa39-fc49232ab3e7,RPT-0005,Repeater,FM,9M4RGP,145.625,145.025,0.6,minus,118.8,ctcss,,wide,fm,MYS,SGR,3.35,101.85,800,50,70,active,S01/S02,2025-06-01,"High-site repeater, covers KL-Selangor valley"
+f86b174b-4176-4349-a888-f8897cad305f,RPT-0006,Repeater,FM,9M4RSA,145.75,145.15,0.6,minus,100.0,ctcss,,wide,fm,MYS,SGR,3.0733,101.5183,50,25,30,active,S02,2025-06-01,Shah Alam city coverage
+6e328584-65b9-4474-8296-7dccb64a100a,RPT-0007,Repeater,FM,9M4RPJ,145.6,145.0,0.6,minus,,none,,wide,fm,MYS,PJY,2.9264,101.6964,35,15,25,active,S02,2025-06-01,Putrajaya government area
+1a3dadc9-5403-4d0d-bdbf-05ed07aa6e3b,RPT-0008,Repeater,FM,9M4RJB,145.7,145.1,0.6,minus,118.8,ctcss,,wide,fm,MYS,JHR,1.4927,103.7414,30,25,40,active,S01/S02,2025-06-01,Primary JB repeater
+92369d39-3d22-42a8-a7c4-606cdb29f478,RPT-0009,Repeater,FM,9M4RJH,145.65,145.05,0.6,minus,100.0,ctcss,,wide,fm,MYS,JHR,1.55,103.55,654,50,60,active,S02,2025-06-01,"High-site Johor, wide coverage south peninsula"
+b14623ca-4ad0-4053-add3-dfae16397b57,RPT-0010,Repeater,FM,9M4RMT,145.775,145.175,0.6,minus,,none,,wide,fm,MYS,JHR,2.4312,103.8381,15,15,30,unverified,S02,2025-06-01,East coast Johor coverage
+1c37827d-9bac-4cd4-ac0d-a88ecf5f0e3a,RPT-0011,Repeater,FM,9M4RKU,145.625,145.025,0.6,minus,118.8,ctcss,,wide,fm,MYS,JHR,2.0333,103.3167,50,25,35,active,S02,2025-06-01,Central Johor
+4715304f-be04-4abd-8923-fa06c518f520,RPT-0012,Repeater,FM,9M4RBT,145.725,145.125,0.6,minus,,none,,wide,fm,MYS,JHR,1.8548,102.9328,10,15,25,unverified,S02,2025-06-01,Western Johor
+6a95ba33-9ee9-4bda-8863-1ed8a6300cac,RPT-0013,Repeater,FM,9M4RPG,145.625,145.025,0.6,minus,118.8,ctcss,,wide,fm,MYS,PNG,5.4236,100.2653,833,50,70,active,S01/S02,2025-06-01,"Primary Penang repeater, excellent coverage"
+072a6f96-4946-441e-a4cd-f15d79659ee7,RPT-0014,Repeater,FM,9M4RPN,145.7,145.1,0.6,minus,100.0,ctcss,,wide,fm,MYS,PNG,5.3633,100.4583,460,25,40,active,S02,2025-06-01,Mainland Penang coverage
+931664da-64c3-42f1-92c0-3c2a09fa7234,RPT-0015,Repeater,FM,9M4RIP,145.75,145.15,0.6,minus,118.8,ctcss,,wide,fm,MYS,PRK,4.5975,101.0901,50,25,40,active,S01/S02,2025-06-01,Primary Ipoh repeater
+712e4e80-58a2-47bc-9e32-65d32155193d,RPT-0016,Repeater,FM,9M4RKG,145.675,145.075,0.6,minus,,none,,wide,fm,MYS,PRK,4.6833,101.2833,1200,50,80,active,S02,2025-06-01,"High-site Perak, wide coverage"
+54b9b0e9-fd86-4f80-91b5-1f323933838a,RPT-0017,Repeater,FM,9M4RTA,145.6,145.0,0.6,minus,100.0,ctcss,,wide,fm,MYS,PRK,4.85,100.7333,20,15,25,active,S02,2025-06-01,Northern Perak coverage
+58e83e7c-f60a-4f06-a2c6-1a1f38ea6419,RPT-0018,Repeater,FM,9M4RLK,145.725,145.125,0.6,minus,,none,,wide,fm,MYS,PRK,4.2333,100.6333,5,15,25,unverified,S02,2025-06-01,Coastal Perak
+554cc8d9-70f9-4ff7-b11a-58ac16862aaf,RPT-0019,Repeater,FM,9M4RCA,145.65,145.05,0.6,minus,118.8,ctcss,,wide,fm,MYS,PRK,4.4667,101.3833,1500,50,90,active,S01/S02,2025-06-01,"High-altitude repeater, covers central peninsula"
+ab4b4003-eada-46c0-9870-e0195204b970,RPT-0020,Repeater,FM,9M4RAS,145.7,145.1,0.6,minus,118.8,ctcss,,wide,fm,MYS,KDH,6.1248,100.3678,10,25,35,active,S01/S02,2025-06-01,Primary Kedah repeater
+79c726e4-b190-402a-a3f1-88361da729a1,RPT-0021,Repeater,FM,9M4RLG,145.625,145.025,0.6,minus,,none,,wide,fm,MYS,KDH,5.7833,100.4333,1217,50,80,active,S02,2025-06-01,"High-site Kedah, wide coverage north"
+cbb6fdff-c946-41ee-9f4d-ca5d6ba748a8,RPT-0022,Repeater,FM,9M4RKA,145.65,145.05,0.6,minus,,none,,wide,fm,MYS,PLS,6.4414,100.1986,20,15,25,active,S02,2025-06-01,Perlis state repeater
+21c1b3a3-6324-4254-a2b3-df6681786e2a,RPT-0023,Repeater,FM,9M4RML,145.675,145.075,0.6,minus,118.8,ctcss,,wide,fm,MYS,MLK,2.1896,102.2501,20,25,35,active,S01/S02,2025-06-01,Primary Melaka repeater
+24aa899f-6b12-41a5-8046-dc0265269af1,RPT-0024,Repeater,FM,9M4RAF,145.75,145.15,0.6,minus,,none,,wide,fm,MYS,MLK,2.3833,102.2083,20,15,25,unverified,S02,2025-06-01,Northern Melaka
+05a30748-c5b4-4bcf-ac7d-a1b6622f5735,RPT-0025,Repeater,FM,9M4RSB,145.7,145.1,0.6,minus,118.8,ctcss,,wide,fm,MYS,NSN,2.7297,101.9381,50,25,35,active,S01/S02,2025-06-01,Primary NS repeater
+2862bf7f-e556-429b-8467-27cc1a6bcc00,RPT-0026,Repeater,FM,9M4RPG2,145.625,145.025,0.6,minus,,none,,wide,fm,MYS,NSN,2.7167,102.05,824,50,60,active,S02,2025-06-01,"High-site NS, good coverage"
+6f2d06c3-c6f0-4dd0-ac7d-beed83262ae8,RPT-0027,Repeater,FM,9M4RKN,145.7,145.1,0.6,minus,118.8,ctcss,,wide,fm,MYS,PHG,3.8077,103.326,15,25,40,active,S01/S02,2025-06-01,Primary Pahang east coast repeater
+459d34c8-a0c5-4d6f-aa04-0f0e96d7e70d,RPT-0028,Repeater,FM,9M4RGG,145.675,145.075,0.6,minus,,none,,wide,fm,MYS,PHG,3.4167,101.7833,1800,50,100,active,S02,2025-06-01,"Very high site, covers KL to east coast"
+a9c02a80-d212-406d-814c-7546dbfa9a99,RPT-0029,Repeater,FM,9M4RIM,145.75,145.15,0.6,minus,,none,,wide,fm,MYS,PHG,3.4833,102.0833,200,15,30,unverified,S02,2025-06-01,Interior Pahang coverage
+ca24c355-b333-4b13-a5b8-15001becdb15,RPT-0030,Repeater,FM,9M4RTR,145.6,145.0,0.6,minus,,none,,wide,fm,MYS,PHG,2.8,104.1667,50,10,30,unverified,S02,2025-06-01,"Island repeater, east coast"
+e8f3fc35-42e0-4054-beb9-8e58ee48ea6c,RPT-0031,Repeater,FM,9M4RKT,145.7,145.1,0.6,minus,118.8,ctcss,,wide,fm,MYS,TRG,5.3294,103.137,10,25,35,active,S01/S02,2025-06-01,Primary Terengganu repeater
+e9c4a182-e28e-46ea-835a-0ed77ca5db95,RPT-0032,Repeater,FM,9M4RKB,145.7,145.1,0.6,minus,118.8,ctcss,,wide,fm,MYS,KTN,6.1254,102.2381,10,25,35,active,S01/S02,2025-06-01,Primary Kelantan repeater
+d9740b26-0514-42cc-9705-a7a1033d77c4,RPT-0033,Repeater,FM,9M6RKK,145.6,145.0,0.6,minus,118.8,ctcss,,wide,fm,MYS,SBH,5.9804,116.0735,30,25,40,active,S01/S02,2025-06-01,"Primary Sabah repeater, KK area"
+865f8956-61b4-4fd6-9d28-8c2e034142cd,RPT-0034,Repeater,FM,9M6RMT,145.675,145.075,0.6,minus,,none,,wide,fm,MYS,SBH,6.075,116.55,1500,50,80,active,S02,2025-06-01,"High-site Sabah, wide coverage"
+deb3a5c9-40fe-48f6-85c2-5ad82c98fc51,RPT-0035,Repeater,FM,9M6RSN,145.725,145.125,0.6,minus,,none,,wide,fm,MYS,SBH,5.8402,118.1179,10,15,30,active,S02,2025-06-01,East Sabah coast
+f9702930-5e70-41c0-b164-57d512baab1f,RPT-0036,Repeater,FM,9M6RTW,145.65,145.05,0.6,minus,,none,,wide,fm,MYS,SBH,4.2447,117.892,10,15,30,active,S02,2025-06-01,South-east Sabah
+f816088e-6297-4a95-88fc-26985b855eb6,RPT-0037,Repeater,FM,9M6RLD,145.775,145.175,0.6,minus,,none,,wide,fm,MYS,SBH,5.0301,118.327,10,15,25,unverified,S02,2025-06-01,East Sabah coast
+f3ef11e0-8a89-4465-9d8f-01ca33135edf,RPT-0038,Repeater,FM,9M6RKP,145.625,145.025,0.6,minus,100.0,ctcss,,wide,fm,MYS,SBH,5.3333,116.1667,300,25,40,active,S02,2025-06-01,Interior Sabah
+05b4cb0d-bd24-4074-8fd0-add3771d5b87,RPT-0039,Repeater,FM,9M6RKS,145.65,145.05,0.6,minus,118.8,ctcss,,wide,fm,MYS,SWK,1.5535,110.3593,20,25,40,active,S01/S02,2025-06-01,Primary Sarawak repeater
+f9368537-2bcf-4332-8d14-8987cca1278e,RPT-0040,Repeater,FM,9M6RMY,145.7,145.1,0.6,minus,,none,,wide,fm,MYS,SWK,4.3925,113.987,10,15,30,active,S02,2025-06-01,Northern Sarawak
+9e5ff63a-962c-4928-8c16-59ff4124384e,RPT-0041,Repeater,FM,9M6RSW,145.75,145.15,0.6,minus,,none,,wide,fm,MYS,SWK,2.2875,111.8303,10,15,30,active,S02,2025-06-01,Central Sarawak
+7aefa056-449a-4ec9-bc22-fb5488bdaea4,RPT-0042,Repeater,FM,9M6RBN,145.625,145.025,0.6,minus,,none,,wide,fm,MYS,SWK,3.1667,113.0333,10,15,30,active,S02,2025-06-01,Central-north Sarawak
+9b1505ff-065d-4167-9752-0418b379a61a,RPT-0043,Repeater,FM,9M6RSL,145.675,145.075,0.6,minus,,none,,wide,fm,MYS,SWK,1.2333,111.4667,10,15,25,unverified,S02,2025-06-01,Sarawak interior
+087d7bf4-7e04-4e92-903d-5a84b1a3e0f0,RPT-0044,Repeater,FM,9M6RLB,145.7,145.1,0.6,minus,,none,,wide,fm,MYS,LBN,5.2831,115.2308,10,15,25,active,S02,2025-06-01,Labuan island repeater
+9b45394b-b00e-422c-9683-d589156e41db,RPT-0045,Repeater,FM,9M4RGP2,438.4,433.4,5.0,minus,118.8,ctcss,,narrow,fm,MYS,KUL,3.139,101.6869,50,25,25,active,S01/S02,2025-06-01,UHF KL repeater
+cb1c7e4c-78c3-4003-b9b0-e5c506565de4,RPT-0046,Repeater,FM,9M4RMM,438.45,434.85,3.6,minus,,none,,narrow,fm,MYS,KUL,3.1528,101.7038,94,25,20,active,S02,2025-06-01,UHF Bukit Nenas
+fbcc2033-2386-4331-94c3-821edc72788c,RPT-0047,Repeater,FM,9M4RPN2,438.425,433.425,5.0,minus,,none,,narrow,fm,MYS,PNG,5.4141,100.3288,20,15,20,active,S02,2025-06-01,UHF Penang
+00616d1e-8143-4098-b7f3-6d970d6e55f3,RPT-0048,Repeater,FM,9M4RXC,439.475,434.475,5.0,minus,88.5,ctcss,,narrow,fm,MYS,KDH,5.1386,100.544,100,25,30,active,S02,2025-06-01,"REAKSI group repeater, Bukit Panchor. FM + C4FM capable. Covers Kedah/Penang border"
+8deded9a-bb5e-4f50-887b-9eaf6eacad6a,RPT-0049,Repeater,FM,9M4RJH2,438.4,433.4,5.0,minus,,none,,narrow,fm,MYS,JHR,1.4927,103.7414,30,15,20,active,S02,2025-06-01,UHF JB
+955db7f6-e770-42d5-8c47-a26af43702ba,RPT-0050,Repeater,FM,9M6RKK2,438.45,434.85,3.6,minus,,none,,narrow,fm,MYS,SBH,5.9804,116.0735,30,15,20,active,S02,2025-06-01,UHF KK Sabah
+c0e4e034-c741-45d2-ad26-5bee3bb95548,RPT-0051,Repeater,FM,9M6RKS2,438.425,433.425,5.0,minus,,none,,narrow,fm,MYS,SWK,1.5535,110.3593,20,15,20,active,S02,2025-06-01,UHF Kuching Sarawak
+046c84b0-1703-411f-8a67-a4b6861795e6,RPT-0052,Repeater,DMR,9M4DMR,438.8,433.8,5.0,minus,,none,,narrow,dmr,MYS,KUL,3.139,101.6869,50,25,25,active,S02,2025-06-01,"DMR Brandmeister network, TG502 Malaysia"
+2bc26483-ef2d-4a9f-b1b8-3d88c6a193ee,RPT-0053,Repeater,DMR,9M4DMR2,439.25,434.25,5.0,minus,,none,,narrow,dmr,MYS,SGR,3.0733,101.5183,50,25,20,active,S02,2025-06-01,DMR Selangor
+750b9c00-cf1d-4304-b84f-1b109b13ba21,RPT-0054,Repeater,DMR,9M6DMR,438.8,433.8,5.0,minus,,none,,narrow,dmr,MYS,SBH,5.9804,116.0735,30,15,20,active,S02,2025-06-01,DMR Sabah
+4570ae57-5f4f-472a-91df-b06356d10f37,RPT-0055,Repeater,DMR,9M6DMR2,439.25,434.25,5.0,minus,,none,,narrow,dmr,MYS,SWK,1.5535,110.3593,20,15,20,active,S02,2025-06-01,DMR Sarawak
+32a4ef03-31a9-4670-aea7-e882d453410f,RPT-0056,Repeater,DMR,9M4DMR3,438.55,433.55,5.0,minus,,none,,narrow,dmr,MYS,PNG,5.4141,100.3288,20,15,20,active,S02,2025-06-01,DMR Penang
+2491a1da-2345-4822-9ea4-0787a2288e6e,RPT-0057,Repeater,DMR,9M4DMR4,439.55,434.55,5.0,minus,,none,,narrow,dmr,MYS,PRK,4.5975,101.0901,50,15,20,active,S02,2025-06-01,DMR Perak
+b3bf6c8b-f757-4e48-9500-5bb8b5d557fd,RPT-0058,Repeater,C4FM,9M4C4FM,434.75,439.75,5.0,minus,,none,,narrow,c4fm,MYS,KUL,3.139,101.6869,50,25,20,active,S02,2025-06-01,Yaesu System Fusion / C4FM repeater
+b7a9963a-18cf-452d-809c-0742b48cfadb,RPT-0059,Repeater,C4FM,9M4C4FM2,434.8,439.8,5.0,minus,,none,,narrow,c4fm,MYS,JHR,1.4927,103.7414,30,15,20,active,S02,2025-06-01,C4FM Johor
+33820bfe-68f2-4053-b3c8-39e86d0d3618,RPT-0060,Repeater,DSTAR,9M4DSTR,439.55,434.55,5.0,minus,,none,,narrow,dstar,MYS,KUL,3.139,101.6869,50,25,20,active,S02,2025-06-01,"D-Star repeater, Icom network"
+781f2c4f-f9c0-43cb-8548-37cb0cd856f8,RPT-0061,Repeater,DSTAR,9M4DSTR2,439.6,434.6,5.0,minus,,none,,narrow,dstar,MYS,PNG,5.4141,100.3288,20,15,20,active,S02,2025-06-01,D-Star Penang

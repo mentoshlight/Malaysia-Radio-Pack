@@ -1,0 +1,11 @@
+uuid,channel_no,category,subcategory,callsign,rx_freq_mhz,tx_freq_mhz,offset_mhz,offset_dir,tone_hz,tone_type,dcs_code,bandwidth,mode,country,state,latitude,longitude,altitude_m,power_watts,coverage_radius_km,status,source,last_verified,notes
+73baf669-4f71-4ae0-b64a-a47ee4f596c8,CLG-0202,Calling,National FM Calling,,145.0,145.0,0.0,none,,none,,wide,fm,MYS,ALL,,,,,,active,S05/S01,2026-07-01,Primary 2m FM calling frequency for Malaysia.
+ea6a3028-45ff-43dd-bde7-fbd1556f34b7,CLG-0203,Calling,National FM Calling,,433.0,433.0,0.0,none,,none,,wide,fm,MYS,ALL,,,,,,active,S05/S01,2026-07-01,Primary 70cm FM calling frequency for Malaysia.
+12b3c33a-c507-44a2-8138-1acdd5327fac,CLG-0204,Calling,National SSB Calling,,144.5,144.5,0.0,none,,none,,wide,ssb,MYS,ALL,,,,,,active,S05,2026-07-01,2m SSB calling frequency for Malaysia.
+318ef69f-62b4-4ac2-8386-c5c474218374,CLG-0205,Calling,National SSB Calling,,432.2,432.2,0.0,none,,none,,wide,ssb,MYS,ALL,,,,,,active,S05,2026-07-01,70cm SSB calling frequency for Malaysia.
+00b84e9b-bda3-43bc-a4e7-f906bc264fc1,CLG-0206,Calling,International FM Calling,,145.5,145.5,0.0,none,,none,,wide,fm,INT,ALL,,,,,,active,S05,2026-07-01,IARU Region 3 FM calling frequency.
+70359ada-92aa-4668-b566-982b5a207342,CLG-0207,Calling,International SSB Calling,,144.5,144.5,0.0,none,,none,,wide,ssb,INT,ALL,,,,,,active,S05,2026-07-01,IARU Region 3 SSB calling frequency.
+4fe85e82-8e09-46f9-be6c-35d71ba7b6b0,CLG-0208,Calling,International FM Calling,,433.5,433.5,0.0,none,,none,,wide,fm,INT,ALL,,,,,,active,S05,2026-07-01,IARU Region 3 UHF FM calling.
+68a34043-0105-465c-9685-8e83a1053551,CLG-0209,Calling,HF International Calling,,14.195,14.195,0.0,none,,none,,wide,ssb,INT,ALL,,,,,,active,S05,2026-07-01,20m international SSB calling. RX only unless licensed for HF.
+8970c3c1-278c-4651-baa7-a71f0b38a375,CLG-0210,Calling,HF National Calling,,7.11,7.11,0.0,none,,none,,wide,ssb,MYS,ALL,,,,,,active,S05/S01,2026-07-01,40m Malaysian SSB calling / emergency net.
+d674ed53-54e9-4622-86d1-ec063bf99075,CLG-0211,Calling,HF National Calling,,3.6,3.6,0.0,none,,none,,wide,ssb,MYS,ALL,,,,,,active,S05/S01,2026-07-01,80m Malaysian SSB calling / emergency net.

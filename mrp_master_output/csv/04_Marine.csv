@@ -1,0 +1,56 @@
+uuid,channel_no,category,subcategory,callsign,rx_freq_mhz,tx_freq_mhz,offset_mhz,offset_dir,tone_hz,tone_type,dcs_code,bandwidth,mode,country,state,latitude,longitude,altitude_m,power_watts,coverage_radius_km,status,source,last_verified,notes
+549f6ded-741a-4360-88fa-6aba70abadd1,MAR-0083,Marine,Distress/Safety,,156.8,156.8,0.0,none,,none,,narrow,fm,INT,,,,,1,,active,S04,2026-07-01,"Ch 16: International distress, safety, and calling channel. Mandatory watch on all vessels."
+daf999f6-9e4e-4f8c-848f-ef7a6ea8cbda,MAR-0084,Marine,Distress/Safety,,156.525,156.525,0.0,none,,none,,narrow,fm,INT,,,,,1,,active,S04,2026-07-01,Ch 70: Digital distress alerting. RX only for monitoring.
+d8d3880c-b9a2-4adb-814e-2bb4b843fd51,MAR-0085,Marine,Port Operations,,156.55,156.55,0.0,none,,none,,narrow,fm,INT,,,,,1,,active,S04,2026-07-01,Ch 11: VTS communications
+ddc8aa85-6afb-4e20-89c6-9cd779f51550,MAR-0086,Marine,Port Operations,,156.6,156.6,0.0,none,,none,,narrow,fm,INT,,,,,1,,active,S04,2026-07-01,"Ch 12: Port operations, pilot coordination"
+f63fb15e-a38e-475e-9897-b54e6b8de375,MAR-0087,Marine,Port Operations,,156.7,156.7,0.0,none,,none,,narrow,fm,INT,,,,,1,,active,S04,2026-07-01,Ch 14: Port operations
+4de09f23-a52a-4977-a72d-14d25c17d751,MAR-0088,Marine,Port Operations,,156.9,161.5,4.6,plus,,none,,narrow,fm,INT,,,,,25,,active,S04,2026-07-01,Ch 18: Port operations duplex
+eab03756-6990-4761-86de-eb68d617fd7f,MAR-0089,Marine,Port Operations,,156.95,161.55,4.6,plus,,none,,narrow,fm,INT,,,,,25,,active,S04,2026-07-01,Ch 19: Port operations duplex
+bfd9aa9c-2561-4e43-a843-d7bd4922b9c2,MAR-0090,Marine,Port Operations,,157.0,161.6,4.6,plus,,none,,narrow,fm,INT,,,,,25,,active,S04,2026-07-01,Ch 20: Port operations duplex
+f157aa38-d09d-4db3-82eb-434873046b91,MAR-0091,Marine,Port Operations,,156.675,156.675,0.0,none,,none,,narrow,fm,INT,,,,,1,,active,S04,2026-07-01,Ch 73: Port operations simplex
+9a661504-88d7-41e1-846f-45f55f38e1e9,MAR-0092,Marine,Port Operations,,156.725,156.725,0.0,none,,none,,narrow,fm,INT,,,,,1,,active,S04,2026-07-01,Ch 74: Port operations simplex
+97b34db3-95ee-45ee-986b-7c51f0c9bc0e,MAR-0093,Marine,Port Operations,,156.875,156.875,0.0,none,,none,,narrow,fm,INT,,,,,1,,active,S04,2026-07-01,Ch 77: Ship-to-ship port ops
+cdabbe28-0110-485a-927e-a1ae80102ded,MAR-0094,Marine,Intership,,156.3,156.3,0.0,none,,none,,narrow,fm,INT,,,,,1,,active,S04,2026-07-01,Ch 6: Intership safety communications
+3a8e8d88-1ce0-4558-9009-09fbc8570d17,MAR-0095,Marine,Intership,,156.4,156.4,0.0,none,,none,,narrow,fm,INT,,,,,1,,active,S04,2026-07-01,Ch 8: Intership general
+92f98600-603e-4d12-9082-8837361fea87,MAR-0096,Marine,Intership,,156.45,156.45,0.0,none,,none,,narrow,fm,INT,,,,,1,,active,S04,2026-07-01,Ch 9: Commercial calling
+505c85c1-75e7-4a1f-9ee2-a9da852a60ce,MAR-0097,Marine,Intership,,156.5,156.5,0.0,none,,none,,narrow,fm,INT,,,,,1,,active,S04,2026-07-01,Ch 10: Intership and port
+1073b1d8-921b-4ac2-a6d0-89b0f81f81ca,MAR-0098,Marine,Intership,,156.65,156.65,0.0,none,,none,,narrow,fm,INT,,,,,1,,active,S04,2026-07-01,"Ch 13: Bridge-to-bridge, navigational safety. Required on all vessels."
+2a4963c3-644c-461b-9b4e-418ebe080870,MAR-0099,Marine,Intership,,156.375,156.375,0.0,none,,none,,narrow,fm,INT,,,,,1,,active,S04,2026-07-01,Ch 67: Ship-to-ship safety
+afed4dcd-84b3-402b-99f4-1ba0db436830,MAR-0100,Marine,Intership,,156.625,156.625,0.0,none,,none,,narrow,fm,INT,,,,,1,,active,S04,2026-07-01,Ch 72: Non-commercial intership
+47850f55-3fa5-46d6-9bd0-0404b8bc51d2,MAR-0101,Marine,Public Correspondence,,156.0,160.6,4.6,plus,,none,,narrow,fm,INT,,,,,25,,active,S04,2026-07-01,Ch 0: Public correspondence
+266ad656-f944-4fbd-994e-8391df1a1e6a,MAR-0102,Marine,Public Correspondence,,156.05,160.65,4.6,plus,,none,,narrow,fm,INT,,,,,25,,active,S04,2026-07-01,Ch 1: Public correspondence
+4f95e882-cd6c-42b8-a0d8-32c968c34286,MAR-0103,Marine,Public Correspondence,,156.2,160.8,4.6,plus,,none,,narrow,fm,INT,,,,,25,,active,S04,2026-07-01,Ch 4: Public correspondence
+66ea7536-d443-409d-b84a-75b47c112556,MAR-0104,Marine,Public Correspondence,,156.25,160.85,4.6,plus,,none,,narrow,fm,INT,,,,,25,,active,S04,2026-07-01,Ch 5: Public correspondence
+72731cd9-35d2-4bea-b5c3-bd8086176cea,MAR-0105,Marine,Public Correspondence,,156.35,160.95,4.6,plus,,none,,narrow,fm,INT,,,,,25,,active,S04,2026-07-01,Ch 7: Public correspondence
+bd5bee22-b943-4c3c-a1a1-5a6a806ca9dd,MAR-0106,Marine,Public Correspondence,,157.05,161.65,4.6,plus,,none,,narrow,fm,INT,,,,,25,,active,S04,2026-07-01,Ch 21: Public correspondence / coast guard
+53f24f1f-2e3d-40c5-95c7-ad7d8bbed928,MAR-0107,Marine,Public Correspondence,,157.1,161.7,4.6,plus,,none,,narrow,fm,INT,,,,,25,,active,S04,2026-07-01,Ch 22: Coast guard / public correspondence
+ed93b0fd-2f65-4fe2-8c66-6745a8ec6450,MAR-0108,Marine,Public Correspondence,,157.15,161.75,4.6,plus,,none,,narrow,fm,INT,,,,,25,,active,S04,2026-07-01,Ch 23: Public correspondence (ITU Region 3)
+d25a3465-179f-4196-bc2b-336bfb637cda,MAR-0109,Marine,Public Correspondence,,157.2,161.8,4.6,plus,,none,,narrow,fm,INT,,,,,25,,active,S04,2026-07-01,Ch 24: Public correspondence
+df30a271-ecd0-4db7-b8c8-db79a4788edb,MAR-0110,Marine,Public Correspondence,,157.25,161.85,4.6,plus,,none,,narrow,fm,INT,,,,,25,,active,S04,2026-07-01,Ch 25: Public correspondence
+d9ce402e-425f-4b46-87d4-e907af913cfd,MAR-0111,Marine,Public Correspondence,,157.3,161.9,4.6,plus,,none,,narrow,fm,INT,,,,,25,,active,S04,2026-07-01,Ch 26: Public correspondence
+c0446cc3-6e55-451e-a7b0-d07cae994109,MAR-0112,Marine,Public Correspondence,,157.35,161.95,4.6,plus,,none,,narrow,fm,INT,,,,,25,,active,S04,2026-07-01,Ch 27: Public correspondence
+6eb5769a-8d8c-459f-98b6-247c9a4b3854,MAR-0113,Marine,Public Correspondence,,157.4,162.0,4.6,plus,,none,,narrow,fm,INT,,,,,25,,active,S04,2026-07-01,Ch 28: Public correspondence
+ea4467b9-5bda-46ef-bd9f-93d58a70995a,MAR-0114,Marine,Public Correspondence,,156.025,160.625,4.6,plus,,none,,narrow,fm,INT,,,,,25,,active,S04,2026-07-01,Ch 60: Public correspondence
+2952f399-689a-45c0-96e7-e3feef7894d3,MAR-0115,Marine,Public Correspondence,,156.075,160.675,4.6,plus,,none,,narrow,fm,INT,,,,,25,,active,S04,2026-07-01,Ch 61: Public correspondence
+353caccc-c5ac-4ff2-8db5-418ad4c01ece,MAR-0116,Marine,Public Correspondence,,156.125,160.725,4.6,plus,,none,,narrow,fm,INT,,,,,25,,active,S04,2026-07-01,Ch 62: Public correspondence
+52ac630a-407f-4f7e-b587-ee693a794ce4,MAR-0117,Marine,Public Correspondence,,156.175,160.775,4.6,plus,,none,,narrow,fm,INT,,,,,25,,active,S04,2026-07-01,Ch 63: Public correspondence
+78ef81c9-2093-43ae-b2a5-5e21835f61e5,MAR-0118,Marine,Public Correspondence,,156.225,160.825,4.6,plus,,none,,narrow,fm,INT,,,,,25,,active,S04,2026-07-01,Ch 64: Public correspondence
+0af6ddc4-b925-4548-8953-48ee41bf35d5,MAR-0119,Marine,Public Correspondence,,156.275,160.875,4.6,plus,,none,,narrow,fm,INT,,,,,25,,active,S04,2026-07-01,Ch 65: Public correspondence
+6060a7f8-cb3a-4506-b3c5-63f5fb5c8f0b,MAR-0120,Marine,Public Correspondence,,157.225,161.825,4.6,plus,,none,,narrow,fm,INT,,,,,25,,active,S04,2026-07-01,Ch 84: Public correspondence
+29ba1cff-a52a-47f5-a5ff-2173844e4ebc,MAR-0121,Marine,Public Correspondence,,157.275,161.875,4.6,plus,,none,,narrow,fm,INT,,,,,25,,active,S04,2026-07-01,Ch 85: Public correspondence
+3ca746bb-8f6d-4631-984b-4ece468bd6ee,MAR-0122,Marine,Public Correspondence,,157.325,161.925,4.6,plus,,none,,narrow,fm,INT,,,,,25,,active,S04,2026-07-01,Ch 86: Public correspondence
+42226570-55f0-453f-a634-251446359be9,MAR-0123,Marine,Public Correspondence,,157.375,157.375,0.0,none,,none,,narrow,fm,INT,,,,,1,,active,S04,2026-07-01,Ch 87: Public correspondence (simplex)
+0800302b-7032-4760-99ef-7e397268da84,MAR-0124,Marine,Public Correspondence,,157.425,157.425,0.0,none,,none,,narrow,fm,INT,,,,,1,,active,S04,2026-07-01,Ch 88: Public correspondence (ITU Region 3)
+994500fe-0a71-40fb-b3dd-c602bda6c817,MAR-0125,Marine,Non-Commercial,,156.425,156.425,0.0,none,,none,,narrow,fm,INT,,,,,1,,active,S04,2026-07-01,Ch 68: Non-commercial (marina)
+2efb29f9-d10e-4a1f-89c8-533517e53c7d,MAR-0126,Marine,Non-Commercial,,156.475,156.475,0.0,none,,none,,narrow,fm,INT,,,,,1,,active,S04,2026-07-01,Ch 69: Non-commercial
+9bf7fff1-89ba-410c-bdd2-97fc6eeafc8e,MAR-0127,Marine,Non-Commercial,,156.575,156.575,0.0,none,,none,,narrow,fm,INT,,,,,1,,active,S04,2026-07-01,Ch 71: Non-commercial
+a33e2900-1930-485e-9bd8-baa83094b407,MAR-0128,Marine,Non-Commercial,,156.925,156.925,0.0,none,,none,,narrow,fm,INT,,,,,1,,active,S04,2026-07-01,Ch 78: Non-commercial (duplex w/ 161.525)
+42abd2a2-cc53-41f3-a411-cf46509aa1d2,MAR-0129,Marine,Commercial,,156.975,161.575,4.6,plus,,none,,narrow,fm,INT,,,,,25,,active,S04,2026-07-01,Ch 79: Commercial
+50ddb3ae-783d-4353-83e2-eb2fb88c37fb,MAR-0130,Marine,Commercial,,157.025,161.625,4.6,plus,,none,,narrow,fm,INT,,,,,25,,active,S04,2026-07-01,Ch 80: Commercial
+8e309521-c554-4097-b7c5-5d38e9166cdd,MAR-0131,Marine,Government,,157.075,161.675,4.6,plus,,none,,narrow,fm,INT,,,,,25,,active,S04,2026-07-01,Ch 81: Government
+73bc6cf7-3750-48ee-bbe3-679f75ff9f09,MAR-0132,Marine,Government,,157.125,161.725,4.6,plus,,none,,narrow,fm,INT,,,,,25,,active,S04,2026-07-01,Ch 82: Government
+b9ef43cb-8b0e-4b54-a6fe-e00312702e24,MAR-0133,Marine,Government,,157.175,161.775,4.6,plus,,none,,narrow,fm,INT,,,,,25,,active,S04,2026-07-01,Ch 83: Government
+c2c624ff-18c9-48f4-b0e6-b2e95f3c7a96,MAR-0134,Marine,Ship Internal,,156.75,156.75,0.0,none,,none,,narrow,fm,INT,,,,,1,,active,S04,2026-07-01,Ch 15: Low power shipboard communications
+81f8b79b-faad-43cd-afa9-720ddcbe2c2a,MAR-0135,Marine,Ship Internal,,156.85,156.85,0.0,none,,none,,narrow,fm,INT,,,,,1,,active,S04,2026-07-01,Ch 17: Low power shipboard communications
+79c1ce65-3d67-4ad9-9160-3cdc7cda0958,MAR-0136,Marine,AIS,,161.975,161.975,0.0,none,,none,,narrow,fm,INT,,,,,1,,active,S04,2026-07-01,Ch 87: AIS channel 1. RX only for monitoring.
+207866d9-24e9-4fb3-843d-4e5e46bae4c3,MAR-0137,Marine,AIS,,162.025,162.025,0.0,none,,none,,narrow,fm,INT,,,,,1,,active,S04,2026-07-01,Ch 88: AIS channel 2. RX only for monitoring.

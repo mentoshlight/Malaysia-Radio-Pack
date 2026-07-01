@@ -1,0 +1,11 @@
+uuid,channel_no,category,subcategory,callsign,rx_freq_mhz,tx_freq_mhz,offset_mhz,offset_dir,tone_hz,tone_type,dcs_code,bandwidth,mode,country,state,latitude,longitude,altitude_m,power_watts,coverage_radius_km,status,source,last_verified,notes
+f1bb9733-2453-4af7-802c-8c4b6451527f,USX-0073,Simplex,UHF Simplex,,433.0,433.0,0.0,none,,none,,narrow,fm,MYS,ALL,,,,,,active,S05/S01,2026-07-01,Primary calling freq for 70cm FM in Malaysia
+a9767974-2ad6-48b6-ba59-400cd1f4d9f5,USX-0074,Simplex,UHF Simplex,,433.5,433.5,0.0,none,,none,,narrow,fm,MYS,ALL,,,,,,active,S05,2026-07-01,Common UHF simplex
+7e30411a-6eb8-40f8-af79-065a3094f89d,USX-0075,Simplex,UHF Simplex,,433.55,433.55,0.0,none,,none,,narrow,fm,MYS,ALL,,,,,,active,S05,2026-07-01,UHF simplex activity
+2a75107a-1329-4bbf-a760-d93719ffea67,USX-0076,Simplex,UHF Simplex,,433.6,433.6,0.0,none,,none,,narrow,fm,MYS,ALL,,,,,,active,S05,2026-07-01,UHF simplex
+3de2a4f7-9427-4c3e-8850-4c582c495710,USX-0077,Simplex,UHF Simplex,,433.65,433.65,0.0,none,,none,,narrow,fm,MYS,ALL,,,,,,active,S05,2026-07-01,UHF simplex
+12aa5cdc-9ca7-4fed-92bd-254489a071a6,USX-0078,Simplex,UHF Simplex,,433.7,433.7,0.0,none,,none,,narrow,fm,MYS,ALL,,,,,,active,S05,2026-07-01,UHF simplex
+e30f52ea-1003-48a4-b53e-47b32b2aaf18,USX-0079,Simplex,UHF Simplex,,433.8,433.8,0.0,none,,none,,narrow,fm,MYS,ALL,,,,,,active,S05/S07,2026-07-01,UHF APRS secondary freq / digital modes
+37daee27-d50e-46f5-b210-a03eb0ef9f5c,USX-0080,Simplex,UHF Simplex,,438.0,438.0,0.0,none,,none,,narrow,fm,MYS,ALL,,,,,,active,S05,2026-07-01,Commonly used for digital links and misc
+a8004461-7bf1-440c-b06f-59ebc3bb5718,USX-0081,Simplex,UHF Simplex,,446.0,446.0,0.0,none,,none,,narrow,fm,MYS,ALL,,,,,,active,S05,2026-07-01,"PMR446 — for reference only, not amateur"
+5702dbe1-b83b-4020-9302-dcfa212a35af,USX-0082,Simplex,UHF Simplex,,478.55,478.55,0.0,none,79.7,ctcss,,narrow,fm,MYS,PRK,,,,,,active,S99,2026-07-01,"KBTS internal comms, 79.7 Hz CTCSS"

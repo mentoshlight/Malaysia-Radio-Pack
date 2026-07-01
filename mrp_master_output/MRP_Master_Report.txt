@@ -1,0 +1,78 @@
+============================================================
+MRP MASTER — GENERATION REPORT
+============================================================
+Version:    2.0.0
+Generated:  2026-07-01T03:47:45.736949Z
+
+────────────────────────────────────────────────────────────
+SUMMARY STATISTICS
+────────────────────────────────────────────────────────────
+  01_Repeaters: 61 records
+  02_VHF_Simplex: 11 records
+  03_UHF_Simplex: 10 records
+  04_Marine: 55 records
+  05_Aviation: 30 records
+  06_APRS: 19 records
+  07_Satellites: 15 records
+  08_Calling: 10 records
+  09_Emergency: 10 records
+  10_Metadata: 24 records
+  11_Bandplan: 21 records
+  12_Sources: 12 records
+  TOTAL: 278 records
+
+REPEATER BREAKDOWN:
+  By mode:   {'c4fm': 2, 'dmr': 6, 'dstar': 2, 'fm': 51}
+  By state:  {'JHR': 7, 'KDH': 3, 'KTN': 1, 'KUL': 7, 'LBN': 1, 'MLK': 2, 'NSN': 2, 'PHG': 4, 'PJY': 1, 'PLS': 1, 'PNG': 5, 'PRK': 6, 'SBH': 8, 'SGR': 5, 'SWK': 7, 'TRG': 1}
+  By status: {'active': 53, 'unverified': 8}
+
+────────────────────────────────────────────────────────────
+COMPLETENESS REPORT
+────────────────────────────────────────────────────────────
+  01_Repeaters: ✓ All required fields present
+  02_VHF_Simplex: ✓ All required fields present
+  03_UHF_Simplex: ✓ All required fields present
+  04_Marine: ✓ All required fields present
+  05_Aviation: ✓ All required fields present
+  06_APRS: ✓ All required fields present
+  07_Satellites: ✓ All required fields present
+  08_Calling: ✓ All required fields present
+  09_Emergency: ✓ All required fields present
+  10_Metadata: MISSING → {'uuid': 24, 'channel_no': 24, 'category': 24, 'rx_freq_mhz': 24, 'tx_freq_mhz': 24, 'source': 24}
+  11_Bandplan: MISSING → {'channel_no': 21, 'category': 21, 'rx_freq_mhz': 21, 'tx_freq_mhz': 21}
+  12_Sources: MISSING → {'uuid': 12, 'channel_no': 12, 'category': 12, 'rx_freq_mhz': 12, 'tx_freq_mhz': 12, 'source': 12}
+
+────────────────────────────────────────────────────────────
+DUPLICATE REPORT
+────────────────────────────────────────────────────────────
+  ✓ No duplicates found
+
+────────────────────────────────────────────────────────────
+VALIDATION REPORT
+────────────────────────────────────────────────────────────
+  ✓ No validation errors
+  ✓ No warnings
+
+────────────────────────────────────────────────────────────
+EXPORT COMPATIBILITY REPORT
+────────────────────────────────────────────────────────────
+  ✓ XLSX (Excel, Google Sheets, LibreOffice)
+  ✓ CSV (universal, pandas, R, spreadsheets)
+  ✓ JSON (APIs, web apps, JavaScript)
+  YAML (config files, Ansible, documentation)
+  ✓ SQLite (databases, SQL queries, GIS)
+
+────────────────────────────────────────────────────────────
+CHANGELOG
+────────────────────────────────────────────────────────────
+  v2.0.0 (2026-07-01)
+    - Initial MRP Master generation
+    - 12 sheets: Repeaters, VHF Simplex, UHF Simplex, Marine,
+      Aviation, APRS, Satellites, Calling, Emergency, Metadata,
+      Bandplan, Sources
+    - Cross-referenced from MARTS, RepeaterBook, AIP Malaysia,
+      ITU-R M.1084, IARU Region 3, AMSAT, APRS.fi
+    - 5 export formats: XLSX, CSV, JSON, YAML, SQLite
+    - Full validation with UUID/channel uniqueness checks
+
+============================================================
